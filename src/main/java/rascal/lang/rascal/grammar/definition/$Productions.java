@@ -203,7 +203,7 @@ public class $Productions
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T13;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T12;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_KeywordArguments_Pattern;	/*aadt("KeywordArguments",[aadt("Pattern",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_KeywordArguments_Pattern;	/*aadt("KeywordArguments",[aadt("Pattern",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
@@ -346,7 +346,7 @@ public class $Productions
     public final io.usethesource.vallang.type.Type NT_Parameters;	/*aadt("Parameters",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Symbol_just_Symbol;	/*acons(aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax()),[aadt("Symbol",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
-    public final io.usethesource.vallang.type.Type $T12;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T13;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Literal;	/*aadt("Literal",[],contextFreeSyntax())*/
@@ -743,7 +743,7 @@ public class $Productions
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T20 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T22 });
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
-       $T13 = $TF.listType($T7);
+       $T12 = $TF.listType($T7);
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T11 });
        $T23 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Sym")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")), $RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")), $RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
@@ -762,7 +762,7 @@ public class $Productions
        $T19 = $TF.listType(ADT_Symbol);
        $T1 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")), $RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")), $RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
        ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T11 });
-       $T12 = $TF.setType($T7);
+       $T13 = $TF.setType($T7);
        $T0 = $TF.setType(ADT_Condition);
        $T3 = $TF.setType(ADT_Symbol);
        $T5 = $RTF.reifiedType($T7);
@@ -1200,11 +1200,11 @@ public class $Productions
        IValue $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T12)){
-         $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
+         $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T13)){
-         $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
+         $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T14)){
@@ -1217,11 +1217,11 @@ public class $Productions
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T13) && $isSubtypeOf($P1Type,$T15)){
+       if($isSubtypeOf($P0Type,$T12) && $isSubtypeOf($P1Type,$T15)){
          $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T12) && $isSubtypeOf($P1Type,$T15)){
+       if($isSubtypeOf($P0Type,$T13) && $isSubtypeOf($P1Type,$T15)){
          $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }

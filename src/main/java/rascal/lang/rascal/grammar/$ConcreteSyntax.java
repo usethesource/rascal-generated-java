@@ -918,12 +918,12 @@ public class $ConcreteSyntax
        IString $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isNonTerminal($P0Type, ((IConstructor)$constants.get(0)/*lex("ConcretePart")*/)) && $isSubtypeOf($P1Type,$T6)){
-         $result = (IString)createHole$73c4bc2ae3b2c484((ITree) $P0, (IInteger) $P1);
-         if($result != null) return $result;
-       }
        if($isNonTerminal($P0Type, M_lang_rascal_syntax_Rascal.NT_ConcreteHole) && $isSubtypeOf($P1Type,$T6)){
          $result = (IString)createHole$c4ee71e0413856a8((ITree) $P0, (IInteger) $P1);
+         if($result != null) return $result;
+       }
+       if($isNonTerminal($P0Type, ((IConstructor)$constants.get(0)/*lex("ConcretePart")*/)) && $isSubtypeOf($P1Type,$T6)){
+         $result = (IString)createHole$73c4bc2ae3b2c484((ITree) $P0, (IInteger) $P1);
          if($result != null) return $result;
        }
        

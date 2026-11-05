@@ -58,7 +58,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type $T9;	/*astr(alabel="name")*/
     public final io.usethesource.vallang.type.Type $T2;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T17;	/*aparameter("A",avalue(),closed=true)*/
-    public final io.usethesource.vallang.type.Type $T6;	/*avoid()*/
+    public final io.usethesource.vallang.type.Type $T7;	/*avoid()*/
     public final io.usethesource.vallang.type.Type $T3;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type ADT_Visibility;	/*aadt("Visibility",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Visibility;	/*aadt("Visibility",[],contextFreeSyntax())*/
@@ -260,7 +260,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_Tree;	/*aadt("TreeSearchResult",[aadt("Tree",[],dataSyntax())],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TypeVar;	/*aadt("TypeVar",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_TypeVar;	/*aadt("TypeVar",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T7;	/*aset(aadt("Production",[],dataSyntax()))*/
+    public final io.usethesource.vallang.type.Type $T6;	/*aset(aadt("Production",[],dataSyntax()))*/
     public final io.usethesource.vallang.type.Type ADT_JustDate;	/*aadt("JustDate",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_JustDate;	/*aadt("JustDate",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Variant;	/*aadt("Variant",[],contextFreeSyntax())*/
@@ -712,7 +712,7 @@ public class $Modules
        $T9 = $TF.stringType();
        $T2 = $TF.valueType();
        $T17 = $TF.parameterType("A", $T2);
-       $T6 = $TF.voidType();
+       $T7 = $TF.voidType();
        $T3 = $TF.parameterType("T", $T2);
        $T0 = $TF.setType(NT_Import);
        $T15 = $TF.parameterType("T", ADT_Tree);
@@ -728,7 +728,7 @@ public class $Modules
        $T14 = $TF.setType(NT_Module);
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
        $T1 = $TF.listType($T3);
-       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T6 });
+       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T7 });
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        $T12 = $TF.setType(NT_SyntaxDefinition);
        $T13 = $TF.tupleType($T10, $T11, $T12);
@@ -737,10 +737,10 @@ public class $Modules
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        ADT_TreeSearchResult_Tree = $parameterizedAdt("TreeSearchResult", new Type[] { ADT_Tree });
-       $T7 = $TF.setType(ADT_Production);
+       $T6 = $TF.setType(ADT_Production);
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T15 });
        $T18 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterStarSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Import")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
-       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T6 });
+       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T7 });
        $T4 = $TF.setType($T3);
        ADT_KeywordArguments_1 = $TF.abstractDataType($TS, "KeywordArguments", new Type[] { $T15 });
        ADT_Mapping_Pattern = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Pattern });
@@ -880,11 +880,7 @@ public class $Modules
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
-         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T7)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T6)){
          $result = (IConstructor)M_ParseTree.associativity$1d00327eefbb3803((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
          $result = (IConstructor)M_ParseTree.associativity$feae421831fcd92c((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
@@ -892,11 +888,15 @@ public class $Modules
          $result = (IConstructor)M_ParseTree.associativity$5296642432c60eb8((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
        }
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
+         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
+         if($result != null) return $result;
+       }
        if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_Associativity) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
          $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$308c5e95cc6b10aa((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T7)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T6)){
          return $RVF.constructor(M_ParseTree.Production_associativity_Symbol_Associativity_set_Production, new IValue[]{(IConstructor) $P0, (IConstructor) $P1, (ISet) $P2});
        }
        

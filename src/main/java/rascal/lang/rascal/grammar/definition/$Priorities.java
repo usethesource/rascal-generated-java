@@ -62,12 +62,12 @@ public class $Priorities
     
     public final io.usethesource.vallang.type.Type $T1;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T18;	/*aparameter("A",avalue(),closed=true)*/
-    public final io.usethesource.vallang.type.Type $T13;	/*avoid()*/
-    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("T",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T14;	/*avoid()*/
+    public final io.usethesource.vallang.type.Type $T2;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T9;	/*astr()*/
-    public final io.usethesource.vallang.type.Type $T3;	/*aparameter("V",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T6;	/*aparameter("V",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T12;	/*aparameter("U",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T2;	/*aparameter("K",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("K",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type ADT_Strategy;	/*aadt("Strategy",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Strategy;	/*aadt("Strategy",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Attr;	/*aadt("Attr",[],dataSyntax())*/
@@ -138,7 +138,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type NT_KeywordArguments_Expression;	/*aadt("KeywordArguments",[aadt("Expression",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TimePartNoTZ;	/*aadt("TimePartNoTZ",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_TimePartNoTZ;	/*aadt("TimePartNoTZ",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T0;	/*amap(aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*amap(aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_OptionalTerminator;	/*aadt("OptionalTerminator",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_OptionalTerminator;	/*aadt("OptionalTerminator",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_GrammarModule;	/*aadt("GrammarModule",[],dataSyntax())*/
@@ -197,7 +197,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type NT_RegExp;	/*aadt("RegExp",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T3;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
@@ -270,7 +270,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type NT_FunctionDeclaration;	/*aadt("FunctionDeclaration",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Body;	/*aadt("Body",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Body;	/*aadt("Body",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T14;	/*aset(aadt("Production",[],dataSyntax()))*/
+    public final io.usethesource.vallang.type.Type $T13;	/*aset(aadt("Production",[],dataSyntax()))*/
     public final io.usethesource.vallang.type.Type ADT_Variant;	/*aadt("Variant",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Variant;	/*aadt("Variant",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_UserType;	/*aadt("UserType",[],contextFreeSyntax())*/
@@ -337,7 +337,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type ADT_Maybe_Symbol;	/*aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Symbol_just_Symbol;	/*acons(aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax()),[aadt("Symbol",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type ADT_Maybe_void;	/*aadt("Maybe",[avoid()],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T6;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T0;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
@@ -723,12 +723,12 @@ public class $Priorities
        ADT_CommonKeywordParameters = $adt("CommonKeywordParameters");
        $T1 = $TF.valueType();
        $T18 = $TF.parameterType("A", $T1);
-       $T13 = $TF.voidType();
-       $T5 = $TF.parameterType("T", $T1);
+       $T14 = $TF.voidType();
+       $T2 = $TF.parameterType("T", $T1);
        $T9 = $TF.stringType();
-       $T3 = $TF.parameterType("V", $T1);
+       $T6 = $TF.parameterType("V", $T1);
        $T12 = $TF.parameterType("U", $T1);
-       $T2 = $TF.parameterType("K", $T1);
+       $T5 = $TF.parameterType("K", $T1);
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        $T16 = $TF.parameterType("T", ADT_Tree);
        NT_KeywordArguments_1 = $parameterizedSort("KeywordArguments", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
@@ -737,27 +737,27 @@ public class $Priorities
        ADT_TreeSearchResult_Tree = $parameterizedAdt("TreeSearchResult", new Type[] { ADT_Tree });
        NT_Mapping_Pattern = $parameterizedSort("Mapping", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        NT_KeywordArguments_Expression = $parameterizedSort("KeywordArguments", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
-       $T0 = $TF.mapType($T2,$T3);
+       $T4 = $TF.mapType($T5,$T6);
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T18 });
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
-       $T4 = $TF.listType($T5);
-       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T13 });
+       $T3 = $TF.listType($T2);
+       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T14 });
        NT_KeywordArgument_1 = $parameterizedSort("KeywordArgument", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        $T11 = $RTF.reifiedType($T12);
        $T8 = $TF.setType(ADT_Symbol);
-       $T14 = $TF.setType(ADT_Production);
+       $T13 = $TF.setType(ADT_Production);
        $T20 = $TF.setType(ADT_Attr);
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T16 });
        $T15 = $TF.listType(ADT_Symbol);
        $T19 = $TF.listType(ADT_Production);
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
-       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T13 });
-       $T6 = $TF.setType($T5);
+       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T14 });
+       $T0 = $TF.setType($T2);
        $T7 = $TF.setType(ADT_Condition);
-       $T10 = $RTF.reifiedType($T5);
+       $T10 = $RTF.reifiedType($T2);
        ADT_Mapping_Expression = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Expression });
        ADT_KeywordArguments_1 = $TF.abstractDataType($TS, "KeywordArguments", new Type[] { $T16 });
        ADT_Mapping_Pattern = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Pattern });
@@ -801,15 +801,15 @@ public class $Priorities
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IInteger)M_Map.size$37f80aadf49ad435((IMap) $P0);
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T6)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
+       if($isSubtypeOf($P0Type,$T4)){
+         $result = (IInteger)M_Map.size$37f80aadf49ad435((IMap) $P0);
          if($result != null) return $result;
        }
        
@@ -931,12 +931,12 @@ public class $Priorities
        IBool $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type, M_Type.ADT_Production) && $isSubtypeOf($P1Type, M_Type.ADT_Production)){
-         $result = (IBool)M_lang_rascal_format_Grammar.same$b86cfbf8f6db7b7e((IConstructor) $P0, (IConstructor) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_Type.ADT_Symbol)){
          $result = (IBool)same$3d81c15a40e141f4((IConstructor) $P0, (IConstructor) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type, M_Type.ADT_Production) && $isSubtypeOf($P1Type, M_Type.ADT_Production)){
+         $result = (IBool)M_lang_rascal_format_Grammar.same$b86cfbf8f6db7b7e((IConstructor) $P0, (IConstructor) $P1);
          if($result != null) return $result;
        }
        
@@ -1088,12 +1088,12 @@ public class $Priorities
     public IValue index(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
-         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
+       if($isSubtypeOf($P0Type,$T0)){
+         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T6)){
-         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
+       if($isSubtypeOf($P0Type,$T3)){
+         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -1282,11 +1282,7 @@ public class $Priorities
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
-         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T14)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T13)){
          $result = (IConstructor)M_ParseTree.associativity$1d00327eefbb3803((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
          $result = (IConstructor)M_ParseTree.associativity$feae421831fcd92c((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
@@ -1294,11 +1290,15 @@ public class $Priorities
          $result = (IConstructor)M_ParseTree.associativity$5296642432c60eb8((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
        }
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
+         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
+         if($result != null) return $result;
+       }
        if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_Associativity) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
          $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$308c5e95cc6b10aa((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T14)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T13)){
          return $RVF.constructor(M_ParseTree.Production_associativity_Symbol_Associativity_set_Production, new IValue[]{(IConstructor) $P0, (IConstructor) $P1, (ISet) $P2});
        }
        
@@ -1357,7 +1357,7 @@ public class $Priorities
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }
@@ -1948,7 +1948,7 @@ public class $Priorities
            if($isComparable($arg0_72.getType(), M_Type.ADT_Symbol)){
               IConstructor s_0 = null;
               IValue $arg1_71 = (IValue)($aadt_subscript_int(((IConstructor)$0),1));
-              if($isComparable($arg1_71.getType(), $T14)){
+              if($isComparable($arg1_71.getType(), $T13)){
                  ISet alts_1 = null;
                  final ISetWriter $setwriter68 = (ISetWriter)$RVF.setWriter();
                  ;
@@ -1987,7 +1987,7 @@ public class $Priorities
                     if(true){
                        IConstructor a_1 = null;
                        IValue $arg2_77 = (IValue)($aadt_subscript_int(((IConstructor)$0),2));
-                       if($isComparable($arg2_77.getType(), $T14)){
+                       if($isComparable($arg2_77.getType(), $T13)){
                           if(true){
                              ISet alts_2 = null;
                              final ISetWriter $setwriter73 = (ISetWriter)$RVF.setWriter();
@@ -2168,7 +2168,7 @@ public class $Priorities
            IValue $arg0_99 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
            if($isComparable($arg0_99.getType(), $T1)){
               IValue $arg1_98 = (IValue)($aadt_subscript_int(((IConstructor)$0),1));
-              if($isComparable($arg1_98.getType(), $T14)){
+              if($isComparable($arg1_98.getType(), $T13)){
                  ISet alts_0 = null;
                  final ISetWriter $setwriter95 = (ISetWriter)$RVF.setWriter();
                  ;
@@ -2201,7 +2201,7 @@ public class $Priorities
            IValue $arg0_104 = (IValue)($aadt_subscript_int(((IConstructor)$1),0));
            if($isComparable($arg0_104.getType(), $T1)){
               IValue $arg1_103 = (IValue)($aadt_subscript_int(((IConstructor)$1),1));
-              if($isComparable($arg1_103.getType(), $T14)){
+              if($isComparable($arg1_103.getType(), $T13)){
                  ISet alts_1 = null;
                  final ISetWriter $setwriter100 = (ISetWriter)$RVF.setWriter();
                  ;
@@ -2236,7 +2236,7 @@ public class $Priorities
               IValue $arg1_109 = (IValue)($aadt_subscript_int(((IConstructor)a_0),1));
               if($isComparable($arg1_109.getType(), $T1)){
                  IValue $arg2_108 = (IValue)($aadt_subscript_int(((IConstructor)a_0),2));
-                 if($isComparable($arg2_108.getType(), $T14)){
+                 if($isComparable($arg2_108.getType(), $T13)){
                     ISet alts_1 = null;
                     final ISetWriter $setwriter105 = (ISetWriter)$RVF.setWriter();
                     ;
@@ -2274,7 +2274,7 @@ public class $Priorities
               IValue $arg1_115 = (IValue)($aadt_subscript_int(((IConstructor)a_1),1));
               if($isComparable($arg1_115.getType(), $T1)){
                  IValue $arg2_114 = (IValue)($aadt_subscript_int(((IConstructor)a_1),2));
-                 if($isComparable($arg2_114.getType(), $T14)){
+                 if($isComparable($arg2_114.getType(), $T13)){
                     ISet alts_2 = null;
                     final ISetWriter $setwriter111 = (ISetWriter)$RVF.setWriter();
                     ;

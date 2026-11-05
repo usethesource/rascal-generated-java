@@ -18,8 +18,8 @@ public interface $Set_$I  {
     IValue min(IValue $0);
     IValue power(IValue $0);
     IValue power1(IValue $0);
-    IValue reducer(IValue $0, IValue $1, IValue $2);
     IValue reducer(IValue $0);
+    IValue reducer(IValue $0, IValue $1, IValue $2);
     IValue size(IValue $0);
     IValue sort(IValue $0, IValue $1);
     IValue sort(IValue $0);

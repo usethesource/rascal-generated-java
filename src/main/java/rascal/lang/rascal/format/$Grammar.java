@@ -61,8 +61,8 @@ public class $Grammar
     public ISet rascalKeywords;
     public final io.usethesource.vallang.type.Type $T1;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T9;	/*aparameter("T2",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T11;	/*aparameter("T4",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T10;	/*aparameter("T3",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T13;	/*aparameter("T4",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T11;	/*aparameter("T3",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T2;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T31;	/*aint()*/
     public final io.usethesource.vallang.type.Type $T20;	/*aparameter("T",avalue(),closed=false,alabel="b")*/
@@ -70,7 +70,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type $T7;	/*aparameter("T0",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T16;	/*aloc()*/
     public final io.usethesource.vallang.type.Type $T8;	/*aparameter("T1",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T3;	/*astr()*/
+    public final io.usethesource.vallang.type.Type $T4;	/*astr()*/
     public final io.usethesource.vallang.type.Type $T19;	/*aparameter("T",avalue(),closed=false,alabel="a")*/
     public final io.usethesource.vallang.type.Type ADT_Visibility;	/*aadt("Visibility",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Visibility;	/*aadt("Visibility",[],contextFreeSyntax())*/
@@ -107,7 +107,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_TypeArg;	/*aadt("TypeArg",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T12;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T14;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type ADT_Range;	/*aadt("Range",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Range;	/*aadt("Range",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
@@ -127,7 +127,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_KeywordArguments_Expression;	/*aadt("KeywordArguments",[aadt("Expression",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Target;	/*aadt("Target",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Target;	/*aadt("Target",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T6;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false),aparameter("T4",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T12;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false),aparameter("T4",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type ADT_Output;	/*aadt("Output",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Output;	/*aadt("Output",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_SyntaxDefinition;	/*aadt("SyntaxDefinition",[],contextFreeSyntax())*/
@@ -198,7 +198,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T0;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_KeywordArguments_Pattern;	/*aadt("KeywordArguments",[aadt("Pattern",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_KeywordArguments_Pattern;	/*aadt("KeywordArguments",[aadt("Pattern",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
@@ -292,7 +292,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_Formals;	/*aadt("Formals",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Char;	/*aadt("Char",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Char;	/*aadt("Char",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T13;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T10;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type ADT_CaseInsensitiveStringConstant;	/*aadt("CaseInsensitiveStringConstant",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_CaseInsensitiveStringConstant;	/*aadt("CaseInsensitiveStringConstant",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_LAYOUTLIST;	/*aadt("LAYOUTLIST",[],layoutSyntax())*/
@@ -314,7 +314,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_Parameters;	/*aadt("Parameters",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T0;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T3;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_PreProtocolChars;	/*aadt("PreProtocolChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreProtocolChars;	/*aadt("PreProtocolChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_StringTemplate;	/*aadt("StringTemplate",[],contextFreeSyntax())*/
@@ -352,7 +352,7 @@ public class $Grammar
     public final io.usethesource.vallang.type.Type NT_ProdModifier;	/*aadt("ProdModifier",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_UnicodeEscape;	/*aadt("UnicodeEscape",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_UnicodeEscape;	/*aadt("UnicodeEscape",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T14;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T6;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type ADT_Assignable;	/*aadt("Assignable",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Assignable;	/*aadt("Assignable",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PathChars;	/*aadt("PathChars",[],lexicalSyntax())*/
@@ -729,8 +729,8 @@ public class $Grammar
        ADT_Commands = $adt("Commands");
        $T1 = $TF.valueType();
        $T9 = $TF.parameterType("T2", $T1);
-       $T11 = $TF.parameterType("T4", $T1);
-       $T10 = $TF.parameterType("T3", $T1);
+       $T13 = $TF.parameterType("T4", $T1);
+       $T11 = $TF.parameterType("T3", $T1);
        $T2 = $TF.parameterType("T", $T1);
        $T31 = $TF.integerType();
        $T20 = $TF.parameterType("T", $T1);
@@ -738,23 +738,23 @@ public class $Grammar
        $T7 = $TF.parameterType("T0", $T1);
        $T16 = $TF.sourceLocationType();
        $T8 = $TF.parameterType("T1", $T1);
-       $T3 = $TF.stringType();
+       $T4 = $TF.stringType();
        $T19 = $TF.parameterType("T", $T1);
        ADT_TreeSearchResult_Tree = $parameterizedAdt("TreeSearchResult", new Type[] { ADT_Tree });
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        $T21 = $TF.parameterType("T", ADT_Tree);
        NT_KeywordArguments_1 = $parameterizedSort("KeywordArguments", new Type[] { $T21 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
-       $T12 = $TF.setType($TF.tupleType($T7, $T8));
+       $T14 = $TF.setType($TF.tupleType($T7, $T8));
        NT_Mapping_Pattern = $parameterizedSort("Mapping", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        NT_KeywordArguments_Expression = $parameterizedSort("KeywordArguments", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
-       $T6 = $TF.setType($TF.tupleType($T7, $T8, $T9, $T10, $T11));
+       $T12 = $TF.setType($TF.tupleType($T7, $T8, $T9, $T11, $T13));
        $T22 = $TF.parameterType("T", ADT_Tree);
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T21 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        NT_KeywordArgument_1 = $parameterizedSort("KeywordArgument", new Type[] { $T21 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        $T18 = $TF.boolType();
        $T17 = $TF.functionType($T18, $TF.tupleType($T19, "a", $T20, "b"), $TF.tupleEmpty());
        $T5 = $TF.listType(ADT_CharRange);
-       $T4 = $TF.listType($T2);
+       $T0 = $TF.listType($T2);
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T23 });
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T21 });
@@ -762,11 +762,11 @@ public class $Grammar
        $T29 = $TF.setType(ADT_Symbol);
        $T15 = $TF.listType(ADT_Symbol);
        $T26 = $TF.setType(ADT_Attr);
-       $T13 = $TF.setType($TF.tupleType($T7, $T8, $T9, $T10));
+       $T10 = $TF.setType($TF.tupleType($T7, $T8, $T9, $T11));
        $T25 = $TF.listType(ADT_Production);
-       $T0 = $TF.setType($T2);
+       $T3 = $TF.setType($T2);
        $T28 = $TF.nodeType();
-       $T14 = $TF.setType($TF.tupleType($T7, $T8, $T9));
+       $T6 = $TF.setType($TF.tupleType($T7, $T8, $T9));
        $T30 = $TF.setType(ADT_Condition);
        $T27 = $TF.setType($T23);
        ADT_Mapping_Expression = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Expression });
@@ -802,15 +802,15 @@ public class $Grammar
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
+         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (IInteger)M_String.size$1d28105b03d03294((IString) $P0);
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T4)){
-         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
+         $result = (IInteger)M_String.size$1d28105b03d03294((IString) $P0);
          if($result != null) return $result;
        }
        
@@ -903,19 +903,19 @@ public class $Grammar
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T6)){
-         $result = (IValue)M_Relation.complement$414610a50c8d5bec((ISet) $P0);
+         $result = (IValue)M_Relation.complement$2c13ef0fc6874fed((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T12)){
-         $result = (IValue)M_Relation.complement$ef7e15fe41864083((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T13)){
+       if($isSubtypeOf($P0Type,$T10)){
          $result = (IValue)M_Relation.complement$2542577ed834920c((ISet) $P0);
          if($result != null) return $result;
        }
+       if($isSubtypeOf($P0Type,$T12)){
+         $result = (IValue)M_Relation.complement$414610a50c8d5bec((ISet) $P0);
+         if($result != null) return $result;
+       }
        if($isSubtypeOf($P0Type,$T14)){
-         $result = (IValue)M_Relation.complement$2c13ef0fc6874fed((ISet) $P0);
+         $result = (IValue)M_Relation.complement$ef7e15fe41864083((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol)){
@@ -940,7 +940,7 @@ public class $Grammar
     public IString reserved(IValue $P0){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IString)reserved$5413c54abe6597dd((IString) $P0);
          if($result != null) return $result;
        }
@@ -950,12 +950,12 @@ public class $Grammar
     public ITuple takeOneFrom(IValue $P0){ // Generated by Resolver
        ITuple $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
-         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
+       if($isSubtypeOf($P0Type,$T3)){
+         $result = (ITuple)M_Set.takeOneFrom$cae8ac4f2699365b((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (ITuple)M_Set.takeOneFrom$cae8ac4f2699365b((ISet) $P0);
+         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -996,7 +996,7 @@ public class $Grammar
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol) && $isSubtypeOf($P1Type,$T15) && $isSubtypeOf($P2Type,$T3)){
+       if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol) && $isSubtypeOf($P1Type,$T15) && $isSubtypeOf($P2Type,$T4)){
          $result = (IString)iterseps2rascal$c8edd6b7c07ed22c((IConstructor) $P0, (IList) $P1, (IString) $P2);
          if($result != null) return $result;
        }
@@ -1108,12 +1108,12 @@ public class $Grammar
        IString $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type, M_Grammar.ADT_Grammar) && $isSubtypeOf($P1Type,$T3)){
-         $result = (IString)grammar2rascal$0806f7165aa9c729((IConstructor) $P0, (IString) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type, M_Grammar.ADT_Grammar) && $isSubtypeOf($P1Type,$T15)){
          $result = (IString)grammar2rascal$6b88682caee46671((IConstructor) $P0, (IList) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type, M_Grammar.ADT_Grammar) && $isSubtypeOf($P1Type,$T4)){
+         $result = (IString)grammar2rascal$0806f7165aa9c729((IConstructor) $P0, (IString) $P1);
          if($result != null) return $result;
        }
        
@@ -1195,15 +1195,15 @@ public class $Grammar
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
-         $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T0)){
+         $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T4)){
          return $RVF.constructor(M_ParseTree.Symbol_sort_str, new IValue[]{(IString) $P0});
        }
        
@@ -1213,11 +1213,11 @@ public class $Grammar
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T17)){
+       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T17)){
          $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T17)){
+       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T17)){
          $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
@@ -1258,7 +1258,7 @@ public class $Grammar
                                          
                                  
                                      default: 
-                                         if($isSubtypeOf($VISIT1_subject.getType(),$T3)){
+                                         if($isSubtypeOf($VISIT1_subject.getType(),$T4)){
                                             /*muExists*/CASE_0_0: 
                                                 do {
                                                     final Matcher $matcher1 = (Matcher)$regExpCompile("::", ((IString)($VISIT1_subject)).getValue());
@@ -1425,7 +1425,7 @@ public class $Grammar
                                     do {
                                         if($has_type_and_arity($VISIT5_subject, M_Type.Symbol_label_str_Symbol, 2)){
                                            IValue $arg0_34 = (IValue)($aadt_subscript_int(((IConstructor)($VISIT5_subject)),0));
-                                           if($isComparable($arg0_34.getType(), $T3)){
+                                           if($isComparable($arg0_34.getType(), $T4)){
                                               final Matcher $matcher35 = (Matcher)$regExpCompile("(.*)-(.*)", ((IString)($arg0_34)).getValue());
                                               boolean $found36 = true;
                                               
@@ -1475,7 +1475,7 @@ public class $Grammar
                                     do {
                                         if($has_type_and_arity($VISIT5_subject, M_ParseTree.Symbol_keywords_str, 1)){
                                            IValue $arg0_28 = (IValue)($aadt_subscript_int(((IConstructor)($VISIT5_subject)),0));
-                                           if($isComparable($arg0_28.getType(), $T3)){
+                                           if($isComparable($arg0_28.getType(), $T4)){
                                               final Matcher $matcher29 = (Matcher)$regExpCompile(".*-.*", ((IString)($arg0_28)).getValue());
                                               boolean $found30 = true;
                                               
@@ -1511,7 +1511,7 @@ public class $Grammar
                                     do {
                                         if($has_type_and_arity($VISIT5_subject, M_ParseTree.Symbol_lex_str, 1)){
                                            IValue $arg0_24 = (IValue)($aadt_subscript_int(((IConstructor)($VISIT5_subject)),0));
-                                           if($isComparable($arg0_24.getType(), $T3)){
+                                           if($isComparable($arg0_24.getType(), $T4)){
                                               final Matcher $matcher25 = (Matcher)$regExpCompile(".*-.*", ((IString)($arg0_24)).getValue());
                                               boolean $found26 = true;
                                               
@@ -1547,7 +1547,7 @@ public class $Grammar
                                     do {
                                         if($has_type_and_arity($VISIT5_subject, M_ParseTree.Symbol_sort_str, 1)){
                                            IValue $arg0_16 = (IValue)($aadt_subscript_int(((IConstructor)($VISIT5_subject)),0));
-                                           if($isComparable($arg0_16.getType(), $T3)){
+                                           if($isComparable($arg0_16.getType(), $T4)){
                                               final Matcher $matcher17 = (Matcher)$regExpCompile(".*-.*", ((IString)($arg0_16)).getValue());
                                               boolean $found18 = true;
                                               
@@ -1583,7 +1583,7 @@ public class $Grammar
                                     do {
                                         if($has_type_and_arity($VISIT5_subject, M_ParseTree.Symbol_layouts_str, 1)){
                                            IValue $arg0_20 = (IValue)($aadt_subscript_int(((IConstructor)($VISIT5_subject)),0));
-                                           if($isComparable($arg0_20.getType(), $T3)){
+                                           if($isComparable($arg0_20.getType(), $T4)){
                                               final Matcher $matcher21 = (Matcher)$regExpCompile(".*-.*", ((IString)($arg0_20)).getValue());
                                               boolean $found22 = true;
                                               
@@ -1765,7 +1765,7 @@ public class $Grammar
                     if($isComparable($elem65.getType(), M_ParseTree.ADT_Symbol)){
                        if($has_type_and_arity($elem65, M_ParseTree.Symbol_layouts_str, 1)){
                           IValue $arg0_66 = (IValue)($subscript_int(((IValue)($elem65)),0));
-                          if($isComparable($arg0_66.getType(), $T3)){
+                          if($isComparable($arg0_66.getType(), $T4)){
                              IString n_5 = null;
                              final Template $template63 = (Template)new Template($RVF, "layout ");
                              $template63.beginIndent("       ");
@@ -1898,7 +1898,7 @@ public class $Grammar
         
         if($has_type_and_arity(s_0, M_ParseTree.Symbol_layouts_str, 1)){
            IValue $arg0_70 = (IValue)($aadt_subscript_int(((IConstructor)s_0),0));
-           if($isComparable($arg0_70.getType(), $T3)){
+           if($isComparable($arg0_70.getType(), $T4)){
               IString name_1 = null;
               return ((IString)($arg0_70));
            
@@ -2129,7 +2129,7 @@ public class $Grammar
                                   if($isComparable($arg0_114.getType(), M_ParseTree.ADT_Symbol)){
                                      if($has_type_and_arity($arg0_114, M_Type.Symbol_label_str_Symbol, 2)){
                                         IValue $arg0_116 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_114)),0));
-                                        if($isComparable($arg0_116.getType(), $T3)){
+                                        if($isComparable($arg0_116.getType(), $T4)){
                                            IString n_13 = ((IString)($arg0_116));
                                            IValue $arg1_115 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_114)),1));
                                            if($isComparable($arg1_115.getType(), M_ParseTree.ADT_Symbol)){
@@ -2582,7 +2582,7 @@ public class $Grammar
                                                 IString x_1 = ((IString)($fun_name_subject137));
                                                 if($arg0_135 instanceof INode && ((INode)$arg0_135).arity() == 1 && ((INode)$arg0_135).getName().equals(((IString)($fun_name_subject137)).getValue())){
                                                    IValue $arg0_136 = (IValue)($anode_subscript_int(((INode)($arg0_135)),0));
-                                                   if($isComparable($arg0_136.getType(), $T3)){
+                                                   if($isComparable($arg0_136.getType(), $T4)){
                                                       IString y_2 = ((IString)($arg0_136));
                                                       final Template $template134 = (Template)new Template($RVF, "@");
                                                       $template134.beginIndent(" ");
@@ -2716,7 +2716,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_Type.Symbol_label_str_Symbol, 2)){
                                   IValue $arg0_145 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_145.getType(), $T3)){
+                                  if($isComparable($arg0_145.getType(), $T4)){
                                      IString l_1 = ((IString)($arg0_145));
                                      IValue $arg1_144 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),1));
                                      if($isComparable($arg1_144.getType(), M_ParseTree.ADT_Symbol)){
@@ -2778,7 +2778,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_parameterized_sort_str_list_Symbol, 2)){
                                   IValue $arg0_155 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_155.getType(), $T3)){
+                                  if($isComparable($arg0_155.getType(), $T4)){
                                      IString name_8 = ((IString)($arg0_155));
                                      IValue $arg1_154 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),1));
                                      if($isComparable($arg1_154.getType(), $T15)){
@@ -2813,7 +2813,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_Type.Symbol_parameter_str_Symbol, 2)){
                                   IValue $arg0_161 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_161.getType(), $T3)){
+                                  if($isComparable($arg0_161.getType(), $T4)){
                                      IString t_12 = null;
                                      IValue $arg1_160 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),1));
                                      if($isComparable($arg1_160.getType(), $T1)){
@@ -2844,7 +2844,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_cilit_str, 1)){
                                   IValue $arg0_150 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_150.getType(), $T3)){
+                                  if($isComparable($arg0_150.getType(), $T4)){
                                      IString x_5 = ((IString)($arg0_150));
                                      final Template $template149 = (Template)new Template($RVF, "\'");
                                      $template149.beginIndent("  ");
@@ -2872,7 +2872,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_lex_str, 1)){
                                   IValue $arg0_151 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_151.getType(), $T3)){
+                                  if($isComparable($arg0_151.getType(), $T4)){
                                      IString x_6 = null;
                                      return ((IString)($arg0_151));
                                   
@@ -2895,7 +2895,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_parameterized_lex_str_list_Symbol, 2)){
                                   IValue $arg0_158 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_158.getType(), $T3)){
+                                  if($isComparable($arg0_158.getType(), $T4)){
                                      IString name_10 = ((IString)($arg0_158));
                                      IValue $arg1_157 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),1));
                                      if($isComparable($arg1_157.getType(), $T15)){
@@ -3100,7 +3100,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_layouts_str, 1)){
                                   IValue $arg0_192 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_192.getType(), $T3)){
+                                  if($isComparable($arg0_192.getType(), $T4)){
                                      return ((IString)$constants.get(2)/*""*/);
                                   
                                   }
@@ -3129,7 +3129,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_lit_str, 1)){
                                   IValue $arg0_148 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_148.getType(), $T3)){
+                                  if($isComparable($arg0_148.getType(), $T4)){
                                      IString x_4 = ((IString)($arg0_148));
                                      final Template $template147 = (Template)new Template($RVF, "\"");
                                      $template147.beginIndent("  ");
@@ -3157,7 +3157,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_keywords_str, 1)){
                                   IValue $arg0_152 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_152.getType(), $T3)){
+                                  if($isComparable($arg0_152.getType(), $T4)){
                                      IString x_7 = null;
                                      return ((IString)($arg0_152));
                                   
@@ -3255,7 +3255,7 @@ public class $Grammar
                            do {
                                if($has_type_and_arity($switchVal142, M_ParseTree.Symbol_sort_str, 1)){
                                   IValue $arg0_146 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal142)),0));
-                                  if($isComparable($arg0_146.getType(), $T3)){
+                                  if($isComparable($arg0_146.getType(), $T4)){
                                      IString x_3 = null;
                                      return ((IString)($arg0_146));
                                   
@@ -3769,7 +3769,7 @@ public class $Grammar
                                             IConstructor $elem280 = (IConstructor) $elem280_for;
                                             if($has_type_and_arity($elem280, M_ParseTree.Condition_except_str, 1)){
                                                IValue $arg0_282 = (IValue)($aadt_subscript_int(((IConstructor)($elem280)),0));
-                                               if($isComparable($arg0_282.getType(), $T3)){
+                                               if($isComparable($arg0_282.getType(), $T4)){
                                                   if(true){
                                                      IString x_56 = ((IString)($arg0_282));
                                                      final ISet $subject279 = ((ISet)(((ISet)($subject277)).delete(((IConstructor)($elem280)))));

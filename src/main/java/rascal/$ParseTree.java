@@ -69,13 +69,13 @@ public class $ParseTree
     public final io.usethesource.vallang.type.Type $T38;	/*astr(alabel="string")*/
     public final io.usethesource.vallang.type.Type $T41;	/*aint(alabel="begin")*/
     public final io.usethesource.vallang.type.Type $T26;	/*aint(alabel="column")*/
-    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("T",avalue(),closed=false,alabel="h")*/
+    public final io.usethesource.vallang.type.Type $T3;	/*aparameter("T",avalue(),closed=false,alabel="h")*/
     public final io.usethesource.vallang.type.Type $T37;	/*astr(alabel="label")*/
     public final io.usethesource.vallang.type.Type $T20;	/*avoid()*/
     public final io.usethesource.vallang.type.Type $T32;	/*astr(alabel="name")*/
     public final io.usethesource.vallang.type.Type $T25;	/*astr(alabel="cons")*/
     public final io.usethesource.vallang.type.Type $T39;	/*aloc(alabel="src")*/
-    public final io.usethesource.vallang.type.Type $T3;	/*aparameter("T",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T46;	/*avalue(alabel="input")*/
     public final io.usethesource.vallang.type.Type $T42;	/*aint(alabel="end")*/
     public final io.usethesource.vallang.type.Type $T40;	/*aint(alabel="character")*/
@@ -113,7 +113,7 @@ public class $ParseTree
     public final io.usethesource.vallang.type.Type Symbol_iter_Symbol;	/*acons(aadt("Symbol",[],dataSyntax()),[aadt("Symbol",[],dataSyntax(),alabel="symbol")],[],alabel="iter")*/
     public final io.usethesource.vallang.type.Type ADT_Associativity;	/*aadt("Associativity",[],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T6;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T33;	/*alist(aadt("Symbol",[],dataSyntax()),alabel="parameters")*/
     public final io.usethesource.vallang.type.Type Symbol_parameterized_lex_str_list_Symbol;	/*acons(aadt("Symbol",[],dataSyntax()),[astr(alabel="name"),alist(aadt("Symbol",[],dataSyntax()),alabel="parameters")],[],alabel="parameterized-lex")*/
     public final io.usethesource.vallang.type.Type ADT_Attr;	/*aadt("Attr",[],dataSyntax())*/
@@ -161,10 +161,10 @@ public class $ParseTree
     public final io.usethesource.vallang.type.Type Symbol_alt_set_Symbol;	/*acons(aadt("Symbol",[],dataSyntax()),[aset(aadt("Symbol",[],dataSyntax()),alabel="alternatives")],[],alabel="alt")*/
     public final io.usethesource.vallang.type.Type Symbol_char_class_list_CharRange;	/*acons(aadt("Symbol",[],dataSyntax()),[alist(aadt("CharRange",[],dataSyntax()),alabel="ranges")],[],alabel="char-class")*/
     public final io.usethesource.vallang.type.Type ADT_RuntimeException;	/*aadt("RuntimeException",[],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false,alabel="h"))*/
+    public final io.usethesource.vallang.type.Type $T1;	/*alist(aparameter("T",avalue(),closed=false,alabel="h"))*/
     public final io.usethesource.vallang.type.Type Tree_amb_set_Tree;	/*acons(aadt("Tree",[],dataSyntax()),[aset(aadt("Tree",[],dataSyntax()),alabel="alternatives")],[],alabel="amb")*/
     public final io.usethesource.vallang.type.Type Symbol_seq_list_Symbol;	/*acons(aadt("Symbol",[],dataSyntax()),[alist(aadt("Symbol",[],dataSyntax()),alabel="symbols")],[],alabel="seq")*/
-    public final io.usethesource.vallang.type.Type $T1;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T6;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type Condition_except_str;	/*acons(aadt("Condition",[],dataSyntax()),[astr(alabel="label")],[],alabel="except")*/
     public final io.usethesource.vallang.type.Type Symbol_layouts_str;	/*acons(aadt("Symbol",[],dataSyntax()),[astr(alabel="name")],[],alabel="layouts")*/
     public final io.usethesource.vallang.type.Type Symbol_empty_;	/*acons(aadt("Symbol",[],dataSyntax()),[],[],alabel="empty")*/
@@ -245,13 +245,13 @@ public class $ParseTree
        $T38 = $TF.stringType();
        $T41 = $TF.integerType();
        $T26 = $TF.integerType();
-       $T5 = $TF.parameterType("T", $T2);
+       $T3 = $TF.parameterType("T", $T2);
        $T37 = $TF.stringType();
        $T20 = $TF.voidType();
        $T32 = $TF.stringType();
        $T25 = $TF.stringType();
        $T39 = $TF.sourceLocationType();
-       $T3 = $TF.parameterType("T", $T2);
+       $T5 = $TF.parameterType("T", $T2);
        $T46 = $TF.valueType();
        $T42 = $TF.integerType();
        $T40 = $TF.integerType();
@@ -276,7 +276,7 @@ public class $ParseTree
        $T43 = $TF.listType(ADT_Tree);
        $T29 = $TF.setType(ADT_Condition);
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T20 });
-       $T6 = $TF.listType($T3);
+       $T4 = $TF.listType($T5);
        $T33 = $TF.listType(ADT_Symbol);
        $T35 = $TF.setType(ADT_Tree);
        $T21 = $TF.listType(ADT_CharRange);
@@ -291,12 +291,12 @@ public class $ParseTree
        $T7 = $TF.listType(ADT_Production);
        $T22 = $TF.setType(ADT_Symbol);
        $T23 = $TF.listType(ADT_Symbol);
-       $T4 = $TF.listType($T5);
-       $T1 = $TF.setType($T3);
+       $T1 = $TF.listType($T3);
+       $T6 = $TF.setType($T5);
        $T55 = $TF.setType(ADT_Tree);
        $T51 = $TF.functionType($T49, $TF.tupleType($T46, "input", $T47, "origin"), $TF.tupleEmpty());
        $T44 = $TF.functionType($T45, $TF.tupleType($T46, "input", $T47, "origin"), $TF.tupleEmpty());
-       $T14 = $RTF.reifiedType($T3);
+       $T14 = $RTF.reifiedType($T5);
        $T54 = $TF.valueType();
        Symbol_keywords_str = $TF.constructor($TS, ADT_Symbol, "keywords", $TF.stringType(), "name");
        Tree_cycle_Symbol_int = $TF.constructor($TS, ADT_Tree, "cycle", M_Type.ADT_Symbol, "symbol", $TF.integerType(), "cycleLength");
@@ -436,15 +436,15 @@ public class $ParseTree
     public IValue max(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T1)){
          $result = (IValue)M_List.max$9542dff773662ba8((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T6)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)M_List.max$a65b4f1e9d6ce28f((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T1)){
+       if($isSubtypeOf($P0Type,$T6)){
          $result = (IValue)M_Set.max$187b88bd7e3f0c95((ISet) $P0);
          if($result != null) return $result;
        }
@@ -470,11 +470,11 @@ public class $ParseTree
          $result = (IValue)M_List.getFirstFrom$de7747ba8ecf5d2d((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T6)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)M_List.getFirstFrom$52641577be663f10((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T1)){
+       if($isSubtypeOf($P0Type,$T6)){
          $result = (IValue)M_Set.getFirstFrom$2bf5bbe557d5c3ba((ISet) $P0);
          if($result != null) return $result;
        }
@@ -728,12 +728,12 @@ public class $ParseTree
        ITree $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T15) && $isSubtypeOf($P1Type,$T17)){
-         $result = (ITree)parse$6f6b93176be80747((IConstructor) $P0, (IString) $P1, $kwpActuals);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T15) && $isSubtypeOf($P1Type,$T12)){
          $result = (ITree)parse$47fb5ed5d88ced9a((IConstructor) $P0, (ISourceLocation) $P1, $kwpActuals);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T15) && $isSubtypeOf($P1Type,$T17)){
+         $result = (ITree)parse$6f6b93176be80747((IConstructor) $P0, (IString) $P1, $kwpActuals);
          if($result != null) return $result;
        }
        
@@ -1037,7 +1037,7 @@ public class $ParseTree
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T6)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }

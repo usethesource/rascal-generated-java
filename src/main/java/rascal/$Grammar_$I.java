@@ -24,8 +24,8 @@ public interface $Grammar_$I  {
     IValue getFirstFrom(IValue $0);
     IValue getOneFrom(IValue $0);
     IValue glb(IValue $0, IValue $1);
-    IValue grammar(IValue $0, IValue $1);
     IValue grammar(IValue $0);
+    IValue grammar(IValue $0, IValue $1);
     IValue group(IValue $0, IValue $1);
     IValue head(IValue $0, IValue $1);
     IValue head(IValue $0);
@@ -87,8 +87,8 @@ public interface $Grammar_$I  {
     void storeParsers(IValue $0, IValue $1);
     IValue subtype(IValue $0, IValue $1);
     IValue sum(IValue $0);
-    IValue tail(IValue $0);
     IValue tail(IValue $0, IValue $1);
+    IValue tail(IValue $0);
     IValue take(IValue $0, IValue $1);
     IValue takeOneFrom(IValue $0);
     IValue takeWhile(IValue $0, IValue $1);

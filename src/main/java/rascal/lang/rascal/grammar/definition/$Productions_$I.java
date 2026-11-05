@@ -24,8 +24,8 @@ public interface $Productions_$I  {
     IValue getFirstFrom(IValue $0);
     IValue getOneFrom(IValue $0);
     IValue glb(IValue $0, IValue $1);
-    IValue grammar(IValue $0);
     IValue grammar(IValue $0, IValue $1);
+    IValue grammar(IValue $0);
     IValue group(IValue $0, IValue $1);
     IValue head(IValue $0, IValue $1);
     IValue head(IValue $0);
@@ -90,8 +90,8 @@ public interface $Productions_$I  {
     IValue subtype(IValue $0, IValue $1);
     IValue sum(IValue $0);
     IValue syntax2grammar(IValue $0);
-    IValue tail(IValue $0, IValue $1);
     IValue tail(IValue $0);
+    IValue tail(IValue $0, IValue $1);
     IValue take(IValue $0, IValue $1);
     IValue takeOneFrom(IValue $0);
     IValue takeWhile(IValue $0, IValue $1);
@@ -112,7 +112,7 @@ public interface $Productions_$I  {
     IValue write(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue zip2(IValue $0, IValue $1);
     IValue zip2(IValue $0, IValue $1, IValue $2, IValue $3);
-    IValue zip3(IValue $0, IValue $1, IValue $2);
     IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
+    IValue zip3(IValue $0, IValue $1, IValue $2);
     IValue zipi(IValue $0);
 }

@@ -112,7 +112,7 @@ public interface $Priorities_$I  {
     IValue write(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue zip2(IValue $0, IValue $1);
     IValue zip2(IValue $0, IValue $1, IValue $2, IValue $3);
-    IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
     IValue zip3(IValue $0, IValue $1, IValue $2);
+    IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
     IValue zipi(IValue $0);
 }

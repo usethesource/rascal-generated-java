@@ -82,14 +82,14 @@ public interface $References_$I  {
     IValue shuffle(IValue $0, IValue $1);
     IValue size(IValue $0);
     IValue slice(IValue $0, IValue $1, IValue $2);
-    IValue sort(IValue $0);
     IValue sort(IValue $0, IValue $1);
+    IValue sort(IValue $0);
     IValue split(IValue $0);
     void storeParsers(IValue $0, IValue $1);
     IValue subtype(IValue $0, IValue $1);
     IValue sum(IValue $0);
-    IValue tail(IValue $0);
     IValue tail(IValue $0, IValue $1);
+    IValue tail(IValue $0);
     IValue take(IValue $0, IValue $1);
     IValue takeOneFrom(IValue $0);
     IValue takeWhile(IValue $0, IValue $1);
@@ -110,7 +110,7 @@ public interface $References_$I  {
     IValue write(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue zip2(IValue $0, IValue $1);
     IValue zip2(IValue $0, IValue $1, IValue $2, IValue $3);
-    IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
     IValue zip3(IValue $0, IValue $1, IValue $2);
+    IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
     IValue zipi(IValue $0);
 }

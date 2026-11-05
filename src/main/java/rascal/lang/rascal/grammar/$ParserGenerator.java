@@ -87,7 +87,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type $T21;	/*aparameter("T",avalue(),closed=false,alabel="b")*/
     public final io.usethesource.vallang.type.Type $T3;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T20;	/*aparameter("T",avalue(),closed=false,alabel="a")*/
-    public final io.usethesource.vallang.type.Type $T4;	/*astr()*/
+    public final io.usethesource.vallang.type.Type $T5;	/*astr()*/
     public final io.usethesource.vallang.type.Type ADT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type $T10;	/*alit(",")*/
@@ -227,7 +227,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T2;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Mapping_1;	/*aadt("Mapping",[aparameter("T",aadt("Tree",[],dataSyntax()),closed=true)],contextFreeSyntax())*/
@@ -336,7 +336,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type NT_Parameters;	/*aadt("Parameters",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Maybe_void;	/*aadt("Maybe",[avoid()],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_RascalKeywords;	/*aadt("RascalKeywords",[],keywordSyntax())*/
-    public final io.usethesource.vallang.type.Type $T5;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T2;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type ADT_MidProtocolChars;	/*aadt("MidProtocolChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_MidProtocolChars;	/*aadt("MidProtocolChars",[],lexicalSyntax())*/
@@ -789,7 +789,7 @@ public class $ParserGenerator
        $T21 = $TF.parameterType("T", $T1);
        $T3 = $TF.parameterType("T", $T1);
        $T20 = $TF.parameterType("T", $T1);
-       $T4 = $TF.stringType();
+       $T5 = $TF.stringType();
        $T10 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")));
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        $T22 = $TF.parameterType("T", ADT_Tree);
@@ -808,7 +808,7 @@ public class $ParserGenerator
        $T19 = $TF.boolType();
        $T18 = $TF.functionType($T19, $TF.tupleType($T20, "a", $T21, "b"), $TF.tupleEmpty());
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T25 });
-       $T2 = $TF.listType($T3);
+       $T4 = $TF.listType($T3);
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T22 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T22 });
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
@@ -817,7 +817,7 @@ public class $ParserGenerator
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T24 });
        $T32 = $TF.listType($T24);
-       $T27 = $TF.functionType($T4, $TF.tupleType($T30, "worked"), $TF.tupleEmpty());
+       $T27 = $TF.functionType($T5, $TF.tupleType($T30, "worked"), $TF.tupleEmpty());
        $T0 = $TF.setType(ADT_Symbol);
        $T34 = $TF.listType(ADT_Symbol);
        $T31 = $TF.setType(ADT_Attr);
@@ -825,7 +825,7 @@ public class $ParserGenerator
        $T9 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")), $RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")), $RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T24 });
-       $T5 = $TF.setType($T3);
+       $T2 = $TF.setType($T3);
        $T35 = $TF.nodeType();
        $T8 = $TF.setType(ADT_Condition);
        $T36 = $TF.nodeType();
@@ -945,15 +945,13 @@ public class $ParserGenerator
        		}
        		break;
        }
-       if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol)){
-         $result = (IString)getParserMethodName$a623994b20b6948f((IConstructor) $P0, $kwpActuals);
-         if($result != null) return $result;
-       }
        if($isNonTerminal($P0Type, M_lang_rascal_syntax_Rascal.NT_Sym)){
          $result = (IString)getParserMethodName$30580ef1fd2d4051((ITree) $P0, $kwpActuals);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol)){
+         $result = (IString)getParserMethodName$a623994b20b6948f((IConstructor) $P0, $kwpActuals);
+         if($result != null) return $result;
          $result = (IString)getParserMethodName$cb53654510730bc0((IConstructor) $P0, $kwpActuals);
          if($result != null) return $result;
        }
@@ -964,15 +962,15 @@ public class $ParserGenerator
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T2)){
-         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T4)){
-         $result = (IInteger)M_String.size$1d28105b03d03294((IString) $P0);
+         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T5)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
+         $result = (IInteger)M_String.size$1d28105b03d03294((IString) $P0);
          if($result != null) return $result;
        }
        
@@ -1114,12 +1112,12 @@ public class $ParserGenerator
     public IString toBase64(IValue $P0, java.util.Map<java.lang.String,IValue> $kwpActuals){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
-         $result = (IString)M_String.toBase64$6fec5c5ff2fc5293((IString) $P0, $kwpActuals);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T12)){
          $result = (IString)M_IO.toBase64$6ed1894002370d80((ISourceLocation) $P0, $kwpActuals);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T5)){
+         $result = (IString)M_String.toBase64$6fec5c5ff2fc5293((IString) $P0, $kwpActuals);
          if($result != null) return $result;
        }
        
@@ -1171,7 +1169,7 @@ public class $ParserGenerator
     public IString escId(IValue $P0){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T5)){
          $result = (IString)escId$0579c21bf1a62ae0((IString) $P0);
          if($result != null) return $result;
        }
@@ -1228,12 +1226,12 @@ public class $ParserGenerator
     public IValue index(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T5)){
-         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
+       if($isSubtypeOf($P0Type,$T4)){
+         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T2)){
-         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
+         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
          if($result != null) return $result;
        }
        if($isNonTerminal($P0Type, M_lang_rascal_syntax_Rascal.NT_IntegerLiteral)){
@@ -1299,7 +1297,7 @@ public class $ParserGenerator
          $result = (IString)esc$ff62cb0f1d0b4eca((IConstructor) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T5)){
          $result = (IString)esc$c38f01ee7e9a3d64((IString) $P0);
          if($result != null) return $result;
        }
@@ -1311,7 +1309,7 @@ public class $ParserGenerator
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T4) && $isSubtypeOf($P2Type, M_Grammar.ADT_Grammar)){
+       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T5) && $isSubtypeOf($P2Type, M_Grammar.ADT_Grammar)){
          $result = (IString)newGenerate$d180df80b178b419((IString) $P0, (IString) $P1, (IConstructor) $P2);
          if($result != null) return $result;
        }
@@ -1395,11 +1393,11 @@ public class $ParserGenerator
     public IValue split(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T5)){
          $result = (IValue)split$ece1419fbe2db44f((IString) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T2)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)M_List.split$9e25259188753c78((IList) $P0);
          if($result != null) return $result;
        }
@@ -1438,15 +1436,15 @@ public class $ParserGenerator
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T5)){
-         $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T2)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T2)){
+         $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T5)){
          return $RVF.constructor(M_ParseTree.Symbol_sort_str, new IValue[]{(IString) $P0});
        }
        
@@ -1456,12 +1454,12 @@ public class $ParserGenerator
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T18)){
-         $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T18)){
+         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T2) && $isSubtypeOf($P1Type,$T18)){
-         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
+         $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
        
@@ -1514,7 +1512,7 @@ public class $ParserGenerator
        throw RuntimeExceptionFactory.callFailed($RVF.list($P0, $P1, $P2, $P3));
     }
 
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1444,142,<39,0>,<40,66>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1406,141,<39,0>,<40,66>) 
     public IString getParserMethodName$30580ef1fd2d4051(ITree sym_0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$30580ef1fd2d4051;
@@ -1523,7 +1521,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1590,103,<42,0>,<43,22>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1549,102,<42,0>,<43,22>) 
     public IString getParserMethodName$2861a6c6bdb6144b(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$2861a6c6bdb6144b;
@@ -1533,7 +1531,7 @@ public class $ParserGenerator
            if($isComparable($arg0_1.getType(), M_ParseTree.ADT_Symbol)){
               if($has_type_and_arity($arg0_1, M_ParseTree.Symbol_sort_str, 1)){
                  IValue $arg0_2 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_1)),0));
-                 if($isComparable($arg0_2.getType(), $T4)){
+                 if($isComparable($arg0_2.getType(), $T5)){
                     IString name_0 = null;
                     final Template $template0 = (Template)new Template($RVF, "$start_");
                     $template0.beginIndent("       ");
@@ -1555,14 +1553,14 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1697,94,<45,0>,<46,18>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1653,93,<45,0>,<46,18>) 
     public IString getParserMethodName$467843b3f6963329(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$467843b3f6963329;
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_layouts_str, 1)){
            IValue $arg0_4 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_4.getType(), $T4)){
+           if($isComparable($arg0_4.getType(), $T5)){
               IString name_0 = null;
               final Template $template3 = (Template)new Template($RVF, "$l_");
               $template3.beginIndent("   ");
@@ -1578,14 +1576,14 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1795,88,<48,0>,<49,15>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1748,87,<48,0>,<49,15>) 
     public IString getParserMethodName$47f3bfe2c162a6cd(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$47f3bfe2c162a6cd;
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_sort_str, 1)){
            IValue $arg0_6 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_6.getType(), $T4)){
+           if($isComparable($arg0_6.getType(), $T5)){
               IString name_0 = null;
               final Template $template5 = (Template)new Template($RVF, "");
               $template5.addStr(((IString)($arg0_6)).getValue());
@@ -1599,14 +1597,14 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1887,87,<51,0>,<52,15>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1837,86,<51,0>,<52,15>) 
     public IString getParserMethodName$0fb89dbc6e34d6cd(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$0fb89dbc6e34d6cd;
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_lex_str, 1)){
            IValue $arg0_8 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_8.getType(), $T4)){
+           if($isComparable($arg0_8.getType(), $T5)){
               IString name_0 = null;
               final Template $template7 = (Template)new Template($RVF, "");
               $template7.addStr(((IString)($arg0_8)).getValue());
@@ -1620,14 +1618,14 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2043,95,<54,0>,<55,18>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(1990,94,<54,0>,<55,18>) 
     public IString getParserMethodName$789f22186d8d56bd(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$789f22186d8d56bd;
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_keywords_str, 1)){
            IValue $arg0_10 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_10.getType(), $T4)){
+           if($isComparable($arg0_10.getType(), $T5)){
               IString name_0 = null;
               final Template $template9 = (Template)new Template($RVF, "$k_");
               $template9.beginIndent("   ");
@@ -1643,7 +1641,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2142,128,<57,0>,<58,52>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2086,127,<57,0>,<58,52>) 
     public IString getParserMethodName$a2bf7fb8d7669112(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$a2bf7fb8d7669112;
@@ -1667,7 +1665,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2274,128,<60,0>,<61,52>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2215,127,<60,0>,<61,52>) 
     public IString getParserMethodName$fb279daa4fd4e85e(IConstructor $0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$fb279daa4fd4e85e;
@@ -1691,7 +1689,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2495,225,<64,0>,<65,157>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2432,224,<64,0>,<65,157>) 
     public IString getParserMethodName$a623994b20b6948f(IConstructor s_0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$a623994b20b6948f;
@@ -1771,7 +1769,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2724,98,<67,0>,<68,22>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2658,97,<67,0>,<68,22>) 
     public IString getParserMethodName$cb53654510730bc0(IConstructor s_0, java.util.Map<java.lang.String,IValue> $kwpActuals){ 
         
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_getParserMethodName$cb53654510730bc0;
@@ -1782,7 +1780,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(3119,53,<73,4>,<73,57>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(3047,53,<73,4>,<73,57>) 
     public IInteger newItem$24df242ff4526f29(ValueRef<IInteger> uniqueItem_1){ 
         
         
@@ -1791,7 +1789,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(3787,108,<91,4>,<94,8>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(3697,105,<91,4>,<94,8>) 
     public IConstructor rewrite$27013ecdbac8852f(IConstructor p_0, ValueRef<IInteger> uniqueItem_1){ 
         
         
@@ -1834,7 +1832,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(11750,50,<253,46>,<253,96>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(11498,50,<253,46>,<253,96>) 
     public IBool $CLOSURE_1(IConstructor l_0, IConstructor r_1){ 
         
         
@@ -1842,7 +1840,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2998,10223,<71,110>,<281,5>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2928,10013,<71,110>,<281,5>) 
     public IString $CLOSURE_0(TypedFunctionInstance2<IValue, IValue, IValue> worked_0, ValueRef<IConstructor> gr_2, ValueRef<IString> name_1, ValueRef<IString> $package_0){ 
         
         
@@ -1860,7 +1858,7 @@ public class $ParserGenerator
         ;
         /*muExists*/$SCOMP26: 
             do {
-                $SCOMP26_DESC3669:
+                $SCOMP26_DESC3582:
                 for(IValue $elem33 : new DescendantMatchIterator(gr_2.getValue(), 
                     new DescendantDescriptorAlwaysTrue($RVF.bool(false)))){
                     if($isComparable($elem33.getType(), M_ParseTree.ADT_Production)){
@@ -1922,16 +1920,16 @@ public class $ParserGenerator
                               $setwriter25.insert($elem33);
                             
                             } else {
-                              continue $SCOMP26_DESC3669;
+                              continue $SCOMP26_DESC3582;
                             }
                           
                           }
                        
                        } else {
-                          continue $SCOMP26_DESC3669;
+                          continue $SCOMP26_DESC3582;
                        }
                     } else {
-                       continue $SCOMP26_DESC3669;
+                       continue $SCOMP26_DESC3582;
                     }
                 }
                 
@@ -1941,7 +1939,7 @@ public class $ParserGenerator
         ((TypedFunctionInstance2<IValue, IValue, IValue>)worked_0).typedCall(((IString)$constants.get(16)/*"assigning unique ids to symbols"*/), ((IInteger)$constants.get(9)/*1*/));
         IConstructor beforeUniqueGr_5 = gr_2.getValue();
         final IMapWriter $mapwriter35 = (IMapWriter)$RVF.mapWriter();
-        $MCOMP36_GEN3969:
+        $MCOMP36_GEN3874:
         for(IValue $elem37_for : ((IMap)(((IMap)($aadt_get_field(gr_2.getValue(), "rules")))))){
             IConstructor $elem37 = (IConstructor) $elem37_for;
             IConstructor s_6 = ((IConstructor)($elem37));
@@ -1960,7 +1958,7 @@ public class $ParserGenerator
             do {
                 final ISetWriter $setwriter41 = (ISetWriter)$RVF.setWriter();
                 ;
-                $SCOMP42_GEN4459:
+                $SCOMP42_GEN4355:
                 for(IValue $elem43_for : ((ISet)($arel_field_project((ISet)((ISet)dontNest_8), ((IInteger)$constants.get(19)/*0*/))))){
                     IInteger $elem43 = (IInteger) $elem43_for;
                     IInteger p_11 = null;
@@ -1970,7 +1968,7 @@ public class $ParserGenerator
                 
                             final ISet $subject_val44 = ((ISet)($setwriter41.done()));
                 ISet g_10 = null;
-                $SCOMP39_GEN4482:
+                $SCOMP39_GEN4378:
                 for(IValue $elem40_for : ((ISet)($arel_field_project((ISet)((ISet)($subject_val44)), ((IInteger)$constants.get(19)/*0*/))))){
                     ISet $elem40 = (ISet) $elem40_for;
                     ISet c_12 = null;
@@ -1986,44 +1984,44 @@ public class $ParserGenerator
         $template45.beginIndent("        ");
         $template45.addStr($package_0.getValue().getValue());
         $template45.endIndent("        ");
-        $template45.addStr(";\r\n\r\nimport java.io.IOException;\r\nimport java.io.StringReader;\r\nimport java.io.PrintWriter;\r\nimport java.util.function.Supplier;\r\n\r\nimport io.usethesource.vallang.type.TypeFactory;\r\nimport io.usethesource.vallang.IConstructor;\r\nimport io.usethesource.vallang.ISourceLocation;\r\nimport io.usethesource.vallang.IValue;\r\nimport io.usethesource.vallang.IValueFactory;\r\nimport io.usethesource.vallang.exceptions.FactTypeUseException;\r\nimport io.usethesource.vallang.io.StandardTextReader;\r\nimport io.usethesource.vallang.io.StandardTextWriter;\r\nimport org.rascalmpl.parser.gtd.stack.*;\r\nimport org.rascalmpl.parser.gtd.stack.filter.*;\r\nimport org.rascalmpl.parser.gtd.stack.filter.follow.*;\r\nimport org.rascalmpl.parser.gtd.stack.filter.match.*;\r\nimport org.rascalmpl.parser.gtd.stack.filter.precede.*;\r\nimport org.rascalmpl.parser.gtd.preprocessing.ExpectBuilder;\r\nimport org.rascalmpl.parser.gtd.util.IntegerKeyedHashMap;\r\nimport org.rascalmpl.parser.gtd.util.IntegerList;\r\nimport org.rascalmpl.parser.gtd.util.IntegerMap;\r\nimport org.rascalmpl.values.ValueFactoryFactory;\r\nimport org.rascalmpl.parser.gtd.result.out.DefaultNodeFlattener;\r\nimport org.rascalmpl.parser.uptr.UPTRNodeFactory;\r\nimport org.rascalmpl.values.RascalValueFactory;\r\nimport org.rascalmpl.values.parsetrees.ITree;\r\nimport org.rascalmpl.values.parsetrees.TreeAdapter;\r\n\r\n@SuppressWarnings(\"all\")\r\npublic class ");
+        $template45.addStr(";\n\nimport java.io.IOException;\nimport java.io.StringReader;\nimport java.io.PrintWriter;\nimport java.util.function.Supplier;\n\nimport io.usethesource.vallang.type.TypeFactory;\nimport io.usethesource.vallang.IConstructor;\nimport io.usethesource.vallang.ISourceLocation;\nimport io.usethesource.vallang.IValue;\nimport io.usethesource.vallang.IValueFactory;\nimport io.usethesource.vallang.exceptions.FactTypeUseException;\nimport io.usethesource.vallang.io.StandardTextReader;\nimport io.usethesource.vallang.io.StandardTextWriter;\nimport org.rascalmpl.parser.gtd.stack.*;\nimport org.rascalmpl.parser.gtd.stack.filter.*;\nimport org.rascalmpl.parser.gtd.stack.filter.follow.*;\nimport org.rascalmpl.parser.gtd.stack.filter.match.*;\nimport org.rascalmpl.parser.gtd.stack.filter.precede.*;\nimport org.rascalmpl.parser.gtd.preprocessing.ExpectBuilder;\nimport org.rascalmpl.parser.gtd.util.IntegerKeyedHashMap;\nimport org.rascalmpl.parser.gtd.util.IntegerList;\nimport org.rascalmpl.parser.gtd.util.IntegerMap;\nimport org.rascalmpl.values.ValueFactoryFactory;\nimport org.rascalmpl.parser.gtd.result.out.DefaultNodeFlattener;\nimport org.rascalmpl.parser.uptr.UPTRNodeFactory;\nimport org.rascalmpl.values.RascalValueFactory;\nimport org.rascalmpl.values.parsetrees.ITree;\nimport org.rascalmpl.values.parsetrees.TreeAdapter;\n\n@SuppressWarnings(\"all\")\npublic class ");
         $template45.beginIndent("             ");
         $template45.addStr(name_1.getValue().getValue());
         $template45.endIndent("             ");
-        $template45.addStr(" extends org.rascalmpl.parser.gtd.SGTDBF<IConstructor, ITree, ISourceLocation> {\r\n  protected final static IValueFactory VF = ValueFactoryFactory.getValueFactory();\r\n\r\n  protected static IValue _read(java.lang.String s, io.usethesource.vallang.type.Type type) {\r\n    try {\r\n      return new StandardTextReader().read(VF, org.rascalmpl.values.RascalValueFactory.uptr, type, new StringReader(s));\r\n    }\r\n    catch (FactTypeUseException e) {\r\n      throw new RuntimeException(\"unexpected exception in generated parser\", e);  \r\n    } catch (IOException e) {\r\n      throw new RuntimeException(\"unexpected exception in generated parser\", e);  \r\n    }\r\n  }\r\n\t\r\n  protected static java.lang.String _concat(java.lang.String ...args) {\r\n    int length = 0;\r\n    for (java.lang.String s :args) {\r\n      length += s.length();\r\n    }\r\n    java.lang.StringBuilder b = new java.lang.StringBuilder(length);\r\n    for (java.lang.String s : args) {\r\n      b.append(s);\r\n    }\r\n    return b.toString();\r\n  }\r\n  protected static final TypeFactory _tf = TypeFactory.getInstance();\r\n \r\n  private static final IntegerMap _resultStoreIdMappings;\r\n  private static final IntegerKeyedHashMap<IntegerList> _dontNest;\r\n\t\r\n  protected static void _putDontNest(IntegerKeyedHashMap<IntegerList> result, int parentId, int childId) {\r\n    IntegerList donts = result.get(childId);\r\n    if (donts == null) {\r\n      donts = new IntegerList();\r\n      result.put(childId, donts);\r\n    }\r\n    donts.add(parentId);\r\n  }\r\n    \r\n  protected int getResultStoreId(int parentId) {\r\n    return _resultStoreIdMappings.get(parentId);\r\n  }\r\n    \r\n  protected static IntegerKeyedHashMap<IntegerList> _initDontNest() {\r\n    IntegerKeyedHashMap<IntegerList> result = new IntegerKeyedHashMap<IntegerList>(); \r\n    \r\n    ");
+        $template45.addStr(" extends org.rascalmpl.parser.gtd.SGTDBF<IConstructor, ITree, ISourceLocation> {\n  protected final static IValueFactory VF = ValueFactoryFactory.getValueFactory();\n\n  protected static IValue _read(java.lang.String s, io.usethesource.vallang.type.Type type) {\n    try {\n      return new StandardTextReader().read(VF, org.rascalmpl.values.RascalValueFactory.uptr, type, new StringReader(s));\n    }\n    catch (FactTypeUseException e) {\n      throw new RuntimeException(\"unexpected exception in generated parser\", e);  \n    } catch (IOException e) {\n      throw new RuntimeException(\"unexpected exception in generated parser\", e);  \n    }\n  }\n\t\n  protected static java.lang.String _concat(java.lang.String ...args) {\n    int length = 0;\n    for (java.lang.String s :args) {\n      length += s.length();\n    }\n    java.lang.StringBuilder b = new java.lang.StringBuilder(length);\n    for (java.lang.String s : args) {\n      b.append(s);\n    }\n    return b.toString();\n  }\n  protected static final TypeFactory _tf = TypeFactory.getInstance();\n \n  private static final IntegerMap _resultStoreIdMappings;\n  private static final IntegerKeyedHashMap<IntegerList> _dontNest;\n\t\n  protected static void _putDontNest(IntegerKeyedHashMap<IntegerList> result, int parentId, int childId) {\n    IntegerList donts = result.get(childId);\n    if (donts == null) {\n      donts = new IntegerList();\n      result.put(childId, donts);\n    }\n    donts.add(parentId);\n  }\n    \n  protected int getResultStoreId(int parentId) {\n    return _resultStoreIdMappings.get(parentId);\n  }\n    \n  protected static IntegerKeyedHashMap<IntegerList> _initDontNest() {\n    IntegerKeyedHashMap<IntegerList> result = new IntegerKeyedHashMap<IntegerList>(); \n    \n    ");
         IInteger i_13 = ((IInteger)$constants.get(19)/*0*/);
-        $template45.addStr("\r\n    ");
+        $template45.addStr("\n    ");
         /*muExists*/LAB3: 
             do {
-                LAB3_GEN8733:
+                LAB3_GEN8546:
                 for(IValue $elem46_for : ((ISet)dontNest_8)){
                     IValue $elem46 = (IValue) $elem46_for;
                     final IValue $tuple_subject47 = ((IValue)($elem46));
                     if($tuple_subject47 instanceof ITuple && ((ITuple)$tuple_subject47).arity() == 2){
-                       /*muExists*/LAB3_GEN8733_TUPLE: 
+                       /*muExists*/LAB3_GEN8546_TUPLE: 
                            do {
                                IInteger f_14 = null;
                                IInteger c_15 = null;
                                i_13 = ((IInteger)($aint_add_aint(((IInteger)i_13),((IInteger)$constants.get(9)/*1*/))));
-                               $template45.addStr("\r\n    ");
+                               $template45.addStr("\n    ");
                                if((((IBool)($equal(((IInteger)(((IInteger)i_13).remainder(((IInteger)$constants.get(21)/*2000*/)))), ((IInteger)$constants.get(19)/*0*/))))).getValue()){
-                                  $template45.addStr("\r\n    _initDontNest");
+                                  $template45.addStr("\n    _initDontNest");
                                   $template45.beginIndent("                 ");
                                   $template45.addVal(i_13);
                                   $template45.endIndent("                 ");
-                                  $template45.addStr("(result);\r\n    ");
+                                  $template45.addStr("(result);\n    ");
                                   if((((IBool)($equal(((IInteger)i_13), ((IInteger)$constants.get(21)/*2000*/))))).getValue()){
                                      $template45.addStr("return result;");
                                   
                                   }
-                                  $template45.addStr("\r\n  }\r\n  protected static void _initDontNest");
+                                  $template45.addStr("\n  }\n  protected static void _initDontNest");
                                   $template45.beginIndent("                                     ");
                                   $template45.addVal(i_13);
                                   $template45.endIndent("                                     ");
                                   $template45.addStr("(IntegerKeyedHashMap<IntegerList> result) {");
                                
                                }
-                               $template45.addStr("\r\n    _putDontNest(result, ");
+                               $template45.addStr("\n    _putDontNest(result, ");
                                $template45.beginIndent("                         ");
                                $template45.addVal($subscript_int(((IValue)($tuple_subject47)),0));
                                $template45.endIndent("                         ");
@@ -2036,36 +2034,36 @@ public class $ParserGenerator
                            } while(false);
                     
                     } else {
-                       continue LAB3_GEN8733;
+                       continue LAB3_GEN8546;
                     }
                 }
                 continue LAB3;
                             
             } while(false);
-        $template45.addStr("\r\n   ");
+        $template45.addStr("\n   ");
         if((((IBool)($aint_less_aint(((IInteger)i_13),((IInteger)$constants.get(21)/*2000*/))))).getValue()){
            $template45.addStr("return result;");
         
         }
-        $template45.addStr("\r\n  }\r\n    \r\n  protected static IntegerMap _initDontNestGroups() {\r\n    IntegerMap result = new IntegerMap();\r\n    int resultStoreId = result.size();\r\n    \r\n    ");
+        $template45.addStr("\n  }\n    \n  protected static IntegerMap _initDontNestGroups() {\n    IntegerMap result = new IntegerMap();\n    int resultStoreId = result.size();\n    \n    ");
         /*muExists*/LAB7: 
             do {
-                LAB7_GEN9376:
+                LAB7_GEN9175:
                 for(IValue $elem49_for : ((ISet)dontNestGroups_9)){
                     IValue $elem49 = (IValue) $elem49_for;
                     final IValue $tuple_subject50 = ((IValue)($elem49));
                     if($tuple_subject50 instanceof ITuple && ((ITuple)$tuple_subject50).arity() == 2){
-                       /*muExists*/LAB7_GEN9376_TUPLE: 
+                       /*muExists*/LAB7_GEN9175_TUPLE: 
                            do {
                                ISet parentIds_16 = null;
-                               $template45.addStr("\r\n    ++resultStoreId;\r\n    ");
+                               $template45.addStr("\n    ++resultStoreId;\n    ");
                                /*muExists*/LAB8: 
                                    do {
-                                       LAB8_GEN9472:
+                                       LAB8_GEN9269:
                                        for(IValue $elem48_for : ((ISet)($subscript_int(((IValue)($tuple_subject50)),1)))){
                                            IInteger $elem48 = (IInteger) $elem48_for;
                                            IInteger pid_17 = null;
-                                           $template45.addStr("\r\n    result.putUnsafe(");
+                                           $template45.addStr("\n    result.putUnsafe(");
                                            $template45.beginIndent("                     ");
                                            $template45.addVal($elem48);
                                            $template45.endIndent("                     ");
@@ -2079,20 +2077,20 @@ public class $ParserGenerator
                            } while(false);
                     
                     } else {
-                       continue LAB7_GEN9376;
+                       continue LAB7_GEN9175;
                     }
                 }
                 continue LAB7;
                             
             } while(false);
-        $template45.addStr("\r\n      \r\n    return result;\r\n  }\r\n  \r\n  protected boolean hasNestingRestrictions(java.lang.String name){\r\n\t\treturn (_dontNest.size() != 0); // TODO Make more specific.\r\n  }\r\n    \r\n  protected IntegerList getFilteredParents(int childId) {\r\n\t\treturn _dontNest.get(childId);\r\n  }\r\n    \r\n  // initialize priorities     \r\n  static {\r\n    _dontNest = _initDontNest();\r\n    _resultStoreIdMappings = _initDontNestGroups();\r\n  }\r\n    \r\n  // Production declarations\r\n\t");
+        $template45.addStr("\n      \n    return result;\n  }\n  \n  protected boolean hasNestingRestrictions(java.lang.String name){\n\t\treturn (_dontNest.size() != 0); // TODO Make more specific.\n  }\n    \n  protected IntegerList getFilteredParents(int childId) {\n\t\treturn _dontNest.get(childId);\n  }\n    \n  // initialize priorities     \n  static {\n    _dontNest = _initDontNest();\n    _resultStoreIdMappings = _initDontNestGroups();\n  }\n    \n  // Production declarations\n\t");
         /*muExists*/LAB9: 
             do {
-                LAB9_GEN10262:
+                LAB9_GEN10038:
                 for(IValue $elem52_for : ((ISet)uniqueProductions_2)){
                     IConstructor $elem52 = (IConstructor) $elem52_for;
                     IConstructor p_18 = ((IConstructor)($elem52));
-                    $template45.addStr("\r\n  private static final IConstructor ");
+                    $template45.addStr("\n  private static final IConstructor ");
                     $template45.beginIndent("                                    ");
                     $template45.addStr(((IString)($me.value2id(((IValue)p_18)))).getValue());
                     $template45.endIndent("                                    ");
@@ -2108,10 +2106,10 @@ public class $ParserGenerator
                 continue LAB9;
                             
             } while(false);
-        $template45.addStr("\r\n    \r\n  // Item declarations\r\n\t");
+        $template45.addStr("\n    \n  // Item declarations\n\t");
         /*muExists*/LAB10: 
             do {
-                LAB10_GEN10504:
+                LAB10_GEN10276:
                 for(IValue $elem59_for : ((ISet)($amap_field_project((IMap)((IMap)newItems_7), ((IInteger)$constants.get(19)/*0*/))))){
                     IConstructor $elem59 = (IConstructor) $elem59_for;
                     if(true){
@@ -2121,7 +2119,7 @@ public class $ParserGenerator
                          IMap alts_21 = ((IMap)$constants.get(22)/*()*/);
                          /*muExists*/FOR11: 
                              do {
-                                 FOR11_GEN10676:
+                                 FOR11_GEN10445:
                                  for(IValue $elem53_for : ((IMap)items_20)){
                                      IConstructor $elem53 = (IConstructor) $elem53_for;
                                      IConstructor item_22 = null;
@@ -2137,14 +2135,14 @@ public class $ParserGenerator
                                  continue FOR11;
                                              
                              } while(false);
-                         /* void:  muCon([]) */$template45.addStr("\r\n\t\r\n  protected static class ");
+                         /* void:  muCon([]) */$template45.addStr("\n\t\n  protected static class ");
                          $template45.beginIndent("                         ");
                          $template45.addStr(((IString)(getParserMethodName(((IConstructor)s_19), Util.kwpMap()))).getValue());
                          $template45.endIndent("                         ");
-                         $template45.addStr(" {\r\n    public final static AbstractStackNode<IConstructor>[] EXPECTS;\r\n\r\n    static{\r\n      ExpectBuilder<IConstructor> builder = new ExpectBuilder<IConstructor>(_dontNest, _resultStoreIdMappings);\r\n      init(builder);\r\n       EXPECTS = builder.buildExpectArray();\r\n    }\r\n\r\n    ");
+                         $template45.addStr(" {\n    public final static AbstractStackNode<IConstructor>[] EXPECTS;\n\n    static{\n      ExpectBuilder<IConstructor> builder = new ExpectBuilder<IConstructor>(_dontNest, _resultStoreIdMappings);\n      init(builder);\n       EXPECTS = builder.buildExpectArray();\n    }\n\n    ");
                          /*muExists*/LAB13: 
                              do {
-                                 LAB13_GEN11373:
+                                 LAB13_GEN11124:
                                  for(IValue $elem56_for : ((ISet)($amap_field_project((IMap)((IMap)alts_21), ((IInteger)$constants.get(19)/*0*/))))){
                                      IConstructor $elem56 = (IConstructor) $elem56_for;
                                      if(true){
@@ -2152,18 +2150,18 @@ public class $ParserGenerator
                                         if($is(((IConstructor)alt_24),((IString)$constants.get(23)/*"prod"*/))){
                                           IList lhses_25 = ((IList)($amap_subscript(((IMap)alts_21),((IConstructor)alt_24))));
                                           IString id_26 = ((IString)($me.value2id(((IValue)alt_24))));
-                                          $template45.addStr("\r\n    protected static final void _init_");
+                                          $template45.addStr("\n    protected static final void _init_");
                                           $template45.beginIndent("                                      ");
                                           $template45.addStr(((IString)id_26).getValue());
                                           $template45.endIndent("                                      ");
-                                          $template45.addStr("(ExpectBuilder<IConstructor> builder) {\r\n      AbstractStackNode<IConstructor>[] tmp = (AbstractStackNode<IConstructor>[]) new AbstractStackNode[");
+                                          $template45.addStr("(ExpectBuilder<IConstructor> builder) {\n      AbstractStackNode<IConstructor>[] tmp = (AbstractStackNode<IConstructor>[]) new AbstractStackNode[");
                                           $template45.beginIndent("                                                                                                            ");
                                           $template45.addVal(M_List.size(((IList)lhses_25)));
                                           $template45.endIndent("                                                                                                            ");
-                                          $template45.addStr("];\r\n      ");
+                                          $template45.addStr("];\n      ");
                                           /*muExists*/LAB14: 
                                               do {
-                                                  LAB14_GEN11728:
+                                                  LAB14_GEN11476:
                                                   for(IValue $elem55_for : ((IList)(M_List.sort(((IList)lhses_25), new TypedFunctionInstance2<IValue,IValue,IValue>(($_0, $_1) -> { return $CLOSURE_1((IConstructor)$_0, (IConstructor)$_1); }, $T26))))){
                                                       IConstructor $elem55 = (IConstructor) $elem55_for;
                                                       IConstructor i_27 = ((IConstructor)($elem55));
@@ -2174,7 +2172,7 @@ public class $ParserGenerator
                                                       } else {
                                                          ii_28 = ((IInteger)$constants.get(19)/*0*/);
                                                       
-                                                      }$template45.addStr("\r\n      tmp[");
+                                                      }$template45.addStr("\n      tmp[");
                                                       $template45.beginIndent("          ");
                                                       $template45.addVal(ii_28);
                                                       $template45.endIndent("          ");
@@ -2188,7 +2186,7 @@ public class $ParserGenerator
                                                   continue LAB14;
                                                               
                                               } while(false);
-                                          $template45.addStr("\r\n      builder.addAlternative(");
+                                          $template45.addStr("\n      builder.addAlternative(");
                                           $template45.beginIndent("                             ");
                                           $template45.addStr(name_1.getValue().getValue());
                                           $template45.endIndent("                             ");
@@ -2196,23 +2194,23 @@ public class $ParserGenerator
                                           $template45.beginIndent(" ");
                                           $template45.addStr(((IString)id_26).getValue());
                                           $template45.endIndent(" ");
-                                          $template45.addStr(", tmp);\r\n\t  }");
+                                          $template45.addStr(", tmp);\n\t  }");
                                         
                                         } else {
-                                          continue LAB13_GEN11373;
+                                          continue LAB13_GEN11124;
                                         }
                                      
                                      } else {
-                                        continue LAB13_GEN11373;
+                                        continue LAB13_GEN11124;
                                      }
                                  }
                                  continue LAB13;
                                              
                              } while(false);
-                         $template45.addStr("\r\n    ");
+                         $template45.addStr("\n    ");
                          /*muExists*/LAB15: 
                              do {
-                                 LAB15_GEN12006:
+                                 LAB15_GEN11750:
                                  for(IValue $elem57_for : ((ISet)($amap_field_project((IMap)((IMap)alts_21), ((IInteger)$constants.get(19)/*0*/))))){
                                      IConstructor $elem57 = (IConstructor) $elem57_for;
                                      if(true){
@@ -2220,11 +2218,11 @@ public class $ParserGenerator
                                         if($is(((IConstructor)alt_29),((IString)$constants.get(25)/*"regular"*/))){
                                           IList lhses_30 = ((IList)($amap_subscript(((IMap)alts_21),((IConstructor)alt_29))));
                                           IString id_31 = ((IString)($me.value2id(((IValue)alt_29))));
-                                          $template45.addStr("\r\n    // this is only for top-level regular symbols\r\n    protected static final void _init_");
+                                          $template45.addStr("\n    // this is only for top-level regular symbols\n    protected static final void _init_");
                                           $template45.beginIndent("                                      ");
                                           $template45.addStr(((IString)id_31).getValue());
                                           $template45.endIndent("                                      ");
-                                          $template45.addStr("(ExpectBuilder<IConstructor> builder) {\r\n      builder.addAlternative(");
+                                          $template45.addStr("(ExpectBuilder<IConstructor> builder) {\n      builder.addAlternative(");
                                           $template45.beginIndent("                             ");
                                           $template45.addStr(name_1.getValue().getValue());
                                           $template45.endIndent("                             ");
@@ -2236,87 +2234,87 @@ public class $ParserGenerator
                                           $template45.beginIndent("                            ");
                                           $template45.addStr(((IString)($atuple_field_project((ITuple)((ITuple)($amap_subscript(((IMap)($amap_subscript(((IMap)newItems_7),((IConstructor)($RVF.constructor(Symbol_topRegular_Symbol, new IValue[]{((IConstructor)(((IConstructor)($aadt_get_field(((IConstructor)alt_29), "def")))))}, Util.kwpMap())))))),((IConstructor)($RVF.constructor(M_Grammar.Item_item_Production_int, new IValue[]{((IConstructor)alt_29), ((IInteger)$constants.get(19)/*0*/)})))))), ((IInteger)$constants.get(19)/*0*/)))).getValue());
                                           $template45.endIndent("                            ");
-                                          $template45.addStr(" });\r\n\t  }");
+                                          $template45.addStr(" });\n\t  }");
                                         
                                         } else {
-                                          continue LAB15_GEN12006;
+                                          continue LAB15_GEN11750;
                                         }
                                      
                                      } else {
-                                        continue LAB15_GEN12006;
+                                        continue LAB15_GEN11750;
                                      }
                                  }
                                  continue LAB15;
                                              
                              } while(false);
-                         $template45.addStr("\r\n\r\n    public static void init(ExpectBuilder<IConstructor> builder){\r\n      ");
+                         $template45.addStr("\n\n    public static void init(ExpectBuilder<IConstructor> builder){\n      ");
                          /*muExists*/LAB16: 
                              do {
-                                 LAB16_GEN12540:
+                                 LAB16_GEN12277:
                                  for(IValue $elem58_for : ((ISet)($amap_field_project((IMap)((IMap)alts_21), ((IInteger)$constants.get(19)/*0*/))))){
                                      IConstructor $elem58 = (IConstructor) $elem58_for;
                                      IConstructor alt_32 = ((IConstructor)($elem58));
                                      IList lhses_33 = ((IList)($amap_subscript(((IMap)alts_21),((IConstructor)alt_32))));
                                      IString id_34 = ((IString)($me.value2id(((IValue)alt_32))));
-                                     $template45.addStr("\r\n        _init_");
+                                     $template45.addStr("\n        _init_");
                                      $template45.beginIndent("              ");
                                      $template45.addStr(((IString)id_34).getValue());
                                      $template45.endIndent("              ");
-                                     $template45.addStr("(builder);\r\n      ");
+                                     $template45.addStr("(builder);\n      ");
                                  
                                  }
                                  continue LAB16;
                                              
                              } while(false);
-                         $template45.addStr("\r\n    }\r\n\r\n  }");
+                         $template45.addStr("\n    }\n\n  }");
                        
                        } else {
-                         continue LAB10_GEN10504;
+                         continue LAB10_GEN10276;
                        }
                     
                     } else {
-                       continue LAB10_GEN10504;
+                       continue LAB10_GEN10276;
                     }
                 }
                 continue LAB10;
                             
             } while(false);
-        $template45.addStr("\r\n\r\n  private int nextFreeStackNodeId = ");
+        $template45.addStr("\n\n  private int nextFreeStackNodeId = ");
         $template45.beginIndent("                                    ");
         $template45.addVal(newGenerate__newItem(uniqueItem_1));
         $template45.endIndent("                                    ");
-        $template45.addStr(";\r\n  protected int getFreeStackNodeId() {\r\n    return nextFreeStackNodeId++;\r\n  }\r\n\r\n  // Parse methods    \r\n  ");
+        $template45.addStr(";\n  protected int getFreeStackNodeId() {\n    return nextFreeStackNodeId++;\n  }\n\n  // Parse methods    \n  ");
         /*muExists*/LAB17: 
             do {
-                LAB17_GEN13006:
+                LAB17_GEN12730:
                 for(IValue $elem60_for : ((ISet)($amap_field_project((IMap)((IMap)(((IMap)($aadt_get_field(gr_2.getValue(), "rules"))))), ((IInteger)$constants.get(19)/*0*/))))){
                     IConstructor $elem60 = (IConstructor) $elem60_for;
                     if(true){
                        IConstructor nont_35 = ((IConstructor)($elem60));
                        if((((IBool)($me.isNonterminal(((IConstructor)nont_35))))).getValue()){
                          uniqueItem_1.setValue(((IInteger)($aint_add_aint(uniqueItem_1.getValue(),((IInteger)$constants.get(9)/*1*/)))));
-                         $template45.addStr("\r\n  ");
+                         $template45.addStr("\n  ");
                          $template45.beginIndent("  ");
                          $template45.addStr(((IString)($me.generateParseMethod(gr_2.getValue(), ((IMap)newItems_7), ((IConstructor)($amap_subscript(((IMap)(((IMap)($aadt_get_field(gr_2.getValue(), "rules"))))),((IConstructor)(M_Node.unsetRec(((IValue)nont_35))))))), uniqueItem_1.getValue()))).getValue());
                          $template45.endIndent("  ");
                        
                        } else {
-                         continue LAB17_GEN13006;
+                         continue LAB17_GEN12730;
                        }
                     
                     } else {
-                       continue LAB17_GEN13006;
+                       continue LAB17_GEN12730;
                     }
                 }
                 continue LAB17;
                             
             } while(false);
-        $template45.addStr("\r\n\r\n}");
+        $template45.addStr("\n\n}");
         return ((IString)($template45.close()));
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2826,10419,<70,0>,<282,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(2757,10207,<70,0>,<282,1>) 
     public IString newGenerate$d180df80b178b419(IString $aux_$package_0, IString $aux_name_1, IConstructor $aux_gr_2){ 
         ValueRef<IString> $package_0 = new ValueRef<IString>("$package_0", $aux_$package_0);
         ValueRef<IString> name_1 = new ValueRef<IString>("name_1", $aux_name_1);
@@ -2326,7 +2324,7 @@ public class $ParserGenerator
         final Template $template23 = (Template)new Template($RVF, "Generating parser; ");
         /*muExists*/LAB0: 
             do {
-                LAB0_GEN2929:
+                LAB0_GEN2859:
                 for(IValue $elem24_for : ((IMap)(((IMap)($aadt_get_field(gr_2.getValue(), "rules")))))){
                     IConstructor $elem24 = (IConstructor) $elem24_for;
                     IConstructor st_3 = null;
@@ -2340,7 +2338,7 @@ public class $ParserGenerator
                         $template23.addStr(" ");
                       
                       } else {
-                        continue LAB0_GEN2929;
+                        continue LAB0_GEN2859;
                       }
                     
                     }
@@ -2353,14 +2351,14 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(13251,1024,<284,0>,<297,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(12968,1011,<284,0>,<297,1>) 
     public ISet computeDontNests$aa5378becc7a1991(IMap items_0, IConstructor grammar_1, IConstructor uniqueGrammar_2){ 
         
         
         final IMapWriter $mapwriter61 = (IMapWriter)$RVF.mapWriter();
         /*muExists*/$MCOMP62: 
             do {
-                $MCOMP62_DESC13503:
+                $MCOMP62_DESC13218:
                 for(IValue $elem63 : new DescendantMatchIterator(grammar_1, 
                     new DescendantDescriptorAlwaysTrue($RVF.bool(false)))){
                     if($isComparable($elem63.getType(), M_ParseTree.ADT_Production)){
@@ -2380,28 +2378,28 @@ public class $ParserGenerator
                                             $mapwriter61.insert($RVF.tuple(p_4, $atuple_field_project((ITuple)((ITuple)($amap_subscript(((IMap)($amap_subscript(((IMap)items_0),((IConstructor)(getType(((IConstructor)($arg0_66)))))))),((IConstructor)($RVF.constructor(M_Grammar.Item_item_Production_int, new IValue[]{((IConstructor)p_4), ((IInteger)(((IInteger) ((IInteger)(M_List.size(((IList)($arg1_65))))).subtract(((IInteger)$constants.get(9)/*1*/)))))})))))), ((IInteger)$constants.get(9)/*1*/))));
                                          
                                          } else {
-                                            continue $MCOMP62_DESC13503;
+                                            continue $MCOMP62_DESC13218;
                                          }
                                       } else {
-                                         continue $MCOMP62_DESC13503;
+                                         continue $MCOMP62_DESC13218;
                                       }
                                    } else {
-                                      continue $MCOMP62_DESC13503;
+                                      continue $MCOMP62_DESC13218;
                                    }
                                 } else {
-                                   continue $MCOMP62_DESC13503;
+                                   continue $MCOMP62_DESC13218;
                                 }
                              } else {
-                                continue $MCOMP62_DESC13503;
+                                continue $MCOMP62_DESC13218;
                              }
                           } else {
-                             continue $MCOMP62_DESC13503;
+                             continue $MCOMP62_DESC13218;
                           }
                        } else {
-                          continue $MCOMP62_DESC13503;
+                          continue $MCOMP62_DESC13218;
                        }
                     } else {
-                       continue $MCOMP62_DESC13503;
+                       continue $MCOMP62_DESC13218;
                     }
                 }
                 
@@ -2411,12 +2409,12 @@ public class $ParserGenerator
         ISet dnn_7 = ((ISet)(M_lang_rascal_grammar_definition_Priorities.doNotNest(((IConstructor)grammar_1))));
         final ISetWriter $setwriter67 = (ISetWriter)$RVF.setWriter();
         ;
-        $SCOMP68_GEN14094:
+        $SCOMP68_GEN13800:
         for(IValue $elem69_for : ((ISet)dnn_7)){
             IValue $elem69 = (IValue) $elem69_for;
             final IValue $tuple_subject70 = ((IValue)($elem69));
             if($tuple_subject70 instanceof ITuple && ((ITuple)$tuple_subject70).arity() == 3){
-               /*muExists*/$SCOMP68_GEN14094_TUPLE: 
+               /*muExists*/$SCOMP68_GEN13800_TUPLE: 
                    do {
                        IConstructor father_8 = null;
                        IInteger pos_9 = null;
@@ -2425,24 +2423,24 @@ public class $ParserGenerator
                          $setwriter67.insert($RVF.tuple(((IInteger)($atuple_field_project((ITuple)((ITuple)($amap_subscript(((IMap)($amap_subscript(((IMap)items_0),((IConstructor)(getType(((IConstructor)(((IConstructor)($aadt_get_field(((IConstructor)($subscript_int(((IValue)($tuple_subject70)),0))), "def"))))))))))),((IConstructor)($RVF.constructor(M_Grammar.Item_item_Production_int, new IValue[]{((IConstructor)($subscript_int(((IValue)($tuple_subject70)),0))), ((IInteger)($subscript_int(((IValue)($tuple_subject70)),1)))})))))), ((IInteger)$constants.get(9)/*1*/)))), ((IInteger)($amap_subscript(((IMap)prodItems_3),((IConstructor)($subscript_int(((IValue)($tuple_subject70)),2))))))));
                        
                        } else {
-                         continue $SCOMP68_GEN14094_TUPLE;
+                         continue $SCOMP68_GEN13800_TUPLE;
                        }
                
                    } while(false);
             
             } else {
-               continue $SCOMP68_GEN14094;
+               continue $SCOMP68_GEN13800;
             }
         }
         
                     final ISetWriter $setwriter71 = (ISetWriter)$RVF.setWriter();
         ;
-        $SCOMP72_GEN14195:
+        $SCOMP72_GEN13900:
         for(IValue $elem74_for : ((ISet)dnn_7)){
             IValue $elem74 = (IValue) $elem74_for;
             final IValue $tuple_subject75 = ((IValue)($elem74));
             if($tuple_subject75 instanceof ITuple && ((ITuple)$tuple_subject75).arity() == 3){
-               /*muExists*/$SCOMP72_GEN14195_TUPLE: 
+               /*muExists*/$SCOMP72_GEN13900_TUPLE: 
                    do {
                        final IConstructor $subject76 = ((IConstructor)($subscript_int(((IValue)($tuple_subject75)),0)));
                        if($has_type_and_arity($subject76, M_ParseTree.Production_regular_Symbol, 1)){
@@ -2451,7 +2449,7 @@ public class $ParserGenerator
                              IConstructor s_11 = ((IConstructor)($arg0_77));
                              IInteger pos_12 = ((IInteger)($subscript_int(((IValue)($tuple_subject75)),1)));
                              IConstructor child_13 = ((IConstructor)($subscript_int(((IValue)($tuple_subject75)),2)));
-                             $SCOMP72_GEN14195_TUPLE_DESC14226:
+                             $SCOMP72_GEN13900_TUPLE_DESC13931:
                              for(IValue $elem73 : new DescendantMatchIterator(uniqueGrammar_2, 
                                  new DescendantDescriptorAlwaysTrue($RVF.bool(false)))){
                                  if($isComparable($elem73.getType(), M_ParseTree.ADT_Symbol)){
@@ -2461,28 +2459,28 @@ public class $ParserGenerator
                                          $setwriter71.insert($RVF.tuple(((IInteger)($me.getItemId(((IConstructor)t_14), ((IInteger)pos_12), ((IConstructor)child_13)))), ((IInteger)($amap_subscript(((IMap)prodItems_3),((IConstructor)child_13))))));
                                        
                                        } else {
-                                         continue $SCOMP72_GEN14195_TUPLE_DESC14226;
+                                         continue $SCOMP72_GEN13900_TUPLE_DESC13931;
                                        }
                                     
                                     } else {
-                                       continue $SCOMP72_GEN14195_TUPLE_DESC14226;
+                                       continue $SCOMP72_GEN13900_TUPLE_DESC13931;
                                     }
                                  } else {
-                                    continue $SCOMP72_GEN14195_TUPLE_DESC14226;
+                                    continue $SCOMP72_GEN13900_TUPLE_DESC13931;
                                  }
                              }
-                             continue $SCOMP72_GEN14195_TUPLE;
+                             continue $SCOMP72_GEN13900_TUPLE;
                                           
                           } else {
-                             continue $SCOMP72_GEN14195;
+                             continue $SCOMP72_GEN13900;
                           }
                        } else {
-                          continue $SCOMP72_GEN14195;
+                          continue $SCOMP72_GEN13900;
                        }
                    } while(false);
             
             } else {
-               continue $SCOMP72_GEN14195;
+               continue $SCOMP72_GEN13900;
             }
         }
         
@@ -2490,7 +2488,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(14279,883,<299,0>,<313,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(13981,869,<299,0>,<313,1>) 
     public IInteger getItemId$8da6826786be742d(IConstructor s_0, IInteger pos_1, IConstructor $2){ 
         
         
@@ -2499,7 +2497,7 @@ public class $ParserGenerator
            if($isComparable($arg0_107.getType(), M_ParseTree.ADT_Symbol)){
               if($has_type_and_arity($arg0_107, M_Type.Symbol_label_str_Symbol, 2)){
                  IValue $arg0_109 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_107)),0));
-                 if($isComparable($arg0_109.getType(), $T4)){
+                 if($isComparable($arg0_109.getType(), $T5)){
                     if(true){
                        IString l_2 = null;
                        IValue $arg1_108 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_107)),1));
@@ -2671,9 +2669,9 @@ public class $ParserGenerator
                                                              ISet aa_11 = null;
                                                              /*muExists*/IF23: 
                                                                  do {
-                                                                     /*muExists*/IF23_GEN15030_CONS_conditional: 
+                                                                     /*muExists*/IF23_GEN14721_CONS_conditional: 
                                                                          do {
-                                                                             IF23_GEN15030:
+                                                                             IF23_GEN14721:
                                                                              for(IValue $elem92_for : ((ISet)($arg0_104))){
                                                                                  IConstructor $elem92 = (IConstructor) $elem92_for;
                                                                                  if($has_type_and_arity($elem92, M_ParseTree.Symbol_conditional_Symbol_set_Condition, 2)){
@@ -2682,16 +2680,16 @@ public class $ParserGenerator
                                                                                        IValue $arg1_93 = (IValue)($aadt_subscript_int(((IConstructor)($elem92)),1));
                                                                                        if($isComparable($arg1_93.getType(), $T8)){
                                                                                           ISet $subject94 = (ISet)($arg1_93);
-                                                                                          IF23_GEN15030_CONS_conditional_SET_MVAR$_91:
+                                                                                          IF23_GEN14721_CONS_conditional_SET_MVAR$_91:
                                                                                           for(IValue $elem101_for : new SubSetGenerator(((ISet)($subject94)))){
                                                                                               ISet $elem101 = (ISet) $elem101_for;
                                                                                               final ISet $subject96 = ((ISet)(((ISet)($subject94)).subtract(((ISet)($elem101)))));
-                                                                                              IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99:
+                                                                                              IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99:
                                                                                               for(IValue $elem98_for : ((ISet)($subject96))){
                                                                                                   IConstructor $elem98 = (IConstructor) $elem98_for;
                                                                                                   if($has_type_and_arity($elem98, M_ParseTree.Condition_except_str, 1)){
                                                                                                      IValue $arg0_100 = (IValue)($aadt_subscript_int(((IConstructor)($elem98)),0));
-                                                                                                     if($isComparable($arg0_100.getType(), $T4)){
+                                                                                                     if($isComparable($arg0_100.getType(), $T5)){
                                                                                                         if(($arg0_109 != null)){
                                                                                                            if($arg0_109.match($arg0_100)){
                                                                                                               final ISet $subject97 = ((ISet)(((ISet)($subject96)).delete(((IConstructor)($elem98)))));
@@ -2700,10 +2698,10 @@ public class $ParserGenerator
                                                                                                                  return ((IInteger)($getkw_Symbol_id(((IConstructor)a_12))));
                                                                                                               
                                                                                                               } else {
-                                                                                                                 continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*redirected IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except to IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99; set pat3*/
+                                                                                                                 continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*redirected IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except to IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99; set pat3*/
                                                                                                               }
                                                                                                            } else {
-                                                                                                              continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
+                                                                                                              continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
                                                                                                            }
                                                                                                         } else {
                                                                                                            $arg0_109 = ((IValue)($arg0_100));
@@ -2713,29 +2711,29 @@ public class $ParserGenerator
                                                                                                               return ((IInteger)($getkw_Symbol_id(((IConstructor)a_12))));
                                                                                                            
                                                                                                            } else {
-                                                                                                              continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*redirected IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except to IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99; set pat3*/
+                                                                                                              continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*redirected IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except to IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99; set pat3*/
                                                                                                            }
                                                                                                         }
                                                                                                      } else {
-                                                                                                        continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
+                                                                                                        continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
                                                                                                      }
                                                                                                   } else {
-                                                                                                     continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
+                                                                                                     continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91_CONS_except$_DFLT_SET_ELM99;/*default set elem*/
                                                                                                   }
                                                                                               }
-                                                                                              continue IF23_GEN15030_CONS_conditional_SET_MVAR$_91;/*set pat4*/
+                                                                                              continue IF23_GEN14721_CONS_conditional_SET_MVAR$_91;/*set pat4*/
                                                                                                           
                                                                                           }
-                                                                                          continue IF23_GEN15030;
+                                                                                          continue IF23_GEN14721;
                                                                                                       
                                                                                        } else {
-                                                                                          continue IF23_GEN15030;
+                                                                                          continue IF23_GEN14721;
                                                                                        }
                                                                                     } else {
-                                                                                       continue IF23_GEN15030;
+                                                                                       continue IF23_GEN14721;
                                                                                     }
                                                                                  } else {
-                                                                                    continue IF23_GEN15030;
+                                                                                    continue IF23_GEN14721;
                                                                                  }
                                                                              }
                                                                              
@@ -2841,7 +2839,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15170,46,<317,0>,<317,46>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(14854,46,<317,0>,<317,46>) 
     public IConstructor getType$7098a7e37e3432cc(IConstructor p_0){ 
         
         
@@ -2849,13 +2847,13 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15218,52,<318,0>,<318,52>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(14901,52,<318,0>,<318,52>) 
     public IConstructor getType$b23fa460f79f689c(IConstructor $0){ 
         
         
         if($has_type_and_arity($0, M_Type.Symbol_label_str_Symbol, 2)){
            IValue $arg0_111 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_111.getType(), $T4)){
+           if($isComparable($arg0_111.getType(), $T5)){
               IValue $arg1_110 = (IValue)($aadt_subscript_int(((IConstructor)$0),1));
               if($isComparable($arg1_110.getType(), M_ParseTree.ADT_Symbol)){
                  IConstructor s_0 = null;
@@ -2872,7 +2870,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15272,70,<319,0>,<319,70>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(14954,70,<319,0>,<319,70>) 
     public IConstructor getType$3a91be5bec1e7554(IConstructor $0){ 
         
         
@@ -2896,7 +2894,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15344,47,<320,0>,<320,47>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15025,47,<320,0>,<320,47>) 
     public IConstructor getType$d2c0972de07d8835(IConstructor s_0){ 
         
         
@@ -2904,7 +2902,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15913,42,<330,2>,<330,44>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15584,42,<330,2>,<330,44>) 
     public IConstructor cl$96bd60344ec07bdd(IConstructor p_0){ 
         
         
@@ -2912,7 +2910,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15439,2630,<324,0>,<385,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(15116,2569,<324,0>,<385,1>) 
     public IMap generateNewItems$807ae7532df54f11(IConstructor $aux_g_0){ 
         ValueRef<IConstructor> g_0 = new ValueRef<IConstructor>("g_0", $aux_g_0);
     
@@ -2969,7 +2967,7 @@ public class $ParserGenerator
                                                                               items_1.setValue(((IMap)($amap_update(us_11,$amap_add_amap(((IMap)(($is_defined_value(guarded37) ? ((IMap)$get_defined_value(guarded37)) : fresh_2.getValue()))),((IMap)($buildMap(((IConstructor)($RVF.constructor(M_Grammar.Item_item_Production_int, new IValue[]{((IConstructor)p_9), ((IInteger)$constants.get(19)/*0*/)}))), ((ITuple)($me.sym2newitem(g_0.getValue(), ((IConstructor)($arg0_132)), ((IInteger)$constants.get(19)/*0*/)))))))), ((IMap)(items_1.getValue()))))));
                                                                               /*muExists*/FOR38: 
                                                                                   do {
-                                                                                      FOR38_GEN17288:
+                                                                                      FOR38_GEN16927:
                                                                                       for(IValue $elem130_for : ((IList)(M_List.index(((IList)($arg1_131)))))){
                                                                                           IInteger $elem130 = (IInteger) $elem130_for;
                                                                                           IInteger i_19 = ((IInteger)($elem130));
@@ -3054,7 +3052,7 @@ public class $ParserGenerator
                                                                            IList elems_20 = ((IList)($arg0_134));
                                                                            /*muExists*/FOR40: 
                                                                                do {
-                                                                                   FOR40_GEN17499:
+                                                                                   FOR40_GEN17133:
                                                                                    for(IValue $elem133_for : ((IList)(M_List.index(((IList)($arg0_134)))))){
                                                                                        IInteger $elem133 = (IInteger) $elem133_for;
                                                                                        IInteger i_21 = ((IInteger)($elem133));
@@ -3113,7 +3111,7 @@ public class $ParserGenerator
                                                                            ISet alts_23 = ((ISet)($arg0_137));
                                                                            /*muExists*/FOR43: 
                                                                                do {
-                                                                                   FOR43_GEN17781:
+                                                                                   FOR43_GEN17408:
                                                                                    for(IValue $elem136_for : ((ISet)($arg0_137))){
                                                                                        IConstructor $elem136 = (IConstructor) $elem136_for;
                                                                                        IConstructor elem_24 = ((IConstructor)($elem136));
@@ -3153,7 +3151,7 @@ public class $ParserGenerator
                                                                               items_1.setValue(((IMap)($amap_update(us_11,$amap_add_amap(((IMap)(($is_defined_value(guarded34) ? ((IMap)$get_defined_value(guarded34)) : fresh_2.getValue()))),((IMap)($buildMap(((IConstructor)($RVF.constructor(M_Grammar.Item_item_Production_int, new IValue[]{((IConstructor)p_9), ((IInteger)$constants.get(19)/*0*/)}))), ((ITuple)($me.sym2newitem(g_0.getValue(), ((IConstructor)($arg0_129)), ((IInteger)$constants.get(19)/*0*/)))))))), ((IMap)(items_1.getValue()))))));
                                                                               /*muExists*/FOR35: 
                                                                                   do {
-                                                                                      FOR35_GEN17029:
+                                                                                      FOR35_GEN16673:
                                                                                       for(IValue $elem127_for : ((IList)(M_List.index(((IList)($arg1_128)))))){
                                                                                           IInteger $elem127 = (IInteger) $elem127_for;
                                                                                           IInteger i_16 = ((IInteger)($elem127));
@@ -3267,7 +3265,7 @@ public class $ParserGenerator
                                                     IConstructor p_5 = ((IConstructor)($VISIT24_subject));
                                                     /*muExists*/FOR26: 
                                                         do {
-                                                            FOR26_GEN16207:
+                                                            FOR26_GEN15872:
                                                             for(IValue $elem118_for : ((IList)(M_List.index(((IList)($arg1_120)))))){
                                                                 IInteger $elem118 = (IInteger) $elem118_for;
                                                                 IInteger i_8 = ((IInteger)($elem118));
@@ -3304,7 +3302,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(18073,173,<387,0>,<394,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(17687,166,<387,0>,<394,1>) 
     public IString split$ece1419fbe2db44f(IString x_0){ 
         
         
@@ -3328,7 +3326,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(18250,954,<396,0>,<420,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(17855,930,<396,0>,<420,1>) 
     public IBool isNonterminal$1aa1d0660f35932e(IConstructor s_0){ 
         
         
@@ -3712,7 +3710,7 @@ public class $ParserGenerator
                    
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(19208,242,<422,0>,<425,13>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(18787,239,<422,0>,<425,13>) 
     public IString generateParseMethod$8d37d926b7bd824c(IConstructor g_0, IMap $__1, IConstructor p_1, IInteger $__3){ 
         
         
@@ -3720,24 +3718,24 @@ public class $ParserGenerator
         $template162.beginIndent("                                           ");
         $template162.addStr(((IString)(getParserMethodName(((IConstructor)(((IConstructor)($aadt_get_field(((IConstructor)p_1), "def"))))), Util.kwpMap()))).getValue());
         $template162.endIndent("                                           ");
-        $template162.addStr("() {\r\n    return ");
+        $template162.addStr("() {\n    return ");
         $template162.beginIndent("           ");
         $template162.addStr(((IString)(getParserMethodName(((IConstructor)(((IConstructor)($aadt_get_field(((IConstructor)p_1), "def"))))), Util.kwpMap()))).getValue());
         $template162.endIndent("           ");
-        $template162.addStr(".EXPECTS;\r\n}");
+        $template162.addStr(".EXPECTS;\n}");
         return ((IString)($template162.close()));
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(19908,488,<438,0>,<450,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(19471,476,<438,0>,<450,1>) 
     public IString generateClassConditional$1e75b8a58a3508ef(ISet classes_0){ 
         
         
         if((((IBool)($RVF.bool(((ISet)classes_0).contains(((IConstructor)($RVF.constructor(M_lang_rascal_grammar_Lookahead.Symbol_eoi_, new IValue[]{}, Util.kwpMap())))))))).getValue()){
            IString $reducer174 = (IString)(((IString)$constants.get(34)/*"lookAheadChar == 0"*/));
-           /*muExists*/$REDUCER173_GEN20091_CONS_char_class: 
+           /*muExists*/$REDUCER173_GEN19650_CONS_char_class: 
                do {
-                   $REDUCER173_GEN20091:
+                   $REDUCER173_GEN19650:
                    for(IValue $elem177_for : ((ISet)classes_0)){
                        IConstructor $elem177 = (IConstructor) $elem177_for;
                        if($has_type_and_arity($elem177, M_ParseTree.Symbol_char_class_list_CharRange, 1)){
@@ -3745,7 +3743,7 @@ public class $ParserGenerator
                           if($isComparable($arg0_178.getType(), $T11)){
                              if(true){
                                 IList ranges_2 = ((IList)($arg0_178));
-                                $REDUCER173_GEN20091_CONS_char_class_GEN20139:
+                                $REDUCER173_GEN19650_CONS_char_class_GEN19698:
                                 for(IValue $elem176_for : ((IList)($arg0_178))){
                                     IConstructor $elem176 = (IConstructor) $elem176_for;
                                     IConstructor r_3 = ((IConstructor)($elem176));
@@ -3756,16 +3754,16 @@ public class $ParserGenerator
                                     $reducer174 = ((IString)($astr_add_astr(((IString)($reducer174)),((IString)($template175.close())))));
                                 
                                 }
-                                continue $REDUCER173_GEN20091;
+                                continue $REDUCER173_GEN19650;
                                             
                              } else {
-                                continue $REDUCER173_GEN20091;
+                                continue $REDUCER173_GEN19650;
                              }
                           } else {
-                             continue $REDUCER173_GEN20091;
+                             continue $REDUCER173_GEN19650;
                           }
                        } else {
-                          continue $REDUCER173_GEN20091;
+                          continue $REDUCER173_GEN19650;
                        }
                    }
                    
@@ -3775,9 +3773,9 @@ public class $ParserGenerator
         
         } else {
            final IListWriter $listwriter163 = (IListWriter)$RVF.listWriter();
-           /*muExists*/$LCOMP164_GEN20187_CONS_char_class: 
+           /*muExists*/$LCOMP164_GEN19743_CONS_char_class: 
                do {
-                   $LCOMP164_GEN20187:
+                   $LCOMP164_GEN19743:
                    for(IValue $elem166_for : ((ISet)classes_0)){
                        IConstructor $elem166 = (IConstructor) $elem166_for;
                        if($has_type_and_arity($elem166, M_ParseTree.Symbol_char_class_list_CharRange, 1)){
@@ -3785,23 +3783,23 @@ public class $ParserGenerator
                           if($isComparable($arg0_167.getType(), $T11)){
                              if(true){
                                 IList ranges_5 = null;
-                                $LCOMP164_GEN20187_CONS_char_class_GEN20235:
+                                $LCOMP164_GEN19743_CONS_char_class_GEN19791:
                                 for(IValue $elem165_for : ((IList)($arg0_167))){
                                     IConstructor $elem165 = (IConstructor) $elem165_for;
                                     IConstructor r_6 = null;
                                     $listwriter163.append($elem165);
                                 
                                 }
-                                continue $LCOMP164_GEN20187;
+                                continue $LCOMP164_GEN19743;
                                             
                              } else {
-                                continue $LCOMP164_GEN20187;
+                                continue $LCOMP164_GEN19743;
                              }
                           } else {
-                             continue $LCOMP164_GEN20187;
+                             continue $LCOMP164_GEN19743;
                           }
                        } else {
-                          continue $LCOMP164_GEN20187;
+                          continue $LCOMP164_GEN19743;
                        }
                    }
                    
@@ -3811,7 +3809,7 @@ public class $ParserGenerator
            final Template $template170 = (Template)new Template($RVF, "");
            $template170.addStr(((IString)($me.generateRangeConditional(((IConstructor)(M_List.head(((IList)ranges_4))))))).getValue());
            IString $reducer169 = (IString)($template170.close());
-           $REDUCER168_GEN20368:
+           $REDUCER168_GEN19921:
            for(IValue $elem172_for : ((IList)(M_List.tail(((IList)ranges_4))))){
                IConstructor $elem172 = (IConstructor) $elem172_for;
                IConstructor r_8 = ((IConstructor)($elem172));
@@ -3829,7 +3827,7 @@ public class $ParserGenerator
         }
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20400,322,<452,0>,<459,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(19949,315,<452,0>,<459,1>) 
     public IString generateRangeConditional$a8c4f8bb4018d1e7(IConstructor r_0){ 
         
         
@@ -3949,7 +3947,7 @@ public class $ParserGenerator
                    
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20726,263,<461,0>,<467,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20266,257,<461,0>,<467,1>) 
     public IString generateSeparatorExpects$348a8e745e2a6f1d(IConstructor grammar_0, IList seps_1){ 
         
         
@@ -3958,7 +3956,7 @@ public class $ParserGenerator
         
         }
         IString $reducer190 = (IString)($atuple_field_project((ITuple)((ITuple)($me.sym2newitem(((IConstructor)grammar_0), ((IConstructor)(M_List.head(((IList)seps_1)))), ((IInteger)$constants.get(9)/*1*/)))), ((IInteger)$constants.get(19)/*0*/)));
-        $REDUCER189_GEN20958:
+        $REDUCER189_GEN20493:
         for(IValue $elem192_for : ((IList)(M_List.index(((IList)(M_List.tail(((IList)seps_1)))))))){
             IInteger $elem192 = (IInteger) $elem192_for;
             IInteger i_3 = ((IInteger)($elem192));
@@ -3974,7 +3972,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20993,262,<469,0>,<475,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20525,256,<469,0>,<475,1>) 
     public IString generateSequenceExpects$5cf90c98a6d50ab4(IConstructor grammar_0, IList seps_1){ 
         
         
@@ -3983,7 +3981,7 @@ public class $ParserGenerator
         
         }
         IString $reducer194 = (IString)($atuple_field_project((ITuple)((ITuple)($me.sym2newitem(((IConstructor)grammar_0), ((IConstructor)(M_List.head(((IList)seps_1)))), ((IInteger)$constants.get(19)/*0*/)))), ((IInteger)$constants.get(19)/*0*/)));
-        $REDUCER193_GEN21224:
+        $REDUCER193_GEN20751:
         for(IValue $elem196_for : ((IList)(M_List.index(((IList)(M_List.tail(((IList)seps_1)))))))){
             IInteger $elem196 = (IInteger) $elem196_for;
             IInteger i_3 = ((IInteger)($elem196));
@@ -3999,7 +3997,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21259,255,<477,0>,<483,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(20783,249,<477,0>,<483,1>) 
     public IString generateAltExpects$e6227e38151afc89(IConstructor grammar_0, IList seps_1){ 
         
         
@@ -4008,7 +4006,7 @@ public class $ParserGenerator
         
         }
         IString $reducer198 = (IString)($atuple_field_project((ITuple)((ITuple)($me.sym2newitem(((IConstructor)grammar_0), ((IConstructor)(M_List.head(((IList)seps_1)))), ((IInteger)$constants.get(19)/*0*/)))), ((IInteger)$constants.get(19)/*0*/)));
-        $REDUCER197_GEN21483:
+        $REDUCER197_GEN21002:
         for(IValue $elem200_for : ((IList)(M_List.index(((IList)(M_List.tail(((IList)seps_1)))))))){
             IInteger $elem200 = (IInteger) $elem200_for;
             IInteger i_3 = ((IInteger)($elem200));
@@ -4024,7 +4022,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21518,275,<485,0>,<497,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21034,263,<485,0>,<497,1>) 
     public IString literals2ints$28647a5174382a6f(IList chars_0){ 
         
         
@@ -4037,7 +4035,7 @@ public class $ParserGenerator
         IString result_1 = ((IString)($template201.close()));
         /*muExists*/FOR53: 
             do {
-                FOR53_GEN21690:
+                FOR53_GEN21199:
                 for(IValue $elem203_for : ((IList)(M_List.tail(((IList)chars_0))))){
                     IConstructor $elem203 = (IConstructor) $elem203_for;
                     IConstructor ch_2 = null;
@@ -4055,7 +4053,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21797,457,<499,0>,<516,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21299,440,<499,0>,<516,1>) 
     public IString ciliterals2ints$cd6f75d2160c05dd(IList chars_0){ 
         
         
@@ -4066,9 +4064,9 @@ public class $ParserGenerator
         IString result_1 = ((IString)$constants.get(37)/*""*/);
         /*muExists*/FOR55: 
             do {
-                /*muExists*/FOR55_GEN21927_CONS_char_class: 
+                /*muExists*/FOR55_GEN21422_CONS_char_class: 
                     do {
-                        FOR55_GEN21927:
+                        FOR55_GEN21422:
                         for(IValue $elem218_for : ((IList)chars_0)){
                             IConstructor $elem218 = (IConstructor) $elem218_for;
                             if($has_type_and_arity($elem218, M_ParseTree.Symbol_char_class_list_CharRange, 1)){
@@ -4277,10 +4275,10 @@ public class $ParserGenerator
                                   
                                              
                                } else {
-                                  continue FOR55_GEN21927;
+                                  continue FOR55_GEN21422;
                                }
                             } else {
-                               continue FOR55_GEN21927;
+                               continue FOR55_GEN21422;
                             }
                         }
                         continue FOR55;
@@ -4292,7 +4290,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(22258,7621,<518,0>,<623,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(21741,7516,<518,0>,<623,1>) 
     public ITuple sym2newitem$321bea90aeae7a8d(IConstructor grammar_0, IConstructor sym_1, IInteger dot_2){ 
         
         
@@ -4321,9 +4319,9 @@ public class $ParserGenerator
                  ISet conds_8 = ((ISet)($arg1_325));
                  $arg1_325 = ((IValue)(M_lang_rascal_grammar_definition_Keywords.expandKeywords(((IConstructor)grammar_0), ((ISet)($arg1_325)))));
                  final IListWriter $listwriter222 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP223_GEN22755_CONS_follow: 
+                 /*muExists*/$LCOMP223_GEN22225_CONS_follow: 
                      do {
-                         $LCOMP223_GEN22755:
+                         $LCOMP223_GEN22225:
                          for(IValue $elem225_for : ((ISet)($arg1_325))){
                              IConstructor $elem225 = (IConstructor) $elem225_for;
                              if($has_type_and_arity($elem225, M_ParseTree.Condition_follow_Symbol, 1)){
@@ -4341,16 +4339,16 @@ public class $ParserGenerator
                                          $listwriter222.append($template224.close());
                                       
                                       } else {
-                                         continue $LCOMP223_GEN22755;
+                                         continue $LCOMP223_GEN22225;
                                       }
                                    } else {
-                                      continue $LCOMP223_GEN22755;
+                                      continue $LCOMP223_GEN22225;
                                    }
                                 } else {
-                                   continue $LCOMP223_GEN22755;
+                                   continue $LCOMP223_GEN22225;
                                 }
                              } else {
-                                continue $LCOMP223_GEN22755;
+                                continue $LCOMP223_GEN22225;
                              }
                          }
                          
@@ -4358,9 +4356,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter222.done())))));
                  final IListWriter $listwriter228 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP229_GEN22885_CONS_follow: 
+                 /*muExists*/$LCOMP229_GEN22354_CONS_follow: 
                      do {
-                         $LCOMP229_GEN22885:
+                         $LCOMP229_GEN22354:
                          for(IValue $elem231_for : ((ISet)($arg1_325))){
                              IConstructor $elem231 = (IConstructor) $elem231_for;
                              if($has_type_and_arity($elem231, M_ParseTree.Condition_follow_Symbol, 1)){
@@ -4368,7 +4366,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_232.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_232, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_233 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_232)),0));
-                                      if($isComparable($arg0_233.getType(), $T4)){
+                                      if($isComparable($arg0_233.getType(), $T5)){
                                          IString s_10 = ((IString)($arg0_233));
                                          final Template $template230 = (Template)new Template($RVF, "new StringFollowRequirement(new int[] {");
                                          $template230.beginIndent("                                       ");
@@ -4378,16 +4376,16 @@ public class $ParserGenerator
                                          $listwriter228.append($template230.close());
                                       
                                       } else {
-                                         continue $LCOMP229_GEN22885;
+                                         continue $LCOMP229_GEN22354;
                                       }
                                    } else {
-                                      continue $LCOMP229_GEN22885;
+                                      continue $LCOMP229_GEN22354;
                                    }
                                 } else {
-                                   continue $LCOMP229_GEN22885;
+                                   continue $LCOMP229_GEN22354;
                                 }
                              } else {
-                                continue $LCOMP229_GEN22885;
+                                continue $LCOMP229_GEN22354;
                              }
                          }
                          
@@ -4395,9 +4393,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter228.done())))));
                  final IListWriter $listwriter234 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP235_GEN23023_CONS_follow: 
+                 /*muExists*/$LCOMP235_GEN22491_CONS_follow: 
                      do {
-                         $LCOMP235_GEN23023:
+                         $LCOMP235_GEN22491:
                          for(IValue $elem237_for : ((ISet)($arg1_325))){
                              IConstructor $elem237 = (IConstructor) $elem237_for;
                              if($has_type_and_arity($elem237, M_ParseTree.Condition_follow_Symbol, 1)){
@@ -4405,7 +4403,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_238.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_238, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_239 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_238)),0));
-                                      if($isComparable($arg0_239.getType(), $T4)){
+                                      if($isComparable($arg0_239.getType(), $T5)){
                                          IString s_11 = ((IString)($arg0_239));
                                          final Template $template236 = (Template)new Template($RVF, "new CaseInsensitiveStringFollowRequirement(new int[][]{");
                                          $template236.beginIndent("                                                       ");
@@ -4415,16 +4413,16 @@ public class $ParserGenerator
                                          $listwriter234.append($template236.close());
                                       
                                       } else {
-                                         continue $LCOMP235_GEN23023;
+                                         continue $LCOMP235_GEN22491;
                                       }
                                    } else {
-                                      continue $LCOMP235_GEN23023;
+                                      continue $LCOMP235_GEN22491;
                                    }
                                 } else {
-                                   continue $LCOMP235_GEN23023;
+                                   continue $LCOMP235_GEN22491;
                                 }
                              } else {
-                                continue $LCOMP235_GEN23023;
+                                continue $LCOMP235_GEN22491;
                              }
                          }
                          
@@ -4432,9 +4430,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter234.done())))));
                  final IListWriter $listwriter240 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP241_GEN23147_CONS_not_follow: 
+                 /*muExists*/$LCOMP241_GEN22614_CONS_not_follow: 
                      do {
-                         $LCOMP241_GEN23147:
+                         $LCOMP241_GEN22614:
                          for(IValue $elem243_for : ((ISet)($arg1_325))){
                              IConstructor $elem243 = (IConstructor) $elem243_for;
                              if($has_type_and_arity($elem243, M_ParseTree.Condition_not_follow_Symbol, 1)){
@@ -4452,16 +4450,16 @@ public class $ParserGenerator
                                          $listwriter240.append($template242.close());
                                       
                                       } else {
-                                         continue $LCOMP241_GEN23147;
+                                         continue $LCOMP241_GEN22614;
                                       }
                                    } else {
-                                      continue $LCOMP241_GEN23147;
+                                      continue $LCOMP241_GEN22614;
                                    }
                                 } else {
-                                   continue $LCOMP241_GEN23147;
+                                   continue $LCOMP241_GEN22614;
                                 }
                              } else {
-                                continue $LCOMP241_GEN23147;
+                                continue $LCOMP241_GEN22614;
                              }
                          }
                          
@@ -4469,9 +4467,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter240.done())))));
                  final IListWriter $listwriter246 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP247_GEN23282_CONS_not_follow: 
+                 /*muExists*/$LCOMP247_GEN22748_CONS_not_follow: 
                      do {
-                         $LCOMP247_GEN23282:
+                         $LCOMP247_GEN22748:
                          for(IValue $elem249_for : ((ISet)($arg1_325))){
                              IConstructor $elem249 = (IConstructor) $elem249_for;
                              if($has_type_and_arity($elem249, M_ParseTree.Condition_not_follow_Symbol, 1)){
@@ -4479,7 +4477,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_250.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_250, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_251 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_250)),0));
-                                      if($isComparable($arg0_251.getType(), $T4)){
+                                      if($isComparable($arg0_251.getType(), $T5)){
                                          IString s_13 = ((IString)($arg0_251));
                                          final Template $template248 = (Template)new Template($RVF, "new StringFollowRestriction(new int[] {");
                                          $template248.beginIndent("                                       ");
@@ -4489,16 +4487,16 @@ public class $ParserGenerator
                                          $listwriter246.append($template248.close());
                                       
                                       } else {
-                                         continue $LCOMP247_GEN23282;
+                                         continue $LCOMP247_GEN22748;
                                       }
                                    } else {
-                                      continue $LCOMP247_GEN23282;
+                                      continue $LCOMP247_GEN22748;
                                    }
                                 } else {
-                                   continue $LCOMP247_GEN23282;
+                                   continue $LCOMP247_GEN22748;
                                 }
                              } else {
-                                continue $LCOMP247_GEN23282;
+                                continue $LCOMP247_GEN22748;
                              }
                          }
                          
@@ -4506,9 +4504,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter246.done())))));
                  final IListWriter $listwriter252 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP253_GEN23424_CONS_not_follow: 
+                 /*muExists*/$LCOMP253_GEN22889_CONS_not_follow: 
                      do {
-                         $LCOMP253_GEN23424:
+                         $LCOMP253_GEN22889:
                          for(IValue $elem255_for : ((ISet)($arg1_325))){
                              IConstructor $elem255 = (IConstructor) $elem255_for;
                              if($has_type_and_arity($elem255, M_ParseTree.Condition_not_follow_Symbol, 1)){
@@ -4516,7 +4514,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_256.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_256, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_257 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_256)),0));
-                                      if($isComparable($arg0_257.getType(), $T4)){
+                                      if($isComparable($arg0_257.getType(), $T5)){
                                          IString s_14 = ((IString)($arg0_257));
                                          final Template $template254 = (Template)new Template($RVF, "new CaseInsensitiveStringFollowRestriction(new int[][]{");
                                          $template254.beginIndent("                                                       ");
@@ -4526,16 +4524,16 @@ public class $ParserGenerator
                                          $listwriter252.append($template254.close());
                                       
                                       } else {
-                                         continue $LCOMP253_GEN23424;
+                                         continue $LCOMP253_GEN22889;
                                       }
                                    } else {
-                                      continue $LCOMP253_GEN23424;
+                                      continue $LCOMP253_GEN22889;
                                    }
                                 } else {
-                                   continue $LCOMP253_GEN23424;
+                                   continue $LCOMP253_GEN22889;
                                 }
                              } else {
-                                continue $LCOMP253_GEN23424;
+                                continue $LCOMP253_GEN22889;
                              }
                          }
                          
@@ -4543,9 +4541,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter252.done())))));
                  final IListWriter $listwriter258 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP259_GEN23552_CONS_delete: 
+                 /*muExists*/$LCOMP259_GEN23016_CONS_delete: 
                      do {
-                         $LCOMP259_GEN23552:
+                         $LCOMP259_GEN23016:
                          for(IValue $elem261_for : ((ISet)($arg1_325))){
                              IConstructor $elem261 = (IConstructor) $elem261_for;
                              if($has_type_and_arity($elem261, M_ParseTree.Condition_delete_Symbol, 1)){
@@ -4563,16 +4561,16 @@ public class $ParserGenerator
                                          $listwriter258.append($template260.close());
                                       
                                       } else {
-                                         continue $LCOMP259_GEN23552;
+                                         continue $LCOMP259_GEN23016;
                                       }
                                    } else {
-                                      continue $LCOMP259_GEN23552;
+                                      continue $LCOMP259_GEN23016;
                                    }
                                 } else {
-                                   continue $LCOMP259_GEN23552;
+                                   continue $LCOMP259_GEN23016;
                                 }
                              } else {
-                                continue $LCOMP259_GEN23552;
+                                continue $LCOMP259_GEN23016;
                              }
                          }
                          
@@ -4580,9 +4578,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter258.done())))));
                  final IListWriter $listwriter264 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP265_GEN23682_CONS_delete: 
+                 /*muExists*/$LCOMP265_GEN23145_CONS_delete: 
                      do {
-                         $LCOMP265_GEN23682:
+                         $LCOMP265_GEN23145:
                          for(IValue $elem267_for : ((ISet)($arg1_325))){
                              IConstructor $elem267 = (IConstructor) $elem267_for;
                              if($has_type_and_arity($elem267, M_ParseTree.Condition_delete_Symbol, 1)){
@@ -4590,7 +4588,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_268.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_268, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_269 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_268)),0));
-                                      if($isComparable($arg0_269.getType(), $T4)){
+                                      if($isComparable($arg0_269.getType(), $T5)){
                                          IString s_16 = ((IString)($arg0_269));
                                          final Template $template266 = (Template)new Template($RVF, "new StringMatchRestriction(new int[] {");
                                          $template266.beginIndent("                                      ");
@@ -4600,16 +4598,16 @@ public class $ParserGenerator
                                          $listwriter264.append($template266.close());
                                       
                                       } else {
-                                         continue $LCOMP265_GEN23682;
+                                         continue $LCOMP265_GEN23145;
                                       }
                                    } else {
-                                      continue $LCOMP265_GEN23682;
+                                      continue $LCOMP265_GEN23145;
                                    }
                                 } else {
-                                   continue $LCOMP265_GEN23682;
+                                   continue $LCOMP265_GEN23145;
                                 }
                              } else {
-                                continue $LCOMP265_GEN23682;
+                                continue $LCOMP265_GEN23145;
                              }
                          }
                          
@@ -4617,9 +4615,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter264.done())))));
                  final IListWriter $listwriter270 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP271_GEN23819_CONS_delete: 
+                 /*muExists*/$LCOMP271_GEN23281_CONS_delete: 
                      do {
-                         $LCOMP271_GEN23819:
+                         $LCOMP271_GEN23281:
                          for(IValue $elem273_for : ((ISet)($arg1_325))){
                              IConstructor $elem273 = (IConstructor) $elem273_for;
                              if($has_type_and_arity($elem273, M_ParseTree.Condition_delete_Symbol, 1)){
@@ -4627,7 +4625,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_274.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_274, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_275 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_274)),0));
-                                      if($isComparable($arg0_275.getType(), $T4)){
+                                      if($isComparable($arg0_275.getType(), $T5)){
                                          IString s_17 = ((IString)($arg0_275));
                                          final Template $template272 = (Template)new Template($RVF, "new CaseInsensitiveStringMatchRestriction(new int[][]{");
                                          $template272.beginIndent("                                                      ");
@@ -4637,16 +4635,16 @@ public class $ParserGenerator
                                          $listwriter270.append($template272.close());
                                       
                                       } else {
-                                         continue $LCOMP271_GEN23819;
+                                         continue $LCOMP271_GEN23281;
                                       }
                                    } else {
-                                      continue $LCOMP271_GEN23819;
+                                      continue $LCOMP271_GEN23281;
                                    }
                                 } else {
-                                   continue $LCOMP271_GEN23819;
+                                   continue $LCOMP271_GEN23281;
                                 }
                              } else {
-                                continue $LCOMP271_GEN23819;
+                                continue $LCOMP271_GEN23281;
                              }
                          }
                          
@@ -4654,16 +4652,16 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter270.done())))));
                  final IListWriter $listwriter276 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP277_GEN23898_CONS_end_of_line: 
+                 /*muExists*/$LCOMP277_GEN23359_CONS_end_of_line: 
                      do {
-                         $LCOMP277_GEN23898:
+                         $LCOMP277_GEN23359:
                          for(IValue $elem278_for : ((ISet)($arg1_325))){
                              IConstructor $elem278 = (IConstructor) $elem278_for;
                              if($has_type_and_arity($elem278, M_ParseTree.Condition_end_of_line_, 0)){
                                 $listwriter276.append(((IString)$constants.get(39)/*"new AtEndOfLineRequirement()"*/));
                              
                              } else {
-                                continue $LCOMP277_GEN23898;
+                                continue $LCOMP277_GEN23359;
                              }
                          }
                          
@@ -4671,9 +4669,9 @@ public class $ParserGenerator
                      } while(false);
                  exits_6 = ((IList)($alist_add_alist(((IList)exits_6),((IList)($listwriter276.done())))));
                  final IListWriter $listwriter279 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP280_GEN24022_CONS_precede: 
+                 /*muExists*/$LCOMP280_GEN23482_CONS_precede: 
                      do {
-                         $LCOMP280_GEN24022:
+                         $LCOMP280_GEN23482:
                          for(IValue $elem282_for : ((ISet)($arg1_325))){
                              IConstructor $elem282 = (IConstructor) $elem282_for;
                              if($has_type_and_arity($elem282, M_ParseTree.Condition_precede_Symbol, 1)){
@@ -4691,16 +4689,16 @@ public class $ParserGenerator
                                          $listwriter279.append($template281.close());
                                       
                                       } else {
-                                         continue $LCOMP280_GEN24022;
+                                         continue $LCOMP280_GEN23482;
                                       }
                                    } else {
-                                      continue $LCOMP280_GEN24022;
+                                      continue $LCOMP280_GEN23482;
                                    }
                                 } else {
-                                   continue $LCOMP280_GEN24022;
+                                   continue $LCOMP280_GEN23482;
                                 }
                              } else {
-                                continue $LCOMP280_GEN24022;
+                                continue $LCOMP280_GEN23482;
                              }
                          }
                          
@@ -4708,9 +4706,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter279.done())))));
                  final IListWriter $listwriter285 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP286_GEN24155_CONS_precede: 
+                 /*muExists*/$LCOMP286_GEN23614_CONS_precede: 
                      do {
-                         $LCOMP286_GEN24155:
+                         $LCOMP286_GEN23614:
                          for(IValue $elem288_for : ((ISet)($arg1_325))){
                              IConstructor $elem288 = (IConstructor) $elem288_for;
                              if($has_type_and_arity($elem288, M_ParseTree.Condition_precede_Symbol, 1)){
@@ -4718,7 +4716,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_289.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_289, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_290 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_289)),0));
-                                      if($isComparable($arg0_290.getType(), $T4)){
+                                      if($isComparable($arg0_290.getType(), $T5)){
                                          IString s_19 = ((IString)($arg0_290));
                                          final Template $template287 = (Template)new Template($RVF, "new StringPrecedeRequirement(new int[] {");
                                          $template287.beginIndent("                                        ");
@@ -4728,16 +4726,16 @@ public class $ParserGenerator
                                          $listwriter285.append($template287.close());
                                       
                                       } else {
-                                         continue $LCOMP286_GEN24155;
+                                         continue $LCOMP286_GEN23614;
                                       }
                                    } else {
-                                      continue $LCOMP286_GEN24155;
+                                      continue $LCOMP286_GEN23614;
                                    }
                                 } else {
-                                   continue $LCOMP286_GEN24155;
+                                   continue $LCOMP286_GEN23614;
                                 }
                              } else {
-                                continue $LCOMP286_GEN24155;
+                                continue $LCOMP286_GEN23614;
                              }
                          }
                          
@@ -4745,9 +4743,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter285.done())))));
                  final IListWriter $listwriter291 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP292_GEN24296_CONS_precede: 
+                 /*muExists*/$LCOMP292_GEN23754_CONS_precede: 
                      do {
-                         $LCOMP292_GEN24296:
+                         $LCOMP292_GEN23754:
                          for(IValue $elem294_for : ((ISet)($arg1_325))){
                              IConstructor $elem294 = (IConstructor) $elem294_for;
                              if($has_type_and_arity($elem294, M_ParseTree.Condition_precede_Symbol, 1)){
@@ -4755,7 +4753,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_295.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_295, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_296 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_295)),0));
-                                      if($isComparable($arg0_296.getType(), $T4)){
+                                      if($isComparable($arg0_296.getType(), $T5)){
                                          IString s_20 = ((IString)($arg0_296));
                                          final Template $template293 = (Template)new Template($RVF, "new CaseInsensitiveStringPrecedeRequirement(new int[][]{");
                                          $template293.beginIndent("                                                        ");
@@ -4765,16 +4763,16 @@ public class $ParserGenerator
                                          $listwriter291.append($template293.close());
                                       
                                       } else {
-                                         continue $LCOMP292_GEN24296;
+                                         continue $LCOMP292_GEN23754;
                                       }
                                    } else {
-                                      continue $LCOMP292_GEN24296;
+                                      continue $LCOMP292_GEN23754;
                                    }
                                 } else {
-                                   continue $LCOMP292_GEN24296;
+                                   continue $LCOMP292_GEN23754;
                                 }
                              } else {
-                                continue $LCOMP292_GEN24296;
+                                continue $LCOMP292_GEN23754;
                              }
                          }
                          
@@ -4782,9 +4780,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter291.done())))));
                  final IListWriter $listwriter297 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP298_GEN24423_CONS_not_precede: 
+                 /*muExists*/$LCOMP298_GEN23880_CONS_not_precede: 
                      do {
-                         $LCOMP298_GEN24423:
+                         $LCOMP298_GEN23880:
                          for(IValue $elem300_for : ((ISet)($arg1_325))){
                              IConstructor $elem300 = (IConstructor) $elem300_for;
                              if($has_type_and_arity($elem300, M_ParseTree.Condition_not_precede_Symbol, 1)){
@@ -4802,16 +4800,16 @@ public class $ParserGenerator
                                          $listwriter297.append($template299.close());
                                       
                                       } else {
-                                         continue $LCOMP298_GEN24423;
+                                         continue $LCOMP298_GEN23880;
                                       }
                                    } else {
-                                      continue $LCOMP298_GEN24423;
+                                      continue $LCOMP298_GEN23880;
                                    }
                                 } else {
-                                   continue $LCOMP298_GEN24423;
+                                   continue $LCOMP298_GEN23880;
                                 }
                              } else {
-                                continue $LCOMP298_GEN24423;
+                                continue $LCOMP298_GEN23880;
                              }
                          }
                          
@@ -4819,9 +4817,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter297.done())))));
                  final IListWriter $listwriter303 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP304_GEN24561_CONS_not_precede: 
+                 /*muExists*/$LCOMP304_GEN24017_CONS_not_precede: 
                      do {
-                         $LCOMP304_GEN24561:
+                         $LCOMP304_GEN24017:
                          for(IValue $elem306_for : ((ISet)($arg1_325))){
                              IConstructor $elem306 = (IConstructor) $elem306_for;
                              if($has_type_and_arity($elem306, M_ParseTree.Condition_not_precede_Symbol, 1)){
@@ -4829,7 +4827,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_307.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_307, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_308 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_307)),0));
-                                      if($isComparable($arg0_308.getType(), $T4)){
+                                      if($isComparable($arg0_308.getType(), $T5)){
                                          IString s_22 = ((IString)($arg0_308));
                                          final Template $template305 = (Template)new Template($RVF, "new StringPrecedeRestriction(new int[] {");
                                          $template305.beginIndent("                                        ");
@@ -4839,16 +4837,16 @@ public class $ParserGenerator
                                          $listwriter303.append($template305.close());
                                       
                                       } else {
-                                         continue $LCOMP304_GEN24561;
+                                         continue $LCOMP304_GEN24017;
                                       }
                                    } else {
-                                      continue $LCOMP304_GEN24561;
+                                      continue $LCOMP304_GEN24017;
                                    }
                                 } else {
-                                   continue $LCOMP304_GEN24561;
+                                   continue $LCOMP304_GEN24017;
                                 }
                              } else {
-                                continue $LCOMP304_GEN24561;
+                                continue $LCOMP304_GEN24017;
                              }
                          }
                          
@@ -4856,9 +4854,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter303.done())))));
                  final IListWriter $listwriter309 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP310_GEN24706_CONS_not_precede: 
+                 /*muExists*/$LCOMP310_GEN24161_CONS_not_precede: 
                      do {
-                         $LCOMP310_GEN24706:
+                         $LCOMP310_GEN24161:
                          for(IValue $elem312_for : ((ISet)($arg1_325))){
                              IConstructor $elem312 = (IConstructor) $elem312_for;
                              if($has_type_and_arity($elem312, M_ParseTree.Condition_not_precede_Symbol, 1)){
@@ -4866,7 +4864,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_313.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_313, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_314 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_313)),0));
-                                      if($isComparable($arg0_314.getType(), $T4)){
+                                      if($isComparable($arg0_314.getType(), $T5)){
                                          IString s_23 = ((IString)($arg0_314));
                                          final Template $template311 = (Template)new Template($RVF, "new CaseInsensitiveStringPrecedeRestriction(new int[][]{");
                                          $template311.beginIndent("                                                        ");
@@ -4876,16 +4874,16 @@ public class $ParserGenerator
                                          $listwriter309.append($template311.close());
                                       
                                       } else {
-                                         continue $LCOMP310_GEN24706;
+                                         continue $LCOMP310_GEN24161;
                                       }
                                    } else {
-                                      continue $LCOMP310_GEN24706;
+                                      continue $LCOMP310_GEN24161;
                                    }
                                 } else {
-                                   continue $LCOMP310_GEN24706;
+                                   continue $LCOMP310_GEN24161;
                                 }
                              } else {
-                                continue $LCOMP310_GEN24706;
+                                continue $LCOMP310_GEN24161;
                              }
                          }
                          
@@ -4893,9 +4891,9 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter309.done())))));
                  final IListWriter $listwriter315 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP316_GEN24792_CONS_at_column: 
+                 /*muExists*/$LCOMP316_GEN24246_CONS_at_column: 
                      do {
-                         $LCOMP316_GEN24792:
+                         $LCOMP316_GEN24246:
                          for(IValue $elem318_for : ((ISet)($arg1_325))){
                              IConstructor $elem318 = (IConstructor) $elem318_for;
                              if($has_type_and_arity($elem318, M_ParseTree.Condition_at_column_int, 1)){
@@ -4910,10 +4908,10 @@ public class $ParserGenerator
                                    $listwriter315.append($template317.close());
                                 
                                 } else {
-                                   continue $LCOMP316_GEN24792;
+                                   continue $LCOMP316_GEN24246;
                                 }
                              } else {
-                                continue $LCOMP316_GEN24792;
+                                continue $LCOMP316_GEN24246;
                              }
                          }
                          
@@ -4921,16 +4919,16 @@ public class $ParserGenerator
                      } while(false);
                  enters_5 = ((IList)($alist_add_alist(((IList)enters_5),((IList)($listwriter315.done())))));
                  final IListWriter $listwriter320 = (IListWriter)$RVF.listWriter();
-                 /*muExists*/$LCOMP321_GEN24874_CONS_begin_of_line: 
+                 /*muExists*/$LCOMP321_GEN24327_CONS_begin_of_line: 
                      do {
-                         $LCOMP321_GEN24874:
+                         $LCOMP321_GEN24327:
                          for(IValue $elem322_for : ((ISet)($arg1_325))){
                              IConstructor $elem322 = (IConstructor) $elem322_for;
                              if($has_type_and_arity($elem322, M_ParseTree.Condition_begin_of_line_, 0)){
                                 $listwriter320.append(((IString)$constants.get(40)/*"new AtStartOfLineRequirement()"*/));
                              
                              } else {
-                                continue $LCOMP321_GEN24874;
+                                continue $LCOMP321_GEN24327;
                              }
                          }
                          
@@ -4966,7 +4964,7 @@ public class $ParserGenerator
            ;/*muExists*/LAB61: 
                do {
                    if((((IBool)($equal(((IList)enters_5),((IList)$constants.get(31)/*[]*/)).not()))).getValue()){
-                      LAB61_GEN25125:
+                      LAB61_GEN24569:
                       for(IValue $elem328_for : ((IList)(M_List.tail(((IList)enters_5))))){
                           IString $elem328 = (IString) $elem328_for;
                           IString f_26 = null;
@@ -4996,7 +4994,7 @@ public class $ParserGenerator
            ;/*muExists*/LAB63: 
                do {
                    if((((IBool)($equal(((IList)exits_6),((IList)$constants.get(31)/*[]*/)).not()))).getValue()){
-                      LAB63_GEN25307:
+                      LAB63_GEN24745:
                       for(IValue $elem330_for : ((IList)(M_List.tail(((IList)exits_6))))){
                           IString $elem330 = (IString) $elem330_for;
                           IString f_27 = null;
@@ -5156,12 +5154,12 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal331, M_ParseTree.Symbol_cilit_str, 1)){
                                   IValue $arg0_370 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal331)),0));
-                                  if($isComparable($arg0_370.getType(), $T4)){
+                                  if($isComparable($arg0_370.getType(), $T5)){
                                      IString l_31 = ((IString)($arg0_370));
                                      /*muExists*/IF66: 
                                          do {
                                              final IConstructor $subject_val364 = ((IConstructor)($amap_subscript(((IMap)(((IMap)($aadt_get_field(((IConstructor)grammar_0), "rules"))))),((IConstructor)(getType(((IConstructor)sym_1)))))));
-                                             IF66_DESC27292:
+                                             IF66_DESC26701:
                                              for(IValue $elem365 : new DescendantMatchIterator($subject_val364, 
                                                  new DescendantDescriptorAlwaysTrue($RVF.bool(false)))){
                                                  if($isComparable($elem365.getType(), M_ParseTree.ADT_Production)){
@@ -5170,7 +5168,7 @@ public class $ParserGenerator
                                                        if($isComparable($arg0_368.getType(), M_ParseTree.ADT_Symbol)){
                                                           if($has_type_and_arity($arg0_368, M_ParseTree.Symbol_cilit_str, 1)){
                                                              IValue $arg0_369 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_368)),0));
-                                                             if($isComparable($arg0_369.getType(), $T4)){
+                                                             if($isComparable($arg0_369.getType(), $T5)){
                                                                 if(($arg0_370 != null)){
                                                                    if($arg0_370.match($arg0_369)){
                                                                       IValue $arg1_367 = (IValue)($subscript_int(((IValue)($elem365)),1));
@@ -5204,16 +5202,16 @@ public class $ParserGenerator
                                                                                return ((ITuple)($RVF.tuple(((IString)($template363.close())), ((IInteger)itemId_4))));
                                                                             
                                                                             } else {
-                                                                               continue IF66_DESC27292;
+                                                                               continue IF66_DESC26701;
                                                                             }
                                                                          } else {
-                                                                            continue IF66_DESC27292;
+                                                                            continue IF66_DESC26701;
                                                                          }
                                                                       } else {
-                                                                         continue IF66_DESC27292;
+                                                                         continue IF66_DESC26701;
                                                                       }
                                                                    } else {
-                                                                      continue IF66_DESC27292;
+                                                                      continue IF66_DESC26701;
                                                                    }
                                                                 } else {
                                                                    $arg0_370 = ((IValue)($arg0_369));
@@ -5248,29 +5246,29 @@ public class $ParserGenerator
                                                                             return ((ITuple)($RVF.tuple(((IString)($template363.close())), ((IInteger)itemId_4))));
                                                                          
                                                                          } else {
-                                                                            continue IF66_DESC27292;
+                                                                            continue IF66_DESC26701;
                                                                          }
                                                                       } else {
-                                                                         continue IF66_DESC27292;
+                                                                         continue IF66_DESC26701;
                                                                       }
                                                                    } else {
-                                                                      continue IF66_DESC27292;
+                                                                      continue IF66_DESC26701;
                                                                    }
                                                                 }
                                                              } else {
-                                                                continue IF66_DESC27292;
+                                                                continue IF66_DESC26701;
                                                              }
                                                           } else {
-                                                             continue IF66_DESC27292;
+                                                             continue IF66_DESC26701;
                                                           }
                                                        } else {
-                                                          continue IF66_DESC27292;
+                                                          continue IF66_DESC26701;
                                                        }
                                                     } else {
-                                                       continue IF66_DESC27292;
+                                                       continue IF66_DESC26701;
                                                     }
                                                  } else {
-                                                    continue IF66_DESC27292;
+                                                    continue IF66_DESC26701;
                                                  }
                                              }
                                              
@@ -5473,7 +5471,7 @@ public class $ParserGenerator
                                   if($isComparable($arg0_387.getType(), $T0)){
                                      ISet as_44 = ((ISet)($arg0_387));
                                      final IListWriter $listwriter383 = (IListWriter)$RVF.listWriter();
-                                     $LCOMP384_GEN29047:
+                                     $LCOMP384_GEN28436:
                                      for(IValue $elem385_for : ((ISet)($arg0_387))){
                                          IConstructor $elem385 = (IConstructor) $elem385_for;
                                          IConstructor a_46 = null;
@@ -5664,12 +5662,12 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal331, M_ParseTree.Symbol_lit_str, 1)){
                                   IValue $arg0_361 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal331)),0));
-                                  if($isComparable($arg0_361.getType(), $T4)){
+                                  if($isComparable($arg0_361.getType(), $T5)){
                                      IString l_28 = ((IString)($arg0_361));
                                      /*muExists*/IF65: 
                                          do {
                                              final IConstructor $subject_val355 = ((IConstructor)($amap_subscript(((IMap)(((IMap)($aadt_get_field(((IConstructor)grammar_0), "rules"))))),((IConstructor)(getType(((IConstructor)sym_1)))))));
-                                             IF65_DESC26947:
+                                             IF65_DESC26360:
                                              for(IValue $elem356 : new DescendantMatchIterator($subject_val355, 
                                                  new DescendantDescriptorAlwaysTrue($RVF.bool(false)))){
                                                  if($isComparable($elem356.getType(), M_ParseTree.ADT_Production)){
@@ -5678,7 +5676,7 @@ public class $ParserGenerator
                                                        if($isComparable($arg0_359.getType(), M_ParseTree.ADT_Symbol)){
                                                           if($has_type_and_arity($arg0_359, M_ParseTree.Symbol_lit_str, 1)){
                                                              IValue $arg0_360 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_359)),0));
-                                                             if($isComparable($arg0_360.getType(), $T4)){
+                                                             if($isComparable($arg0_360.getType(), $T5)){
                                                                 if(($arg0_361 != null)){
                                                                    if($arg0_361.match($arg0_360)){
                                                                       IValue $arg1_358 = (IValue)($subscript_int(((IValue)($elem356)),1));
@@ -5712,16 +5710,16 @@ public class $ParserGenerator
                                                                                return ((ITuple)($RVF.tuple(((IString)($template354.close())), ((IInteger)itemId_4))));
                                                                             
                                                                             } else {
-                                                                               continue IF65_DESC26947;
+                                                                               continue IF65_DESC26360;
                                                                             }
                                                                          } else {
-                                                                            continue IF65_DESC26947;
+                                                                            continue IF65_DESC26360;
                                                                          }
                                                                       } else {
-                                                                         continue IF65_DESC26947;
+                                                                         continue IF65_DESC26360;
                                                                       }
                                                                    } else {
-                                                                      continue IF65_DESC26947;
+                                                                      continue IF65_DESC26360;
                                                                    }
                                                                 } else {
                                                                    $arg0_361 = ((IValue)($arg0_360));
@@ -5756,29 +5754,29 @@ public class $ParserGenerator
                                                                             return ((ITuple)($RVF.tuple(((IString)($template354.close())), ((IInteger)itemId_4))));
                                                                          
                                                                          } else {
-                                                                            continue IF65_DESC26947;
+                                                                            continue IF65_DESC26360;
                                                                          }
                                                                       } else {
-                                                                         continue IF65_DESC26947;
+                                                                         continue IF65_DESC26360;
                                                                       }
                                                                    } else {
-                                                                      continue IF65_DESC26947;
+                                                                      continue IF65_DESC26360;
                                                                    }
                                                                 }
                                                              } else {
-                                                                continue IF65_DESC26947;
+                                                                continue IF65_DESC26360;
                                                              }
                                                           } else {
-                                                             continue IF65_DESC26947;
+                                                             continue IF65_DESC26360;
                                                           }
                                                        } else {
-                                                          continue IF65_DESC26947;
+                                                          continue IF65_DESC26360;
                                                        }
                                                     } else {
-                                                       continue IF65_DESC26947;
+                                                       continue IF65_DESC26360;
                                                     }
                                                  } else {
-                                                    continue IF65_DESC26947;
+                                                    continue IF65_DESC26360;
                                                  }
                                              }
                                              
@@ -6045,7 +6043,7 @@ public class $ParserGenerator
                    
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29883,290,<625,0>,<633,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29259,282,<625,0>,<633,1>) 
     public IString generateCharClassArrays$d069c937b5f855f9(IList ranges_0){ 
         
         
@@ -6080,9 +6078,9 @@ public class $ParserGenerator
         }
         /*muExists*/FOR69: 
             do {
-                /*muExists*/FOR69_GEN30081_CONS_range: 
+                /*muExists*/FOR69_GEN29452_CONS_range: 
                     do {
-                        FOR69_GEN30081:
+                        FOR69_GEN29452:
                         for(IValue $elem397_for : ((IList)(M_List.tail(((IList)ranges_0))))){
                             IConstructor $elem397 = (IConstructor) $elem397_for;
                             if($has_type_and_arity($elem397, M_ParseTree.CharRange_range_int_int, 2)){
@@ -6104,13 +6102,13 @@ public class $ParserGenerator
                                      result_1 = ((IString)($astr_add_astr(((IString)result_1),((IString)($template396.close())))));
                                   
                                   } else {
-                                     continue FOR69_GEN30081;
+                                     continue FOR69_GEN29452;
                                   }
                                } else {
-                                  continue FOR69_GEN30081;
+                                  continue FOR69_GEN29452;
                                }
                             } else {
-                               continue FOR69_GEN30081;
+                               continue FOR69_GEN29452;
                             }
                         }
                         continue FOR69;
@@ -6122,7 +6120,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30177,52,<635,0>,<637,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29543,50,<635,0>,<637,1>) 
     public IString esc$ff62cb0f1d0b4eca(IConstructor s_0){ 
         
         
@@ -6132,7 +6130,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30347,67,<641,0>,<643,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29707,65,<641,0>,<643,1>) 
     public IString esc$c38f01ee7e9a3d64(IString s_0){ 
         
         
@@ -6140,7 +6138,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30573,65,<647,0>,<649,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29927,63,<647,0>,<649,1>) 
     public IString escId$0579c21bf1a62ae0(IString s_0){ 
         
         
@@ -6148,7 +6146,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30642,185,<651,0>,<657,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(29992,179,<651,0>,<657,1>) 
     public IString sym2name$998ae8a0fd447728(IConstructor s_0){ 
         
         
@@ -6191,7 +6189,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal401, M_ParseTree.Symbol_sort_str, 1)){
                                   IValue $arg0_403 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal401)),0));
-                                  if($isComparable($arg0_403.getType(), $T4)){
+                                  if($isComparable($arg0_403.getType(), $T5)){
                                      IString x_1 = null;
                                      final Template $template402 = (Template)new Template($RVF, "");
                                      $template402.addStr(((IString)($arg0_403)).getValue());
@@ -6214,7 +6212,7 @@ public class $ParserGenerator
                    
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30831,58,<659,0>,<662,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30173,55,<659,0>,<662,1>) 
     public IString value2id$8728571069fac63e(IValue v_0){ 
         
         
@@ -6222,7 +6220,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30893,81,<664,0>,<664,81>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30230,81,<664,0>,<664,81>) 
     public IString uu$e34dca19232e21a6(IValue s_0){ 
         
         
@@ -6232,7 +6230,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30978,2203,<666,0>,<695,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(30313,2204,<666,0>,<695,1>) 
     public IString v2i$f9cb5e177efa6f97(IValue v_0){ 
         
         
@@ -6248,7 +6246,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_Type.Symbol_label_str_Symbol, 2)){
                                   IValue $arg0_424 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_424.getType(), $T4)){
+                                  if($isComparable($arg0_424.getType(), $T5)){
                                      IValue $arg1_423 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
                                      if($isComparable($arg1_423.getType(), M_ParseTree.ADT_Symbol)){
                                         IConstructor u_5 = ((IConstructor)($arg1_423));
@@ -6274,29 +6272,29 @@ public class $ParserGenerator
                        /*muExists*/CASE_964239440_7: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_iter_star_seps_Symbol_list_Symbol, 2)){
-                                  IValue $arg0_440 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_440.getType(), M_ParseTree.ADT_Symbol)){
-                                     IConstructor s_10 = ((IConstructor)($arg0_440));
-                                     IValue $arg1_438 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_438.getType(), $T33)){
-                                        final IList $subject439 = ((IList)($arg1_438));
-                                        int $subject439_cursor = 0;
-                                        if($isSubtypeOf($subject439.getType(),$T33)){
-                                           final int $subject439_len = (int)((IList)($subject439)).length();
-                                           if($subject439_len == 1){
-                                              if($subject439_cursor < $subject439_len){
-                                                 IConstructor sep_11 = ((IConstructor)($alist_subscript_int(((IList)($subject439)),$subject439_cursor)));
-                                                 $subject439_cursor += 1;
-                                                 if($subject439_cursor == $subject439_len){
-                                                    final Template $template437 = (Template)new Template($RVF, "_iter_star_seps_");
-                                                    $template437.beginIndent("                ");
-                                                    $template437.addStr(((IString)($me.v2i(((IValue)($arg0_440))))).getValue());
-                                                    $template437.endIndent("                ");
-                                                    $template437.addStr("_");
-                                                    $template437.beginIndent(" ");
-                                                    $template437.addStr(((IString)($me.v2i(((IValue)sep_11)))).getValue());
-                                                    $template437.endIndent(" ");
-                                                    return ((IString)($template437.close()));
+                                  IValue $arg0_441 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_441.getType(), M_ParseTree.ADT_Symbol)){
+                                     IConstructor s_11 = ((IConstructor)($arg0_441));
+                                     IValue $arg1_439 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_439.getType(), $T33)){
+                                        final IList $subject440 = ((IList)($arg1_439));
+                                        int $subject440_cursor = 0;
+                                        if($isSubtypeOf($subject440.getType(),$T33)){
+                                           final int $subject440_len = (int)((IList)($subject440)).length();
+                                           if($subject440_len == 1){
+                                              if($subject440_cursor < $subject440_len){
+                                                 IConstructor sep_12 = ((IConstructor)($alist_subscript_int(((IList)($subject440)),$subject440_cursor)));
+                                                 $subject440_cursor += 1;
+                                                 if($subject440_cursor == $subject440_len){
+                                                    final Template $template438 = (Template)new Template($RVF, "_iter_star_seps_");
+                                                    $template438.beginIndent("                ");
+                                                    $template438.addStr(((IString)($me.v2i(((IValue)($arg0_441))))).getValue());
+                                                    $template438.endIndent("                ");
+                                                    $template438.addStr("_");
+                                                    $template438.beginIndent(" ");
+                                                    $template438.addStr(((IString)($me.v2i(((IValue)sep_12)))).getValue());
+                                                    $template438.endIndent(" ");
+                                                    return ((IString)($template438.close()));
                                                  
                                                  } else {
                                                     continue CASE_964239440_7;/*list match1*/
@@ -6320,31 +6318,31 @@ public class $ParserGenerator
                        /*muExists*/CASE_964239440_9: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_iter_star_seps_Symbol_list_Symbol, 2)){
-                                  IValue $arg0_448 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_448.getType(), M_ParseTree.ADT_Symbol)){
-                                     IConstructor s_15 = ((IConstructor)($arg0_448));
-                                     IValue $arg1_447 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_447.getType(), $T6)){
-                                        IList seps_16 = ((IList)($arg1_447));
-                                        final Template $template445 = (Template)new Template($RVF, "_iter_star_seps_");
-                                        $template445.beginIndent("                ");
-                                        $template445.addStr(((IString)($me.v2i(((IValue)($arg0_448))))).getValue());
-                                        $template445.endIndent("                ");
-                                        $template445.addStr("_");
+                                  IValue $arg0_449 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_449.getType(), M_ParseTree.ADT_Symbol)){
+                                     IConstructor s_16 = ((IConstructor)($arg0_449));
+                                     IValue $arg1_448 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_448.getType(), $T6)){
+                                        IList seps_17 = ((IList)($arg1_448));
+                                        final Template $template446 = (Template)new Template($RVF, "_iter_star_seps_");
+                                        $template446.beginIndent("                ");
+                                        $template446.addStr(((IString)($me.v2i(((IValue)($arg0_449))))).getValue());
+                                        $template446.endIndent("                ");
+                                        $template446.addStr("_");
                                         /*muExists*/LAB74: 
                                             do {
-                                                LAB74_GEN32194:
-                                                for(IValue $elem446_for : ((IList)($arg1_447))){
-                                                    IConstructor $elem446 = (IConstructor) $elem446_for;
-                                                    IValue elem_17 = ((IValue)($elem446));
-                                                    ;$template445.addStr(((IString)($me.v2i(((IValue)elem_17)))).getValue());
-                                                    $template445.addStr("_");
+                                                LAB74_GEN31545:
+                                                for(IValue $elem447_for : ((IList)($arg1_448))){
+                                                    IConstructor $elem447 = (IConstructor) $elem447_for;
+                                                    IValue elem_18 = ((IValue)($elem447));
+                                                    ;$template446.addStr(((IString)($me.v2i(((IValue)elem_18)))).getValue());
+                                                    $template446.addStr("_");
                                                 
                                                 }
                                                 continue LAB74;
                                                             
                                             } while(false);
-                                        return ((IString)($astr_slice(((IString)($template445.close())), null, null, -1)));
+                                        return ((IString)($astr_slice(((IString)($template446.close())), null, null, -1)));
                                      
                                      }
                                   
@@ -6366,19 +6364,19 @@ public class $ParserGenerator
                        /*muExists*/CASE_1444258592_15: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_parameterized_sort_str_list_Symbol, 2)){
-                                  IValue $arg0_460 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_460.getType(), $T4)){
-                                     IString s_23 = ((IString)($arg0_460));
-                                     IValue $arg1_459 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_459.getType(), $T6)){
-                                        IList args_24 = ((IList)($arg1_459));
-                                        final Template $template458 = (Template)new Template($RVF, "");
-                                        $template458.addStr(((IString)($arg0_460)).getValue());
-                                        $template458.addStr("_");
-                                        $template458.beginIndent(" ");
-                                        $template458.addStr(((IString)($me.uu(((IValue)($arg1_459))))).getValue());
-                                        $template458.endIndent(" ");
-                                        return ((IString)($template458.close()));
+                                  IValue $arg0_461 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_461.getType(), $T5)){
+                                     IString s_24 = ((IString)($arg0_461));
+                                     IValue $arg1_460 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_460.getType(), $T6)){
+                                        IList args_25 = ((IList)($arg1_460));
+                                        final Template $template459 = (Template)new Template($RVF, "");
+                                        $template459.addStr(((IString)($arg0_461)).getValue());
+                                        $template459.addStr("_");
+                                        $template459.beginIndent(" ");
+                                        $template459.addStr(((IString)($me.uu(((IValue)($arg1_460))))).getValue());
+                                        $template459.endIndent(" ");
+                                        return ((IString)($template459.close()));
                                      
                                      }
                                   
@@ -6427,20 +6425,20 @@ public class $ParserGenerator
                        /*muExists*/CASE_757310344_17: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_cilit_str, 1)){
-                                  IValue $arg0_465 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_465.getType(), $T4)){
-                                     final Matcher $matcher466 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_465)).getValue());
-                                     boolean $found467 = true;
+                                  IValue $arg0_466 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_466.getType(), $T5)){
+                                     final Matcher $matcher467 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_466)).getValue());
+                                     boolean $found468 = true;
                                      
-                                         while($found467){
-                                             $found467 = $matcher466.find();
-                                             if($found467){
-                                                IString s_27 = ((IString)($RVF.string($matcher466.group(1))));
-                                                final Template $template464 = (Template)new Template($RVF, "cilit_");
-                                                $template464.beginIndent("      ");
-                                                $template464.addStr(((IString)($me.escId(((IString)s_27)))).getValue());
-                                                $template464.endIndent("      ");
-                                                return ((IString)($template464.close()));
+                                         while($found468){
+                                             $found468 = $matcher467.find();
+                                             if($found468){
+                                                IString s_28 = ((IString)($RVF.string($matcher467.group(1))));
+                                                final Template $template465 = (Template)new Template($RVF, "cilit_");
+                                                $template465.beginIndent("      ");
+                                                $template465.addStr(((IString)($me.escId(((IString)s_28)))).getValue());
+                                                $template465.endIndent("      ");
+                                                return ((IString)($template465.close()));
                                              
                                              }
                                      
@@ -6464,12 +6462,12 @@ public class $ParserGenerator
                        /*muExists*/CASE_856312_12: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_lex_str, 1)){
-                                  IValue $arg0_455 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_455.getType(), $T4)){
-                                     IString s_21 = null;
-                                     final Template $template454 = (Template)new Template($RVF, "");
-                                     $template454.addStr(((IString)($arg0_455)).getValue());
-                                     return ((IString)($template454.close()));
+                                  IValue $arg0_456 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_456.getType(), $T5)){
+                                     IString s_22 = null;
+                                     final Template $template455 = (Template)new Template($RVF, "");
+                                     $template455.addStr(((IString)($arg0_456)).getValue());
+                                     return ((IString)($template455.close()));
                                   
                                   }
                                
@@ -6489,19 +6487,19 @@ public class $ParserGenerator
                        /*muExists*/CASE_1154855088_16: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_parameterized_lex_str_list_Symbol, 2)){
-                                  IValue $arg0_463 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_463.getType(), $T4)){
-                                     IString s_25 = ((IString)($arg0_463));
-                                     IValue $arg1_462 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_462.getType(), $T6)){
-                                        IList args_26 = ((IList)($arg1_462));
-                                        final Template $template461 = (Template)new Template($RVF, "");
-                                        $template461.addStr(((IString)($arg0_463)).getValue());
-                                        $template461.addStr("_");
-                                        $template461.beginIndent(" ");
-                                        $template461.addStr(((IString)($me.uu(((IValue)($arg1_462))))).getValue());
-                                        $template461.endIndent(" ");
-                                        return ((IString)($template461.close()));
+                                  IValue $arg0_464 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_464.getType(), $T5)){
+                                     IString s_26 = ((IString)($arg0_464));
+                                     IValue $arg1_463 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_463.getType(), $T6)){
+                                        IList args_27 = ((IList)($arg1_463));
+                                        final Template $template462 = (Template)new Template($RVF, "");
+                                        $template462.addStr(((IString)($arg0_464)).getValue());
+                                        $template462.addStr("_");
+                                        $template462.beginIndent(" ");
+                                        $template462.addStr(((IString)($me.uu(((IValue)($arg1_463))))).getValue());
+                                        $template462.endIndent(" ");
+                                        return ((IString)($template462.close()));
                                      
                                      }
                                   
@@ -6523,12 +6521,12 @@ public class $ParserGenerator
                        /*muExists*/CASE_28290288_11: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_sort_str, 1)){
-                                  IValue $arg0_453 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_453.getType(), $T4)){
-                                     IString s_20 = null;
-                                     final Template $template452 = (Template)new Template($RVF, "");
-                                     $template452.addStr(((IString)($arg0_453)).getValue());
-                                     return ((IString)($template452.close()));
+                                  IValue $arg0_454 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_454.getType(), $T5)){
+                                     IString s_21 = null;
+                                     final Template $template453 = (Template)new Template($RVF, "");
+                                     $template453.addStr(((IString)($arg0_454)).getValue());
+                                     return ((IString)($template453.close()));
                                   
                                   }
                                
@@ -6548,24 +6546,24 @@ public class $ParserGenerator
                        /*muExists*/CASE_910072_10: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_seq_list_Symbol, 1)){
-                                  IValue $arg0_451 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_451.getType(), $T6)){
-                                     IList lst_18 = ((IList)($arg0_451));
-                                     final Template $template449 = (Template)new Template($RVF, "seq_");
+                                  IValue $arg0_452 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_452.getType(), $T6)){
+                                     IList lst_19 = ((IList)($arg0_452));
+                                     final Template $template450 = (Template)new Template($RVF, "seq_");
                                      /*muExists*/LAB75: 
                                          do {
-                                             LAB75_GEN32297:
-                                             for(IValue $elem450_for : ((IList)($arg0_451))){
-                                                 IConstructor $elem450 = (IConstructor) $elem450_for;
-                                                 IValue elem_19 = ((IValue)($elem450));
-                                                 ;$template449.addStr(((IString)($me.v2i(((IValue)elem_19)))).getValue());
-                                                 $template449.addStr("_");
+                                             LAB75_GEN31647:
+                                             for(IValue $elem451_for : ((IList)($arg0_452))){
+                                                 IConstructor $elem451 = (IConstructor) $elem451_for;
+                                                 IValue elem_20 = ((IValue)($elem451));
+                                                 ;$template450.addStr(((IString)($me.v2i(((IValue)elem_20)))).getValue());
+                                                 $template450.addStr("_");
                                              
                                              }
                                              continue LAB75;
                                                          
                                          } while(false);
-                                     return ((IString)($astr_slice(((IString)($template449.close())), null, null, -1)));
+                                     return ((IString)($astr_slice(((IString)($template450.close())), null, null, -1)));
                                   
                                   }
                                
@@ -6585,24 +6583,24 @@ public class $ParserGenerator
                        /*muExists*/CASE_773448_5: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_alt_set_Symbol, 1)){
-                                  IValue $arg0_430 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_430.getType(), $T0)){
-                                     ISet alts_7 = ((ISet)($arg0_430));
-                                     final Template $template428 = (Template)new Template($RVF, "alt_");
+                                  IValue $arg0_431 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_431.getType(), $T0)){
+                                     ISet alts_8 = ((ISet)($arg0_431));
+                                     final Template $template429 = (Template)new Template($RVF, "alt_");
                                      /*muExists*/LAB72: 
                                          do {
-                                             LAB72_GEN31732:
-                                             for(IValue $elem429_for : ((IList)(M_Set.sort(((ISet)($arg0_430)))))){
-                                                 IConstructor $elem429 = (IConstructor) $elem429_for;
-                                                 IValue elem_8 = ((IValue)($elem429));
-                                                 ;$template428.addStr(((IString)($me.v2i(((IValue)elem_8)))).getValue());
-                                                 $template428.addStr("_");
+                                             LAB72_GEN31087:
+                                             for(IValue $elem430_for : ((IList)(M_Set.sort(((ISet)($arg0_431)))))){
+                                                 IConstructor $elem430 = (IConstructor) $elem430_for;
+                                                 IValue elem_9 = ((IValue)($elem430));
+                                                 ;$template429.addStr(((IString)($me.v2i(((IValue)elem_9)))).getValue());
+                                                 $template429.addStr("_");
                                              
                                              }
                                              continue LAB72;
                                                          
                                          } while(false);
-                                     return ((IString)($astr_slice(((IString)($template428.close())), null, null, -1)));
+                                     return ((IString)($astr_slice(((IString)($template429.close())), null, null, -1)));
                                   
                                   }
                                
@@ -6622,24 +6620,24 @@ public class $ParserGenerator
                        /*muExists*/CASE_1652184736_6: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_iter_seps_Symbol_list_Symbol, 2)){
-                                  IValue $arg0_436 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_436.getType(), M_ParseTree.ADT_Symbol)){
-                                     IConstructor s_9 = ((IConstructor)($arg0_436));
-                                     IValue $arg1_434 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_434.getType(), $T34)){
-                                        final IList $subject435 = ((IList)($arg1_434));
-                                        int $subject435_cursor = 0;
-                                        if($isSubtypeOf($subject435.getType(),$T34)){
-                                           final int $subject435_len = (int)((IList)($subject435)).length();
-                                           if($subject435_len == 1){
-                                              if($subject435_cursor < $subject435_len){
-                                                 $subject435_cursor += 1;
-                                                 if($subject435_cursor == $subject435_len){
-                                                    final Template $template433 = (Template)new Template($RVF, "_iter_seps_");
-                                                    $template433.beginIndent("           ");
-                                                    $template433.addStr(((IString)($me.v2i(((IValue)($arg0_436))))).getValue());
-                                                    $template433.endIndent("           ");
-                                                    return ((IString)($template433.close()));
+                                  IValue $arg0_437 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_437.getType(), M_ParseTree.ADT_Symbol)){
+                                     IConstructor s_10 = ((IConstructor)($arg0_437));
+                                     IValue $arg1_435 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_435.getType(), $T34)){
+                                        final IList $subject436 = ((IList)($arg1_435));
+                                        int $subject436_cursor = 0;
+                                        if($isSubtypeOf($subject436.getType(),$T34)){
+                                           final int $subject436_len = (int)((IList)($subject436)).length();
+                                           if($subject436_len == 1){
+                                              if($subject436_cursor < $subject436_len){
+                                                 $subject436_cursor += 1;
+                                                 if($subject436_cursor == $subject436_len){
+                                                    final Template $template434 = (Template)new Template($RVF, "_iter_seps_");
+                                                    $template434.beginIndent("           ");
+                                                    $template434.addStr(((IString)($me.v2i(((IValue)($arg0_437))))).getValue());
+                                                    $template434.endIndent("           ");
+                                                    return ((IString)($template434.close()));
                                                  
                                                  } else {
                                                     continue CASE_1652184736_6;/*list match1*/
@@ -6663,31 +6661,31 @@ public class $ParserGenerator
                        /*muExists*/CASE_1652184736_8: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_iter_seps_Symbol_list_Symbol, 2)){
-                                  IValue $arg0_444 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_444.getType(), M_ParseTree.ADT_Symbol)){
-                                     IConstructor s_12 = ((IConstructor)($arg0_444));
-                                     IValue $arg1_443 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_443.getType(), $T6)){
-                                        IList seps_13 = ((IList)($arg1_443));
-                                        final Template $template441 = (Template)new Template($RVF, "_iter_seps_");
-                                        $template441.beginIndent("           ");
-                                        $template441.addStr(((IString)($me.v2i(((IValue)($arg0_444))))).getValue());
-                                        $template441.endIndent("           ");
-                                        $template441.addStr("_");
+                                  IValue $arg0_445 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_445.getType(), M_ParseTree.ADT_Symbol)){
+                                     IConstructor s_13 = ((IConstructor)($arg0_445));
+                                     IValue $arg1_444 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_444.getType(), $T6)){
+                                        IList seps_14 = ((IList)($arg1_444));
+                                        final Template $template442 = (Template)new Template($RVF, "_iter_seps_");
+                                        $template442.beginIndent("           ");
+                                        $template442.addStr(((IString)($me.v2i(((IValue)($arg0_445))))).getValue());
+                                        $template442.endIndent("           ");
+                                        $template442.addStr("_");
                                         /*muExists*/LAB73: 
                                             do {
-                                                LAB73_GEN32048:
-                                                for(IValue $elem442_for : ((IList)($arg1_443))){
-                                                    IConstructor $elem442 = (IConstructor) $elem442_for;
-                                                    IValue elem_14 = ((IValue)($elem442));
-                                                    ;$template441.addStr(((IString)($me.v2i(((IValue)elem_14)))).getValue());
-                                                    $template441.addStr("_");
+                                                LAB73_GEN31400:
+                                                for(IValue $elem443_for : ((IList)($arg1_444))){
+                                                    IConstructor $elem443 = (IConstructor) $elem443_for;
+                                                    IValue elem_15 = ((IValue)($elem443));
+                                                    ;$template442.addStr(((IString)($me.v2i(((IValue)elem_15)))).getValue());
+                                                    $template442.addStr("_");
                                                 
                                                 }
                                                 continue LAB73;
                                                             
                                             } while(false);
-                                        return ((IString)($astr_slice(((IString)($template441.close())), null, null, -1)));
+                                        return ((IString)($astr_slice(((IString)($template442.close())), null, null, -1)));
                                      
                                      }
                                   
@@ -6764,7 +6762,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_layouts_str, 1)){
                                   IValue $arg0_425 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_425.getType(), $T4)){
+                                  if($isComparable($arg0_425.getType(), $T5)){
                                      return ((IString)$constants.get(44)/*"$anylayout$"*/);
                                   
                                   }
@@ -6792,12 +6790,19 @@ public class $ParserGenerator
                        /*muExists*/CASE_2144737184_4: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_conditional_Symbol_set_Condition, 2)){
-                                  IValue $arg0_427 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_427.getType(), M_ParseTree.ADT_Symbol)){
-                                     IConstructor s_6 = ((IConstructor)($arg0_427));
-                                     IValue $arg1_426 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
-                                     if($isComparable($arg1_426.getType(), $T1)){
-                                        return ((IString)($me.v2i(((IValue)($arg0_427)))));
+                                  IValue $arg0_428 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_428.getType(), M_ParseTree.ADT_Symbol)){
+                                     IConstructor s_6 = ((IConstructor)($arg0_428));
+                                     IValue $arg1_427 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
+                                     if($isComparable($arg1_427.getType(), $T8)){
+                                        ISet cs_7 = ((ISet)($arg1_427));
+                                        final Template $template426 = (Template)new Template($RVF, "");
+                                        $template426.addStr(((IString)($me.v2i(((IValue)($arg0_428))))).getValue());
+                                        $template426.addStr("_");
+                                        $template426.beginIndent(" ");
+                                        $template426.addStr(((IString)($me.uu(((IValue)($arg1_427))))).getValue());
+                                        $template426.endIndent(" ");
+                                        return ((IString)($template426.close()));
                                      
                                      }
                                   
@@ -6819,20 +6824,20 @@ public class $ParserGenerator
                        /*muExists*/CASE_857272_18: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_lit_str, 1)){
-                                  IValue $arg0_469 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_469.getType(), $T4)){
-                                     final Matcher $matcher470 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_469)).getValue());
-                                     boolean $found471 = true;
+                                  IValue $arg0_470 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_470.getType(), $T5)){
+                                     final Matcher $matcher471 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_470)).getValue());
+                                     boolean $found472 = true;
                                      
-                                         while($found471){
-                                             $found471 = $matcher470.find();
-                                             if($found471){
-                                                IString s_28 = ((IString)($RVF.string($matcher470.group(1))));
-                                                final Template $template468 = (Template)new Template($RVF, "lit_");
-                                                $template468.beginIndent("    ");
-                                                $template468.addStr(((IString)($me.escId(((IString)s_28)))).getValue());
-                                                $template468.endIndent("    ");
-                                                return ((IString)($template468.close()));
+                                         while($found472){
+                                             $found472 = $matcher471.find();
+                                             if($found472){
+                                                IString s_29 = ((IString)($RVF.string($matcher471.group(1))));
+                                                final Template $template469 = (Template)new Template($RVF, "lit_");
+                                                $template469.beginIndent("    ");
+                                                $template469.addStr(((IString)($me.escId(((IString)s_29)))).getValue());
+                                                $template469.endIndent("    ");
+                                                return ((IString)($template469.close()));
                                              
                                              }
                                      
@@ -6856,12 +6861,12 @@ public class $ParserGenerator
                        /*muExists*/CASE_109773488_13: 
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_keywords_str, 1)){
-                                  IValue $arg0_457 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_457.getType(), $T4)){
-                                     IString s_22 = null;
-                                     final Template $template456 = (Template)new Template($RVF, "");
-                                     $template456.addStr(((IString)($arg0_457)).getValue());
-                                     return ((IString)($template456.close()));
+                                  IValue $arg0_458 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
+                                  if($isComparable($arg0_458.getType(), $T5)){
+                                     IString s_23 = null;
+                                     final Template $template457 = (Template)new Template($RVF, "");
+                                     $template457.addStr(((IString)($arg0_458)).getValue());
+                                     return ((IString)($template457.close()));
                                   
                                   }
                                
@@ -6888,7 +6893,7 @@ public class $ParserGenerator
                      if($isSubtypeOf($switchVal407.getType(),$T7)){
                         /*muExists*/CASE_0_19: 
                             do {
-                                IInteger i_29 = null;
+                                IInteger i_30 = null;
                                 /*muExists*/$RET408: 
                                     do {
                                         if((((IBool)($aint_less_aint(((IInteger)($switchVal407)),((IInteger)$constants.get(19)/*0*/))))).getValue()){
@@ -6908,21 +6913,21 @@ public class $ParserGenerator
                             } while(false);
                      
                      }
-                     if($isSubtypeOf($switchVal407.getType(),$T4)){
+                     if($isSubtypeOf($switchVal407.getType(),$T5)){
                         /*muExists*/CASE_0_20: 
                             do {
-                                IString s_30 = ((IString)($switchVal407));
+                                IString s_31 = ((IString)($switchVal407));
                                 IString $reducer412 = (IString)(((IString)$constants.get(37)/*""*/));
-                                final IInteger $lst2 = ((IInteger)(M_String.size(((IString)s_30))));
+                                final IInteger $lst2 = ((IInteger)(M_String.size(((IString)s_31))));
                                 final boolean $dir3 = ((IInteger)$constants.get(19)/*0*/).less($lst2).getValue();
                                 
-                                $REDUCER411_GEN33108:
+                                $REDUCER411_GEN32447:
                                 for(IInteger $elem414 = ((IInteger)$constants.get(19)/*0*/); $dir3 ? $aint_less_aint($elem414,$lst2).getValue() 
                                                           : $aint_lessequal_aint($elem414,$lst2).not().getValue(); $elem414 = $aint_add_aint($elem414,$dir3 ? ((IInteger)$constants.get(9)/*1*/) : ((IInteger)$constants.get(24)/*-1*/))){
-                                    IInteger i_32 = ((IInteger)($elem414));
+                                    IInteger i_33 = ((IInteger)($elem414));
                                     final Template $template413 = (Template)new Template($RVF, "_");
                                     $template413.beginIndent(" ");
-                                    $template413.addVal(M_String.charAt(((IString)s_30), ((IInteger)i_32)));
+                                    $template413.addVal(M_String.charAt(((IString)s_31), ((IInteger)i_33)));
                                     $template413.endIndent(" ");
                                     $reducer412 = ((IString)($astr_add_astr(((IString)($reducer412)),((IString)($template413.close())))));
                                 }
@@ -6939,7 +6944,7 @@ public class $ParserGenerator
                    
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(33305,53,<700,4>,<700,57>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(32636,53,<700,4>,<700,57>) 
     public IInteger newItem$883db0ce535f2e2a(ValueRef<IInteger> uniqueItem_1){ 
         
         
@@ -6948,7 +6953,7 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(33365,107,<701,4>,<704,8>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(32695,104,<701,4>,<704,8>) 
     public IConstructor rewrite$00efbe0fdd947222(IConstructor p_0, ValueRef<IInteger> uniqueItem_1){ 
         
         
@@ -6967,10 +6972,10 @@ public class $ParserGenerator
                                 /*muExists*/CASE_0_0: 
                                     do {
                                         IConstructor s_1 = ((IConstructor)($VISIT78_subject));
-                                        IConstructor $replacement472 = (IConstructor)(((IConstructor)($aadt_field_update("id", makeUnique_newItem(uniqueItem_1), ((IConstructor)s_1)))));
-                                        if($isSubtypeOf($replacement472.getType(),$VISIT78_subject.getType())){
+                                        IConstructor $replacement473 = (IConstructor)(((IConstructor)($aadt_field_update("id", makeUnique_newItem(uniqueItem_1), ((IConstructor)s_1)))));
+                                        if($isSubtypeOf($replacement473.getType(),$VISIT78_subject.getType())){
                                            $traversalState.setMatchedAndChanged(true, true);
-                                           return $replacement472;
+                                           return $replacement473;
                                         
                                         } else {
                                            break VISIT78;// switch
@@ -6991,21 +6996,21 @@ public class $ParserGenerator
     
     }
     
-    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(33187,363,<698,0>,<707,1>) 
+    // Source: |file:///C:/Users/Rodin/workspace/rascal/src/org/rascalmpl/library/lang/rascal/grammar/ParserGenerator.rsc|(32520,354,<698,0>,<707,1>) 
     public IConstructor makeUnique$edb0a92bc293a61d(IConstructor gr_0){ 
         
         
         final ValueRef<IInteger> uniqueItem_1 = new ValueRef<IInteger>("uniqueItem", ((IInteger)$constants.get(9)/*1*/));
-        final IMapWriter $mapwriter473 = (IMapWriter)$RVF.mapWriter();
-        $MCOMP474_GEN33531:
-        for(IValue $elem475_for : ((IMap)(((IMap)($aadt_get_field(((IConstructor)gr_0), "rules")))))){
-            IConstructor $elem475 = (IConstructor) $elem475_for;
-            IConstructor s_3 = ((IConstructor)($elem475));
-            $mapwriter473.insert($RVF.tuple(s_3, makeUnique_rewrite(((IConstructor)($amap_subscript(((IMap)(((IMap)($aadt_get_field(((IConstructor)gr_0), "rules"))))),((IConstructor)s_3)))), uniqueItem_1)));
+        final IMapWriter $mapwriter474 = (IMapWriter)$RVF.mapWriter();
+        $MCOMP475_GEN32856:
+        for(IValue $elem476_for : ((IMap)(((IMap)($aadt_get_field(((IConstructor)gr_0), "rules")))))){
+            IConstructor $elem476 = (IConstructor) $elem476_for;
+            IConstructor s_3 = ((IConstructor)($elem476));
+            $mapwriter474.insert($RVF.tuple(s_3, makeUnique_rewrite(((IConstructor)($amap_subscript(((IMap)(((IMap)($aadt_get_field(((IConstructor)gr_0), "rules"))))),((IConstructor)s_3)))), uniqueItem_1)));
         
         }
         
-                    return ((IConstructor)(((IConstructor)($aadt_field_update("rules", $mapwriter473.done(), ((IConstructor)gr_0))))));
+                    return ((IConstructor)(((IConstructor)($aadt_field_update("rules", $mapwriter474.done(), ((IConstructor)gr_0))))));
     
     }
     

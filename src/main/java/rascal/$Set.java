@@ -68,15 +68,15 @@ public class $Set
     public final io.usethesource.vallang.type.Type $T42;	/*aparameter("U",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T13;	/*aparameter("U",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T16;	/*aset(aparameter("V",avalue(),closed=false))*/
-    public final io.usethesource.vallang.type.Type $T0;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T3;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T32;	/*aset(avalue())*/
     public final io.usethesource.vallang.type.Type $T27;	/*afunc(aparameter("T",avalue(),closed=true),[aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T20;	/*alist(aparameter("T",avalue(),closed=false,alabel="f"))*/
     public final io.usethesource.vallang.type.Type ADT_RuntimeException;	/*aadt("RuntimeException",[],dataSyntax())*/
     public final io.usethesource.vallang.type.Type $T14;	/*alist(aparameter("T",avalue(),closed=false,alabel="h"))*/
-    public final io.usethesource.vallang.type.Type $T3;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T0;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T5;	/*abool()*/
-    public final io.usethesource.vallang.type.Type $T8;	/*alrel(atypeList([aparameter("A",avalue(),closed=false),aparameter("B",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T11;	/*alrel(atypeList([aparameter("A",avalue(),closed=false),aparameter("B",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T4;	/*afunc(abool(),[aparameter("T",avalue(),closed=false,alabel="a"),aparameter("T",avalue(),closed=false,alabel="b")],[])*/
     public final io.usethesource.vallang.type.Type $T22;	/*aset(aparameter("T",anum(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T30;	/*aset(aparameter("T",avalue(),closed=false,alabel="f"))*/
@@ -96,7 +96,7 @@ public class $Set
     public final io.usethesource.vallang.type.Type $T18;	/*afunc(aparameter("K",avalue(),closed=true),[aparameter("V",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T45;	/*alist(aparameter("T",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T37;	/*afunc(abool(),[aparameter("T",avalue(),closed=false,alabel="a")],[],returnsViaAllPath=true)*/
-    public final io.usethesource.vallang.type.Type $T11;	/*arel(atypeList([aparameter("A",avalue(),closed=false),aparameter("B",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T8;	/*arel(atypeList([aparameter("A",avalue(),closed=false),aparameter("B",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T50;	/*amap(aparameter("A",avalue(),closed=true),aparameter("B",avalue(),closed=true))*/
 
     public $Set(RascalExecutionContext rex){
@@ -150,21 +150,21 @@ public class $Set
        $T42 = $TF.parameterType("U", $T1);
        $T13 = $TF.parameterType("U", $T1);
        $T16 = $TF.setType($T17);
-       $T0 = $TF.setType($T2);
+       $T3 = $TF.setType($T2);
        $T32 = $TF.setType($T1);
        $T27 = $TF.functionType($T28, $TF.tupleType($T2, $T2), $TF.tupleEmpty());
        $T20 = $TF.listType($T21);
        $T14 = $TF.listType($T15);
-       $T3 = $TF.listType($T2);
+       $T0 = $TF.listType($T2);
        $T5 = $TF.boolType();
-       $T8 = $TF.listType($TF.tupleType($T9, $T10));
+       $T11 = $TF.listType($TF.tupleType($T9, $T10));
        $T4 = $TF.functionType($T5, $TF.tupleType($T6, "a", $T7, "b"), $TF.tupleEmpty());
        $T22 = $TF.setType($T24);
        $T30 = $TF.setType($T21);
        $T49 = $TF.setType($T48);
        $T36 = $TF.functionType($T5, $TF.tupleType($T6, "a", $T7, "b"), $TF.tupleEmpty());
        $T40 = $TF.mapType($T28,$T31);
-       $T29 = $TF.setType($T0);
+       $T29 = $TF.setType($T3);
        $T35 = $TF.setType($T34);
        $T33 = $TF.mapType($T19,$T35);
        $T39 = $TF.setType($T28);
@@ -177,7 +177,7 @@ public class $Set
        $T18 = $TF.functionType($T19, $TF.tupleType($T17), $TF.tupleEmpty());
        $T45 = $TF.listType($T28);
        $T37 = $TF.functionType($T5, $TF.tupleType($T6, "a"), $TF.tupleEmpty());
-       $T11 = $TF.setType($TF.tupleType($T9, $T10));
+       $T8 = $TF.setType($TF.tupleType($T9, $T10));
        $T50 = $TF.mapType($T47,$T48);
     
        
@@ -187,11 +187,11 @@ public class $Set
        IBool $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IBool)isEmpty$82f6e70b4f7c0a11((ISet) $P0);
+         $result = (IBool)M_List.isEmpty$3708d66822aa111a((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (IBool)M_List.isEmpty$3708d66822aa111a((IList) $P0);
+         $result = (IBool)isEmpty$82f6e70b4f7c0a11((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -200,7 +200,7 @@ public class $Set
     public IList toList(IValue $P0){ // Generated by Resolver
        IList $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IList)toList$ac67d5996fbbb98b((ISet) $P0);
          if($result != null) return $result;
        }
@@ -210,7 +210,7 @@ public class $Set
     public IValue getOneFrom(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)getOneFrom$c805fd3ee8d4530c((ISet) $P0);
          if($result != null) return $result;
        }
@@ -221,11 +221,11 @@ public class $Set
        IList $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IList)sort$e119981445d9028f((ISet) $P0);
+         $result = (IList)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (IList)M_List.sort$fa0b19c35a18e804((IList) $P0);
+         $result = (IList)sort$e119981445d9028f((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -236,11 +236,11 @@ public class $Set
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T4)){
-         $result = (IList)sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
+         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T4)){
-         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
+         $result = (IList)sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
        
@@ -255,11 +255,11 @@ public class $Set
     public IInteger size(IValue $P0){ // Generated by Resolver
        IInteger $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IInteger)size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T0)){
          $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
@@ -270,11 +270,11 @@ public class $Set
        IMap $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T8)){
-         $result = (IMap)M_List.toMap$5edc6ed092abb52e((IList) $P0);
+         $result = (IMap)toMap$d6d9c90ebcc57bd2((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T11)){
-         $result = (IMap)toMap$d6d9c90ebcc57bd2((ISet) $P0);
+         $result = (IMap)M_List.toMap$5edc6ed092abb52e((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -284,7 +284,7 @@ public class $Set
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T12)){
+       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T12)){
          $result = (ISet)mapper$c3ca759d72c0860c((ISet) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1);
          if($result != null) return $result;
        }
@@ -298,11 +298,11 @@ public class $Set
          $result = (IValue)M_List.max$9542dff773662ba8((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T0)){
          $result = (IValue)M_List.max$a65b4f1e9d6ce28f((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)max$187b88bd7e3f0c95((ISet) $P0);
          if($result != null) return $result;
        }
@@ -327,11 +327,11 @@ public class $Set
          $result = (IValue)M_List.getFirstFrom$de7747ba8ecf5d2d((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T0)){
          $result = (IValue)M_List.getFirstFrom$52641577be663f10((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)getFirstFrom$2bf5bbe557d5c3ba((ISet) $P0);
          if($result != null) return $result;
        }
@@ -341,7 +341,7 @@ public class $Set
     public ISet power(IValue $P0){ // Generated by Resolver
        ISet $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (ISet)power$026b2509a55a1fc9((ISet) $P0);
          if($result != null) return $result;
        }
@@ -351,7 +351,7 @@ public class $Set
     public IValue getSingleFrom(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)getSingleFrom$d320fc12ed2eecd6((ISet) $P0);
          if($result != null) return $result;
        }
@@ -362,11 +362,11 @@ public class $Set
        ITuple $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
+         $result = (ITuple)takeOneFrom$cae8ac4f2699365b((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (ITuple)takeOneFrom$cae8ac4f2699365b((ISet) $P0);
+         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -389,7 +389,7 @@ public class $Set
     public IString toString(IValue $P0){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IString)toString$603c6d8b4e6b24a1((ISet) $P0);
          if($result != null) return $result;
        }
@@ -399,7 +399,7 @@ public class $Set
     public ISet power1(IValue $P0){ // Generated by Resolver
        ISet $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (ISet)power1$313e6ded5c09749a((ISet) $P0);
          if($result != null) return $result;
        }
@@ -409,7 +409,7 @@ public class $Set
     public IValue reducer(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)reducer$7c5b15a5fc9f8b93((ISet) $P0);
          if($result != null) return $result;
        }
@@ -421,7 +421,7 @@ public class $Set
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T27) && $isSubtypeOf($P2Type,$T2)){
+       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T27) && $isSubtypeOf($P2Type,$T2)){
          $result = (IValue)reducer$0e97f3bd9d509f98((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1, (IValue) $P2);
          if($result != null) return $result;
        }
@@ -450,7 +450,7 @@ public class $Set
     public IMap toMapUnique(IValue $P0){ // Generated by Resolver
        IMap $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T11)){
+       if($isSubtypeOf($P0Type,$T8)){
          $result = (IMap)toMapUnique$74cc5021d8476dc3((ISet) $P0);
          if($result != null) return $result;
        }
@@ -461,11 +461,11 @@ public class $Set
        IValue $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
+         $result = (IValue)index$8a5f4e126881ec51((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IValue)index$8a5f4e126881ec51((ISet) $P0);
+         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -474,7 +474,7 @@ public class $Set
     public IValue min(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IValue)min$6f2bdb54a7debae2((ISet) $P0);
          if($result != null) return $result;
        }
@@ -488,7 +488,7 @@ public class $Set
          $result = (ITuple)takeFirstFrom$0173cff050d98abd((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (ITuple)takeFirstFrom$abe4adfc78132e9b((ISet) $P0);
          if($result != null) return $result;
        }
@@ -498,7 +498,7 @@ public class $Set
     public IString itoString(IValue $P0){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
+       if($isSubtypeOf($P0Type,$T3)){
          $result = (IString)itoString$3ba34f2bf4bf14cc((ISet) $P0);
          if($result != null) return $result;
        }
@@ -513,7 +513,7 @@ public class $Set
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type,$T31) && $isSubtypeOf($P1Type,$T0) && $isSubtypeOf($P2Type,$T4)){
+       if($isSubtypeOf($P0Type,$T31) && $isSubtypeOf($P1Type,$T3) && $isSubtypeOf($P2Type,$T4)){
          $result = (IList)top$ff00157c9f3ee479((IInteger) $P0, (ISet) $P1, (TypedFunctionInstance2<IValue, IValue, IValue>) $P2);
          if($result != null) return $result;
        }
@@ -524,7 +524,7 @@ public class $Set
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T31) && $isSubtypeOf($P1Type,$T0)){
+       if($isSubtypeOf($P0Type,$T31) && $isSubtypeOf($P1Type,$T3)){
          $result = (IList)top$584c2217bb3a2e8d((IInteger) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
@@ -549,7 +549,7 @@ public class $Set
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T4)){
+       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T4)){
          $result = (ISet)group$9e1b886d2322f97e((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
@@ -648,7 +648,7 @@ public class $Set
     
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(input_0.getType(), $typeBindings)){
+        if($T3.match(input_0.getType(), $typeBindings)){
            if($T4.match(similar_1.getValue().getType(), $typeBindings)){
               IList sinput_2 = ((IList)($me.sort(((ISet)input_0), new TypedFunctionInstance2<IValue,IValue,IValue>(($_0, $_1) -> { return $CLOSURE_0((IValue)$_0, (IValue)$_1, similar_1); }, $T36))));
               final IListWriter listwriter_WHILE0 = (IListWriter)$RVF.listWriter();
@@ -685,7 +685,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(s_0.getType(), $typeBindings)){
+        if($T3.match(s_0.getType(), $typeBindings)){
            IList sl_1 = ((IList)($me.toList(((ISet)s_0))));
            final IMapWriter $mapwriter8 = (IMapWriter)$RVF.mapWriter();
            $MCOMP9_GEN2843:
@@ -713,7 +713,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IBool $result12 = ((IBool)((IBool)$Prelude.isEmpty(st_0)));
            if($T5.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result12.getType(),$T5)){
               return ((IBool)($result12));
@@ -732,7 +732,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            if(true){
               if($T12.match(fn_1.getType(), $typeBindings)){
                  if(true){
@@ -776,7 +776,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            ITuple $TMP17 = (ITuple)($me.takeOneFrom(((ISet)st_0)));
            IValue h_1 = ((IValue)($atuple_subscript_int(((ITuple)($TMP17)),0)));
            ISet t_2 = ((ISet)($atuple_subscript_int(((ITuple)($TMP17)),1)));
@@ -811,7 +811,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            ITuple $TMP23 = (ITuple)($me.takeOneFrom(((ISet)st_0)));
            IValue h_1 = ((IValue)($atuple_subscript_int(((ITuple)($TMP23)),0)));
            ISet t_2 = ((ISet)($atuple_subscript_int(((ITuple)($TMP23)),1)));
@@ -846,7 +846,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IListWriter $writer29 = (IListWriter)$RVF.listWriter();
            $listwriter_splice($writer29,st_0);
            IList stl_1 = ((IList)($writer29.done()));
@@ -904,7 +904,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final ISet $result33 = ((ISet)(((ISet)($me.power(((ISet)st_0)))).subtract(((ISet)$constants.get(4)/*{{}}*/))));
            if($T38.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result33.getType(),$T38)){
               return ((ISet)($result33));
@@ -922,7 +922,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            if($T27.match(fn_1.getType(), $typeBindings)){
               if($T2.match(unit_2.getType(), $typeBindings)){
                  IValue $reducer35 = (IValue)(unit_2);
@@ -959,7 +959,7 @@ public class $Set
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
         /*muExists*/reducer: 
             do {
-                if($T0.match($__0.getType(), $typeBindings)){
+                if($T3.match($__0.getType(), $typeBindings)){
                    if($__0.equals(((ISet)$constants.get(5)/*{}*/))){
                       throw new Throw($RVF.constructor(M_Exception.RuntimeException_EmptySet_, new IValue[]{}));
                    } else {
@@ -977,7 +977,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IInteger $result38 = ((IInteger)((IInteger)$Prelude.size(st_0)));
            if($T31.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result38.getType(),$T31)){
               return ((IInteger)($result38));
@@ -1073,7 +1073,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IValue $result49 = ((IValue)((IValue)$Prelude.getOneFrom(st_0)));
            if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result49.getType(),$T28)){
               return ((IValue)($result49));
@@ -1091,7 +1091,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IValue $result50 = ((IValue)((IValue)$Prelude.getFirstFrom(st_0)));
            if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result50.getType(),$T28)){
               return ((IValue)($result50));
@@ -1109,7 +1109,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            if((((IBool)($equal(((IInteger)($me.size(((ISet)st_0)))), ((IInteger)$constants.get(3)/*1*/))))).getValue()){
               final IValue $result51 = ((IValue)($me.getFirstFrom(((ISet)st_0))));
               if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result51.getType(),$T28)){
@@ -1131,7 +1131,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final ITuple $result52 = ((ITuple)((ITuple)$Prelude.takeOneFrom(st_0)));
            if($T44.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result52.getType(),$T44)){
               return ((ITuple)($result52));
@@ -1198,7 +1198,7 @@ public class $Set
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
         /*muExists*/takeFirstFrom: 
             do {
-                if($T0.match($__0.getType(), $typeBindings)){
+                if($T3.match($__0.getType(), $typeBindings)){
                    if($__0.equals(((ISet)$constants.get(5)/*{}*/))){
                       throw new Throw($RVF.constructor(M_Exception.RuntimeException_EmptySet_, new IValue[]{}));
                    } else {
@@ -1216,7 +1216,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IListWriter $writer60 = (IListWriter)$RVF.listWriter();
            $listwriter_splice($writer60,st_0);
            final IList $result61 = ((IList)($writer60.done()));
@@ -1236,7 +1236,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T11.match(st_0.getType(), $typeBindings)){
+        if($T8.match(st_0.getType(), $typeBindings)){
            final IMap $result62 = ((IMap)((IMap)$Prelude.toMap(st_0)));
            if($T46.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result62.getType(),$T46)){
               return ((IMap)($result62));
@@ -1254,7 +1254,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T11.match(st_0.getType(), $typeBindings)){
+        if($T8.match(st_0.getType(), $typeBindings)){
            final IMap $result63 = ((IMap)((IMap)$Prelude.toMapUnique(st_0)));
            if($T50.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result63.getType(),$T50)){
               return ((IMap)($result63));
@@ -1272,7 +1272,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IString $result64 = ((IString)((IString)$Prelude.toString(st_0)));
            if($T51.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result64.getType(),$T51)){
               return ((IString)($result64));
@@ -1290,7 +1290,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(st_0.getType(), $typeBindings)){
+        if($T3.match(st_0.getType(), $typeBindings)){
            final IString $result65 = ((IString)((IString)$Prelude.itoString(st_0)));
            if($T51.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result65.getType(),$T51)){
               return ((IString)($result65));
@@ -1331,7 +1331,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(s_0.getType(), $typeBindings)){
+        if($T3.match(s_0.getType(), $typeBindings)){
            final IList $result67 = ((IList)($me.sort(((ISet)s_0), new TypedFunctionInstance2<IValue,IValue,IValue>(($_0, $_1) -> { return $CLOSURE_2((IValue)$_0, (IValue)$_1); }, $T36))));
            if($T45.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result67.getType(),$T45)){
               return ((IList)($result67));
@@ -1349,7 +1349,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(l_0.getType(), $typeBindings)){
+        if($T3.match(l_0.getType(), $typeBindings)){
            if($T4.match(less_1.getType(), $typeBindings)){
               final IList $result68 = ((IList)((IList)$Prelude.sort(l_0, less_1)));
               if($T45.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result68.getType(),$T45)){
@@ -1371,7 +1371,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(l_1.getType(), $typeBindings)){
+        if($T3.match(l_1.getType(), $typeBindings)){
            if($T4.match(less_2.getType(), $typeBindings)){
               final IList $result69 = ((IList)((IList)$Prelude.top(k_0, l_1, less_2)));
               if($T45.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result69.getType(),$T45)){
@@ -1416,7 +1416,7 @@ public class $Set
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(l_1.getType(), $typeBindings)){
+        if($T3.match(l_1.getType(), $typeBindings)){
            final IList $result71 = ((IList)($me.top(((IInteger)k_0), ((ISet)l_1), new TypedFunctionInstance2<IValue,IValue,IValue>(($_0, $_1) -> { return $CLOSURE_3((IValue)$_0, (IValue)$_1); }, $T36))));
            if($T45.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result71.getType(),$T45)){
               return ((IList)($result71));

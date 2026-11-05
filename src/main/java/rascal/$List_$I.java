@@ -46,8 +46,8 @@ public interface $List_$I  {
     IValue shuffle(IValue $0, IValue $1);
     IValue size(IValue $0);
     IValue slice(IValue $0, IValue $1, IValue $2);
-    IValue sort(IValue $0, IValue $1);
     IValue sort(IValue $0);
+    IValue sort(IValue $0, IValue $1);
     IValue split(IValue $0);
     IValue sum(IValue $0);
     IValue tail(IValue $0);

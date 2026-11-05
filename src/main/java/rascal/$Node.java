@@ -147,12 +147,12 @@ public class $Node
        INode $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T2)){
-         $result = (INode)unset$129dc796e0650be6((INode) $P0, (IString) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T5)){
          $result = (INode)unset$a3aafac05b2db0c8((INode) $P0, (ISet) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T2)){
+         $result = (INode)unset$129dc796e0650be6((INode) $P0, (IString) $P1);
          if($result != null) return $result;
        }
        
