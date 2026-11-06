@@ -52,8 +52,8 @@ public interface $ParseTree_$I  {
     IValue min(IValue $0);
     IValue mix(IValue $0, IValue $1);
     IValue overloaded(IValue $0);
-    IValue parse(IValue $0, IValue $1, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parse(IValue $0, IValue $1, IValue $2, java.util.Map<java.lang.String,IValue> $kwpActuals);
+    IValue parse(IValue $0, IValue $1, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parser(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parsers(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue permutations(IValue $0);
@@ -75,8 +75,8 @@ public interface $ParseTree_$I  {
     IValue shuffle(IValue $0, IValue $1);
     IValue size(IValue $0);
     IValue slice(IValue $0, IValue $1, IValue $2);
-    IValue sort(IValue $0, IValue $1);
     IValue sort(IValue $0);
+    IValue sort(IValue $0, IValue $1);
     IValue split(IValue $0);
     void storeParsers(IValue $0, IValue $1);
     IValue subtype(IValue $0, IValue $1);
@@ -103,7 +103,7 @@ public interface $ParseTree_$I  {
     IValue write(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue zip2(IValue $0, IValue $1);
     IValue zip2(IValue $0, IValue $1, IValue $2, IValue $3);
-    IValue zip3(IValue $0, IValue $1, IValue $2);
     IValue zip3(IValue $0, IValue $1, IValue $2, IValue $3, IValue $4, IValue $5);
+    IValue zip3(IValue $0, IValue $1, IValue $2);
     IValue zipi(IValue $0);
 }

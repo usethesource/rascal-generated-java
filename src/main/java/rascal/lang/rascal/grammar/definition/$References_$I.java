@@ -24,8 +24,8 @@ public interface $References_$I  {
     IValue getFirstFrom(IValue $0);
     IValue getOneFrom(IValue $0);
     IValue glb(IValue $0, IValue $1);
-    IValue grammar(IValue $0);
     IValue grammar(IValue $0, IValue $1);
+    IValue grammar(IValue $0);
     IValue group(IValue $0, IValue $1);
     IValue head(IValue $0, IValue $1);
     IValue head(IValue $0);
@@ -58,8 +58,8 @@ public interface $References_$I  {
     IValue min(IValue $0);
     IValue mix(IValue $0, IValue $1);
     IValue overloaded(IValue $0);
-    IValue parse(IValue $0, IValue $1, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parse(IValue $0, IValue $1, IValue $2, java.util.Map<java.lang.String,IValue> $kwpActuals);
+    IValue parse(IValue $0, IValue $1, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parser(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue parsers(IValue $0, java.util.Map<java.lang.String,IValue> $kwpActuals);
     IValue permutations(IValue $0);
@@ -82,14 +82,14 @@ public interface $References_$I  {
     IValue shuffle(IValue $0, IValue $1);
     IValue size(IValue $0);
     IValue slice(IValue $0, IValue $1, IValue $2);
-    IValue sort(IValue $0, IValue $1);
     IValue sort(IValue $0);
+    IValue sort(IValue $0, IValue $1);
     IValue split(IValue $0);
     void storeParsers(IValue $0, IValue $1);
     IValue subtype(IValue $0, IValue $1);
     IValue sum(IValue $0);
-    IValue tail(IValue $0, IValue $1);
     IValue tail(IValue $0);
+    IValue tail(IValue $0, IValue $1);
     IValue take(IValue $0, IValue $1);
     IValue takeOneFrom(IValue $0);
     IValue takeWhile(IValue $0, IValue $1);

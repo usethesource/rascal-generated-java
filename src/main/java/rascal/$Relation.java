@@ -43,7 +43,7 @@ public class $Relation
 
     
     public final io.usethesource.vallang.type.Type $T1;	/*avalue()*/
-    public final io.usethesource.vallang.type.Type $T14;	/*aparameter("T3",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T16;	/*aparameter("T3",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T41;	/*aparameter("T4",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T36;	/*aparameter("T1",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T37;	/*aparameter("T2",avalue(),closed=true)*/
@@ -57,7 +57,7 @@ public class $Relation
     public final io.usethesource.vallang.type.Type $T2;	/*aparameter("U",avalue(),closed=false,alabel="dom")*/
     public final io.usethesource.vallang.type.Type $T35;	/*aparameter("T0",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T13;	/*aparameter("T2",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T15;	/*aparameter("T4",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T17;	/*aparameter("T4",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T25;	/*aparameter("K",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T45;	/*aparameter("U",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T26;	/*aparameter("V",avalue(),closed=false)*/
@@ -69,17 +69,17 @@ public class $Relation
     public final io.usethesource.vallang.type.Type $T33;	/*arel(atypeList([aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true)]))*/
     public final io.usethesource.vallang.type.Type $T30;	/*arel(atypeList([aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true)]))*/
     public final io.usethesource.vallang.type.Type $T55;	/*arel(atypeList([aparameter("T1",avalue(),closed=true),aparameter("T2",avalue(),closed=true),aparameter("T3",avalue(),closed=true)]))*/
-    public final io.usethesource.vallang.type.Type $T7;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T8;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T56;	/*arel(atypeList([aparameter("T1",avalue(),closed=true),aparameter("T2",avalue(),closed=true),aparameter("T3",avalue(),closed=true),aparameter("T4",avalue(),closed=true)]))*/
-    public final io.usethesource.vallang.type.Type $T16;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T10;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T47;	/*aset(aparameter("U",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T46;	/*aset(aset(aparameter("U",avalue(),closed=true)))*/
     public final io.usethesource.vallang.type.Type $T9;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
-    public final io.usethesource.vallang.type.Type $T8;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T24;	/*arel(atypeList([aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T0;	/*arel(atypeList([aparameter("U",avalue(),closed=false,alabel="dom"),aparameter("T",avalue(),closed=false,alabel="ran")]))*/
     public final io.usethesource.vallang.type.Type $T44;	/*arel(atypeList([aparameter("T",avalue(),closed=true),aparameter("U",avalue(),closed=true)]))*/
-    public final io.usethesource.vallang.type.Type $T4;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T7;	/*arel(atypeList([aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false),aparameter("T",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T19;	/*aset(aparameter("T0",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T40;	/*arel(atypeList([aparameter("T0",avalue(),closed=true),aparameter("T1",avalue(),closed=true),aparameter("T2",avalue(),closed=true),aparameter("T3",avalue(),closed=true)]))*/
     public final io.usethesource.vallang.type.Type $T60;	/*aset(aparameter("V",avalue(),closed=true))*/
@@ -96,8 +96,8 @@ public class $Relation
     public final io.usethesource.vallang.type.Type $T28;	/*aset(aparameter("T",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T48;	/*aset(aset(aparameter("T",avalue(),closed=true)))*/
     public final io.usethesource.vallang.type.Type $T34;	/*arel(atypeList([aparameter("T0",avalue(),closed=true),aparameter("T1",avalue(),closed=true)]))*/
-    public final io.usethesource.vallang.type.Type $T17;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false)]))*/
-    public final io.usethesource.vallang.type.Type $T10;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false),aparameter("T4",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T14;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false)]))*/
+    public final io.usethesource.vallang.type.Type $T15;	/*arel(atypeList([aparameter("T0",avalue(),closed=false),aparameter("T1",avalue(),closed=false),aparameter("T2",avalue(),closed=false),aparameter("T3",avalue(),closed=false),aparameter("T4",avalue(),closed=false)]))*/
     public final io.usethesource.vallang.type.Type $T31;	/*arel(atypeList([aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true),aparameter("T",avalue(),closed=true)]))*/
     public final io.usethesource.vallang.type.Type $T22;	/*afunc(abool(),[aparameter("T",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T38;	/*arel(atypeList([aparameter("T0",avalue(),closed=true),aparameter("T1",avalue(),closed=true),aparameter("T2",avalue(),closed=true)]))*/
@@ -123,7 +123,7 @@ public class $Relation
     
        $constants = readBinaryConstantsFile(this.getClass(), "rascal/$Relation.constants", 5, "d62345a0b802833ae0f26ba12f6b3af4");
        $T1 = $TF.valueType();
-       $T14 = $TF.parameterType("T3", $T1);
+       $T16 = $TF.parameterType("T3", $T1);
        $T41 = $TF.parameterType("T4", $T1);
        $T36 = $TF.parameterType("T1", $T1);
        $T37 = $TF.parameterType("T2", $T1);
@@ -137,7 +137,7 @@ public class $Relation
        $T2 = $TF.parameterType("U", $T1);
        $T35 = $TF.parameterType("T0", $T1);
        $T13 = $TF.parameterType("T2", $T1);
-       $T15 = $TF.parameterType("T4", $T1);
+       $T17 = $TF.parameterType("T4", $T1);
        $T25 = $TF.parameterType("K", $T1);
        $T45 = $TF.parameterType("U", $T1);
        $T26 = $TF.parameterType("V", $T1);
@@ -149,23 +149,23 @@ public class $Relation
        $T33 = $TF.setType($TF.tupleType($T29, $T29, $T29, $T29, $T29));
        $T30 = $TF.setType($TF.tupleType($T29, $T29));
        $T55 = $TF.setType($TF.tupleType($T36, $T37, $T39));
-       $T7 = $TF.setType($TF.tupleType($T5, $T5, $T5, $T5, $T5));
+       $T8 = $TF.setType($TF.tupleType($T5, $T5, $T5, $T5, $T5));
        $T56 = $TF.setType($TF.tupleType($T36, $T37, $T39, $T41));
-       $T16 = $TF.setType($TF.tupleType($T11, $T12, $T13));
+       $T10 = $TF.setType($TF.tupleType($T11, $T12, $T13));
        $T47 = $TF.setType($T45);
        $T46 = $TF.setType($T47);
        $T9 = $TF.setType($TF.tupleType($T5, $T5));
-       $T8 = $TF.setType($TF.tupleType($T5, $T5, $T5));
+       $T4 = $TF.setType($TF.tupleType($T5, $T5, $T5));
        $T24 = $TF.setType($TF.tupleType($T25, $T26));
        $T0 = $TF.setType($TF.tupleType($T2, $T3));
        $T44 = $TF.setType($TF.tupleType($T29, $T45));
-       $T4 = $TF.setType($TF.tupleType($T5, $T5, $T5, $T5));
+       $T7 = $TF.setType($TF.tupleType($T5, $T5, $T5, $T5));
        $T19 = $TF.setType($T11);
        $T40 = $TF.setType($TF.tupleType($T35, $T36, $T37, $T39));
        $T60 = $TF.setType($T59);
        $T43 = $TF.setType($T35);
        $T51 = $TF.setType($TF.tupleType($T39, $T37, $T36, $T35));
-       $T18 = $TF.setType($TF.tupleType($T11, $T12, $T13, $T14));
+       $T18 = $TF.setType($TF.tupleType($T11, $T12, $T13, $T16));
        $T57 = $TF.mapType($T58,$T60);
        $T42 = $TF.setType($TF.tupleType($T35, $T36, $T37, $T39, $T41));
        $T23 = $TF.boolType();
@@ -176,8 +176,8 @@ public class $Relation
        $T28 = $TF.setType($T29);
        $T48 = $TF.setType($T28);
        $T34 = $TF.setType($TF.tupleType($T35, $T36));
-       $T17 = $TF.setType($TF.tupleType($T11, $T12));
-       $T10 = $TF.setType($TF.tupleType($T11, $T12, $T13, $T14, $T15));
+       $T14 = $TF.setType($TF.tupleType($T11, $T12));
+       $T15 = $TF.setType($TF.tupleType($T11, $T12, $T13, $T16, $T17));
        $T31 = $TF.setType($TF.tupleType($T29, $T29, $T29));
        $T22 = $TF.functionType($T23, $TF.tupleType($T5), $TF.tupleEmpty());
        $T38 = $TF.setType($TF.tupleType($T35, $T36, $T37));
@@ -202,15 +202,15 @@ public class $Relation
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T6)){
-         $result = (ISet)carrierX$49defed118403d6b((ISet) $P0, (ISet) $P1);
+         $result = (ISet)carrierX$df6a48ab3b7a4dec((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T7) && $isSubtypeOf($P1Type,$T6)){
-         $result = (ISet)carrierX$bf7cccdaa1eed86e((ISet) $P0, (ISet) $P1);
+         $result = (ISet)carrierX$49defed118403d6b((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T8) && $isSubtypeOf($P1Type,$T6)){
-         $result = (ISet)carrierX$df6a48ab3b7a4dec((ISet) $P0, (ISet) $P1);
+         $result = (ISet)carrierX$bf7cccdaa1eed86e((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T9) && $isSubtypeOf($P1Type,$T6)){
@@ -224,15 +224,15 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T10)){
-         $result = (ISet)domain$01d1ad809c35f6a6((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T16)){
          $result = (ISet)domain$d8bfbbdeeed3de5d((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T17)){
+       if($isSubtypeOf($P0Type,$T14)){
          $result = (ISet)domain$a5e787a53fc61c1d((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T15)){
+         $result = (ISet)domain$01d1ad809c35f6a6((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T18)){
@@ -245,20 +245,20 @@ public class $Relation
     public ISet complement(IValue $P0){ // Generated by Resolver
        ISet $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T18)){
-         $result = (ISet)complement$2542577ed834920c((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T10)){
-         $result = (ISet)complement$414610a50c8d5bec((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T17)){
+       if($isSubtypeOf($P0Type,$T14)){
          $result = (ISet)complement$ef7e15fe41864083((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T16)){
+       if($isSubtypeOf($P0Type,$T15)){
+         $result = (ISet)complement$414610a50c8d5bec((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T10)){
          $result = (ISet)complement$2c13ef0fc6874fed((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T18)){
+         $result = (ISet)complement$2542577ed834920c((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -268,20 +268,20 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T17) && $isSubtypeOf($P1Type,$T19)){
+       if($isSubtypeOf($P0Type,$T15) && $isSubtypeOf($P1Type,$T19)){
+         $result = (ISet)domainR$518cd2727fd36a61((ISet) $P0, (ISet) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T14) && $isSubtypeOf($P1Type,$T19)){
          $result = (ISet)domainR$e0faf740e04bab80((ISet) $P0, (ISet) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T10) && $isSubtypeOf($P1Type,$T19)){
+         $result = (ISet)domainR$4905305b7d15eadf((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T18) && $isSubtypeOf($P1Type,$T19)){
          $result = (ISet)domainR$a80349fe04e57f18((ISet) $P0, (ISet) $P1);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T10) && $isSubtypeOf($P1Type,$T19)){
-         $result = (ISet)domainR$518cd2727fd36a61((ISet) $P0, (ISet) $P1);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T16) && $isSubtypeOf($P1Type,$T19)){
-         $result = (ISet)domainR$4905305b7d15eadf((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T20) && $isSubtypeOf($P1Type,$T22)){
@@ -315,20 +315,20 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T16) && $isSubtypeOf($P1Type,$T19)){
-         $result = (ISet)domainX$d7fa8b0403f4dc8d((ISet) $P0, (ISet) $P1);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T10) && $isSubtypeOf($P1Type,$T19)){
-         $result = (ISet)domainX$facef42ba1781b52((ISet) $P0, (ISet) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T18) && $isSubtypeOf($P1Type,$T19)){
          $result = (ISet)domainX$4dc7f5c578f424fa((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T17) && $isSubtypeOf($P1Type,$T19)){
+       if($isSubtypeOf($P0Type,$T15) && $isSubtypeOf($P1Type,$T19)){
+         $result = (ISet)domainX$facef42ba1781b52((ISet) $P0, (ISet) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T14) && $isSubtypeOf($P1Type,$T19)){
          $result = (ISet)domainX$935cfce0ce878ae8((ISet) $P0, (ISet) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T10) && $isSubtypeOf($P1Type,$T19)){
+         $result = (ISet)domainX$d7fa8b0403f4dc8d((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        
@@ -338,7 +338,7 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T17) && $isSubtypeOf($P1Type,$T27)){
+       if($isSubtypeOf($P0Type,$T14) && $isSubtypeOf($P1Type,$T27)){
          $result = (ISet)rangeR$9847d9eba796ca93((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
@@ -349,19 +349,19 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T10)){
-         $result = (ISet)invert$efba2908f30fd1b6((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T17)){
-         $result = (ISet)invert$38397715455fbfa2((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T16)){
          $result = (ISet)invert$47b30623c1773731((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T15)){
+         $result = (ISet)invert$efba2908f30fd1b6((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T18)){
          $result = (ISet)invert$310eaa6ba5e07251((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T14)){
+         $result = (ISet)invert$38397715455fbfa2((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -370,15 +370,15 @@ public class $Relation
     public ISet carrier(IValue $P0){ // Generated by Resolver
        ISet $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T8)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (ISet)carrier$3665245254d9f13c((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T7)){
          $result = (ISet)carrier$b029865f12f8da60((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T7)){
+       if($isSubtypeOf($P0Type,$T8)){
          $result = (ISet)carrier$4dd24d554a553122((ISet) $P0);
          if($result != null) return $result;
        }
@@ -403,16 +403,16 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T8) && $isSubtypeOf($P1Type,$T6)){
-         $result = (ISet)carrierR$e93b6c0052a43258((ISet) $P0, (ISet) $P1);
+       if($isSubtypeOf($P0Type,$T7) && $isSubtypeOf($P1Type,$T6)){
+         $result = (ISet)carrierR$59b7e14ccc6d89eb((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T7) && $isSubtypeOf($P1Type,$T6)){
+       if($isSubtypeOf($P0Type,$T8) && $isSubtypeOf($P1Type,$T6)){
          $result = (ISet)carrierR$9c9d1d131e82e899((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T6)){
-         $result = (ISet)carrierR$59b7e14ccc6d89eb((ISet) $P0, (ISet) $P1);
+         $result = (ISet)carrierR$e93b6c0052a43258((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T9) && $isSubtypeOf($P1Type,$T6)){
@@ -426,7 +426,7 @@ public class $Relation
        ISet $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T17) && $isSubtypeOf($P1Type,$T27)){
+       if($isSubtypeOf($P0Type,$T14) && $isSubtypeOf($P1Type,$T27)){
          $result = (ISet)rangeX$748f0852638aa85f((ISet) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
@@ -436,20 +436,20 @@ public class $Relation
     public ISet range(IValue $P0){ // Generated by Resolver
        ISet $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T16)){
+       if($isSubtypeOf($P0Type,$T10)){
          $result = (ISet)range$a3177693de84b8a5((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T14)){
+         $result = (ISet)range$98c1426c9a24a31e((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T15)){
+         $result = (ISet)range$2057b35c75bcf5c4((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T18)){
          $result = (ISet)range$328cc9a56ca626e7((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T10)){
-         $result = (ISet)range$2057b35c75bcf5c4((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T17)){
-         $result = (ISet)range$98c1426c9a24a31e((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -479,7 +479,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T8.match(R_0.getType(), $typeBindings)){
+        if($T4.match(R_0.getType(), $typeBindings)){
            final ISet $result1 = ((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/)))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(2)/*2*/)))))));
            if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result1.getType(),$T28)){
               return ((ISet)($result1));
@@ -497,7 +497,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T4.match(R_0.getType(), $typeBindings)){
+        if($T7.match(R_0.getType(), $typeBindings)){
            final ISet $result2 = ((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/)))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(2)/*2*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(3)/*3*/)))))));
            if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result2.getType(),$T28)){
               return ((ISet)($result2));
@@ -515,7 +515,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T7.match(R_0.getType(), $typeBindings)){
+        if($T8.match(R_0.getType(), $typeBindings)){
            final ISet $result3 = ((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($aset_add_aset(((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/)))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(2)/*2*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(3)/*3*/))))))),((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(4)/*4*/)))))));
            if($T28.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result3.getType(),$T28)){
               return ((ISet)($result3));
@@ -601,7 +601,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T8.match(R_0.getType(), $typeBindings)){
+        if($T4.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -679,7 +679,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T4.match(R_0.getType(), $typeBindings)){
+        if($T7.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -767,7 +767,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T7.match(R_0.getType(), $typeBindings)){
+        if($T8.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -933,7 +933,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T8.match(R_0.getType(), $typeBindings)){
+        if($T4.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1011,7 +1011,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T4.match(R_0.getType(), $typeBindings)){
+        if($T7.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1099,7 +1099,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T7.match(R_0.getType(), $typeBindings)){
+        if($T8.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1197,7 +1197,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            final ISet $result44 = ((ISet)(((ISet)($aset_product_aset(((ISet)($me.domain(((ISet)R_0)))),((ISet)($me.range(((ISet)R_0))))))).subtract(((ISet)R_0))));
            if($T34.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result44.getType(),$T34)){
               return ((ISet)($result44));
@@ -1215,7 +1215,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            if(true){
               final ISetWriter $setwriter45 = (ISetWriter)$RVF.setWriter();
               ;
@@ -1352,7 +1352,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            if(true){
               final ISetWriter $setwriter58 = (ISetWriter)$RVF.setWriter();
               ;
@@ -1437,7 +1437,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            final ISet $result66 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/))));
            if($T43.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result66.getType(),$T43)){
               return ((ISet)($result66));
@@ -1455,7 +1455,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            final ISet $result67 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/))));
            if($T43.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result67.getType(),$T43)){
               return ((ISet)($result67));
@@ -1491,7 +1491,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            final ISet $result69 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(0)/*0*/))));
            if($T43.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result69.getType(),$T43)){
               return ((ISet)($result69));
@@ -1509,7 +1509,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1627,7 +1627,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1768,7 +1768,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1846,7 +1846,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -1909,7 +1909,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -2050,7 +2050,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T19.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -2210,7 +2210,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            final ISet $result127 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/), ((IInteger)$constants.get(0)/*0*/))));
            if($T49.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result127.getType(),$T49)){
               return ((ISet)($result127));
@@ -2228,7 +2228,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            final ISet $result128 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(2)/*2*/), ((IInteger)$constants.get(1)/*1*/), ((IInteger)$constants.get(0)/*0*/))));
            if($T50.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result128.getType(),$T50)){
               return ((ISet)($result128));
@@ -2264,7 +2264,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            final ISet $result130 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(4)/*4*/), ((IInteger)$constants.get(3)/*3*/), ((IInteger)$constants.get(2)/*2*/), ((IInteger)$constants.get(1)/*1*/), ((IInteger)$constants.get(0)/*0*/))));
            if($T52.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result130.getType(),$T52)){
               return ((ISet)($result130));
@@ -2282,7 +2282,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            final ISet $result131 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/))));
            if($T53.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result131.getType(),$T53)){
               return ((ISet)($result131));
@@ -2300,7 +2300,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T16.match(R_0.getType(), $typeBindings)){
+        if($T10.match(R_0.getType(), $typeBindings)){
            final ISet $result132 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/), ((IInteger)$constants.get(2)/*2*/))));
            if($T54.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result132.getType(),$T54)){
               return ((ISet)($result132));
@@ -2336,7 +2336,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T10.match(R_0.getType(), $typeBindings)){
+        if($T15.match(R_0.getType(), $typeBindings)){
            final ISet $result134 = ((ISet)($arel_field_project((ISet)((ISet)R_0), ((IInteger)$constants.get(1)/*1*/), ((IInteger)$constants.get(2)/*2*/), ((IInteger)$constants.get(3)/*3*/), ((IInteger)$constants.get(4)/*4*/))));
            if($T56.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result134.getType(),$T56)){
               return ((ISet)($result134));
@@ -2354,7 +2354,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T27.match(S_1.getType(), $typeBindings)){
                  if(true){
@@ -2417,7 +2417,7 @@ public class $Relation
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T17.match(R_0.getType(), $typeBindings)){
+        if($T14.match(R_0.getType(), $typeBindings)){
            if(true){
               if($T27.match(S_1.getType(), $typeBindings)){
                  if(true){

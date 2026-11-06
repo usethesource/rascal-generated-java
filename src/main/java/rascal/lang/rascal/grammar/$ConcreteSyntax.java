@@ -57,7 +57,7 @@ public class $ConcreteSyntax
     public final io.usethesource.vallang.type.Type $T14;	/*aparameter("A",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T6;	/*aint()*/
     public final io.usethesource.vallang.type.Type $T10;	/*astr()*/
-    public final io.usethesource.vallang.type.Type $T4;	/*avoid()*/
+    public final io.usethesource.vallang.type.Type $T5;	/*avoid()*/
     public final io.usethesource.vallang.type.Type $T9;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type ADT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
@@ -256,7 +256,7 @@ public class $ConcreteSyntax
     public final io.usethesource.vallang.type.Type NT_CaseInsensitiveStringConstant;	/*aadt("CaseInsensitiveStringConstant",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Body;	/*aadt("Body",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Body;	/*aadt("Body",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T5;	/*aset(aadt("Production",[],dataSyntax()))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*aset(aadt("Production",[],dataSyntax()))*/
     public final io.usethesource.vallang.type.Type ADT_Variant;	/*aadt("Variant",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Variant;	/*aadt("Variant",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_UserType;	/*aadt("UserType",[],contextFreeSyntax())*/
@@ -704,7 +704,7 @@ public class $ConcreteSyntax
        $T14 = $TF.parameterType("A", $T8);
        $T6 = $TF.integerType();
        $T10 = $TF.stringType();
-       $T4 = $TF.voidType();
+       $T5 = $TF.voidType();
        $T9 = $TF.parameterType("T", $T8);
        $T2 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")));
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
@@ -719,16 +719,16 @@ public class $ConcreteSyntax
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
        $T7 = $TF.listType($T9);
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
-       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T4 });
+       ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T5 });
        NT_KeywordArgument_1 = $parameterizedSort("KeywordArgument", new Type[] { $T12 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        $T3 = $TF.setType(ADT_Symbol);
-       $T5 = $TF.setType(ADT_Production);
+       $T4 = $TF.setType(ADT_Production);
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T12 });
        $T11 = $TF.listType(ADT_Symbol);
        $T1 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")), $RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")), $RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
-       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T4 });
+       ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T5 });
        $T0 = $TF.setType(ADT_Condition);
        ADT_Mapping_Expression = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Expression });
        ADT_KeywordArguments_1 = $TF.abstractDataType($TS, "KeywordArguments", new Type[] { $T12 });
@@ -892,11 +892,7 @@ public class $ConcreteSyntax
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
-         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T5)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T4)){
          $result = (IConstructor)M_ParseTree.associativity$1d00327eefbb3803((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
          $result = (IConstructor)M_ParseTree.associativity$feae421831fcd92c((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
@@ -904,11 +900,15 @@ public class $ConcreteSyntax
          $result = (IConstructor)M_ParseTree.associativity$5296642432c60eb8((IConstructor) $P0, (IConstructor) $P1, (ISet) $P2);
          if($result != null) return $result;
        }
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_void) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
+         $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$453839dc0f171b40((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
+         if($result != null) return $result;
+       }
        if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, ADT_Maybe_Associativity) && $isSubtypeOf($P2Type, M_Type.ADT_Production)){
          $result = (IConstructor)M_lang_rascal_grammar_definition_Productions.associativity$308c5e95cc6b10aa((IConstructor) $P0, (IConstructor) $P1, (IConstructor) $P2);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T5)){
+       if($isSubtypeOf($P0Type, M_Type.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Associativity) && $isSubtypeOf($P2Type,$T4)){
          return $RVF.constructor(M_ParseTree.Production_associativity_Symbol_Associativity_set_Production, new IValue[]{(IConstructor) $P0, (IConstructor) $P1, (ISet) $P2});
        }
        
@@ -918,12 +918,12 @@ public class $ConcreteSyntax
        IString $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isNonTerminal($P0Type, M_lang_rascal_syntax_Rascal.NT_ConcreteHole) && $isSubtypeOf($P1Type,$T6)){
-         $result = (IString)createHole$c4ee71e0413856a8((ITree) $P0, (IInteger) $P1);
-         if($result != null) return $result;
-       }
        if($isNonTerminal($P0Type, ((IConstructor)$constants.get(0)/*lex("ConcretePart")*/)) && $isSubtypeOf($P1Type,$T6)){
          $result = (IString)createHole$73c4bc2ae3b2c484((ITree) $P0, (IInteger) $P1);
+         if($result != null) return $result;
+       }
+       if($isNonTerminal($P0Type, M_lang_rascal_syntax_Rascal.NT_ConcreteHole) && $isSubtypeOf($P1Type,$T6)){
+         $result = (IString)createHole$c4ee71e0413856a8((ITree) $P0, (IInteger) $P1);
          if($result != null) return $result;
        }
        

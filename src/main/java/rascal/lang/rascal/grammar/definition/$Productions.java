@@ -1217,12 +1217,12 @@ public class $Productions
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T12) && $isSubtypeOf($P1Type,$T15)){
-         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T13) && $isSubtypeOf($P1Type,$T15)){
          $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T12) && $isSubtypeOf($P1Type,$T15)){
+         $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
        

@@ -55,7 +55,7 @@ public class $Modules
     
     
     public final io.usethesource.vallang.type.Type $T5;	/*astr()*/
-    public final io.usethesource.vallang.type.Type $T9;	/*astr(alabel="name")*/
+    public final io.usethesource.vallang.type.Type $T10;	/*astr(alabel="name")*/
     public final io.usethesource.vallang.type.Type $T2;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T17;	/*aparameter("A",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T7;	/*avoid()*/
@@ -98,7 +98,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_Concrete;	/*aadt("Concrete",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_ProtocolChars;	/*aadt("ProtocolChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_ProtocolChars;	/*aadt("ProtocolChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T11;	/*aset(astr(),alabel="extends")*/
+    public final io.usethesource.vallang.type.Type $T12;	/*aset(astr(),alabel="extends")*/
     public final io.usethesource.vallang.type.Type ADT_Range;	/*aadt("Range",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Range;	/*aadt("Range",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Variable;	/*aadt("Variable",[],contextFreeSyntax())*/
@@ -128,7 +128,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_BooleanLiteral;	/*aadt("BooleanLiteral",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Case;	/*aadt("Case",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Case;	/*aadt("Case",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T10;	/*aset(astr(),alabel="imports")*/
+    public final io.usethesource.vallang.type.Type $T11;	/*aset(astr(),alabel="imports")*/
     public final io.usethesource.vallang.type.Type ADT_Expression;	/*aadt("Expression",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Expression;	/*aadt("Expression",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Mapping_Expression;	/*aadt("Mapping",[aadt("Expression",[],contextFreeSyntax())],contextFreeSyntax())*/
@@ -171,7 +171,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_Tag;	/*aadt("Tag",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Module;	/*aadt("Module",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Module;	/*aadt("Module",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T14;	/*aset(aadt("Module",[],contextFreeSyntax()))*/
+    public final io.usethesource.vallang.type.Type $T8;	/*aset(aadt("Module",[],contextFreeSyntax()))*/
     public final io.usethesource.vallang.type.Type ADT_Symbol;	/*aadt("Symbol",[],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TimeZonePart;	/*aadt("TimeZonePart",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_TimeZonePart;	/*aadt("TimeZonePart",[],lexicalSyntax())*/
@@ -185,7 +185,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_Declaration;	/*aadt("Declaration",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Field;	/*aadt("Field",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Field;	/*aadt("Field",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T1;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
@@ -203,8 +203,8 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_RegExp;	/*aadt("RegExp",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Nonterminal;	/*aadt("Nonterminal",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Nonterminal;	/*aadt("Nonterminal",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T12;	/*aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")*/
-    public final io.usethesource.vallang.type.Type $T13;	/*atuple(atypeList([aset(astr(),alabel="imports"),aset(astr(),alabel="extends"),aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")]),alabel="mod")*/
+    public final io.usethesource.vallang.type.Type $T13;	/*aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")*/
+    public final io.usethesource.vallang.type.Type $T14;	/*atuple(atypeList([aset(astr(),alabel="imports"),aset(astr(),alabel="extends"),aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")]),alabel="mod")*/
     public final io.usethesource.vallang.type.Type ADT_PathPart;	/*aadt("PathPart",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathPart;	/*aadt("PathPart",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Class;	/*aadt("Class",[],contextFreeSyntax())*/
@@ -216,7 +216,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_Signature;	/*aadt("Signature",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_KeywordFormal;	/*aadt("KeywordFormal",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_KeywordFormal;	/*aadt("KeywordFormal",[],contextFreeSyntax())*/
-    public final io.usethesource.vallang.type.Type $T8;	/*amap(astr(alabel="name"),atuple(atypeList([aset(astr(),alabel="imports"),aset(astr(),alabel="extends"),aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")]),alabel="mod"))*/
+    public final io.usethesource.vallang.type.Type $T9;	/*amap(astr(alabel="name"),atuple(atypeList([aset(astr(),alabel="imports"),aset(astr(),alabel="extends"),aset(aadt("SyntaxDefinition",[],contextFreeSyntax()),alabel="defs")]),alabel="mod"))*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_FileSystemChange;	/*aadt("FileSystemChange",[],dataSyntax())*/
@@ -295,7 +295,7 @@ public class $Modules
     public final io.usethesource.vallang.type.Type NT_MidPathChars;	/*aadt("MidPathChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Symbol_just_Symbol;	/*acons(aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax()),[aadt("Symbol",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type ADT_Maybe_void;	/*aadt("Maybe",[avoid()],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T1;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
@@ -709,7 +709,7 @@ public class $Modules
        NT_Comment = $lex("Comment");
        ADT_Comment = $adt("Comment");
        $T5 = $TF.stringType();
-       $T9 = $TF.stringType();
+       $T10 = $TF.stringType();
        $T2 = $TF.valueType();
        $T17 = $TF.parameterType("A", $T2);
        $T7 = $TF.voidType();
@@ -718,22 +718,22 @@ public class $Modules
        $T15 = $TF.parameterType("T", ADT_Tree);
        NT_KeywordArguments_1 = $parameterizedSort("KeywordArguments", new Type[] { $T15 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        NT_Mapping_Pattern = $parameterizedSort("Mapping", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
-       $T11 = $TF.setType($T5);
+       $T12 = $TF.setType($T5);
        $T16 = $TF.parameterType("T", ADT_Tree);
-       $T10 = $TF.setType($T5);
+       $T11 = $TF.setType($T5);
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        NT_KeywordArguments_Expression = $parameterizedSort("KeywordArguments", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T15 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T17 });
-       $T14 = $TF.setType(NT_Module);
+       $T8 = $TF.setType(NT_Module);
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
-       $T1 = $TF.listType($T3);
+       $T4 = $TF.listType($T3);
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T7 });
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
-       $T12 = $TF.setType(NT_SyntaxDefinition);
-       $T13 = $TF.tupleType($T10, $T11, $T12);
+       $T13 = $TF.setType(NT_SyntaxDefinition);
+       $T14 = $TF.tupleType($T11, $T12, $T13);
        NT_KeywordArgument_1 = $parameterizedSort("KeywordArgument", new Type[] { $T15 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
-       $T8 = $TF.mapType($T9, "name", $T13, "mod");
+       $T9 = $TF.mapType($T10, "name", $T14, "mod");
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        ADT_TreeSearchResult_Tree = $parameterizedAdt("TreeSearchResult", new Type[] { ADT_Tree });
@@ -741,7 +741,7 @@ public class $Modules
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T15 });
        $T18 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterStarSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Import")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
        ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T7 });
-       $T4 = $TF.setType($T3);
+       $T1 = $TF.setType($T3);
        ADT_KeywordArguments_1 = $TF.abstractDataType($TS, "KeywordArguments", new Type[] { $T15 });
        ADT_Mapping_Pattern = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Pattern });
        ADT_Mapping_Expression = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Expression });
@@ -812,11 +812,11 @@ public class $Modules
        ITuple $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T1)){
-         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
+         $result = (ITuple)M_Set.takeOneFrom$cae8ac4f2699365b((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T4)){
-         $result = (ITuple)M_Set.takeOneFrom$cae8ac4f2699365b((ISet) $P0);
+         $result = (ITuple)M_List.takeOneFrom$c52f3e30bbbc1271((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -937,11 +937,11 @@ public class $Modules
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T8)){
-         $result = (IConstructor)modules2grammar$927186881826b53a((IString) $P0, (IMap) $P1);
+         $result = (IConstructor)modules2grammar$5c549c8c80ced6de((IString) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T14)){
-         $result = (IConstructor)modules2grammar$5c549c8c80ced6de((IString) $P0, (ISet) $P1);
+       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T9)){
+         $result = (IConstructor)modules2grammar$927186881826b53a((IString) $P0, (IMap) $P1);
          if($result != null) return $result;
        }
        
@@ -954,7 +954,7 @@ public class $Modules
        IConstructor $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T14)){
+       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T8)){
          $result = (IConstructor)modules2definition$2d5c4ed2c51e050f((IString) $P0, (ISet) $P1);
          if($result != null) return $result;
        }

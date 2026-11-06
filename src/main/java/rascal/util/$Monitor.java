@@ -64,40 +64,40 @@ public class $Monitor
     public final io.usethesource.vallang.type.Type $T1;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T28;	/*aparameter("T",avalue(),closed=false,alabel="w")*/
     public final io.usethesource.vallang.type.Type $T26;	/*aparameter("U",avalue(),closed=true)*/
-    public final io.usethesource.vallang.type.Type $T8;	/*aint(alabel="worked")*/
+    public final io.usethesource.vallang.type.Type $T11;	/*aint(alabel="worked")*/
     public final io.usethesource.vallang.type.Type $T6;	/*avoid()*/
-    public final io.usethesource.vallang.type.Type $T19;	/*aparameter("T",avalue(),closed=true)*/
+    public final io.usethesource.vallang.type.Type $T22;	/*aparameter("T",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T17;	/*aparameter("U",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T2;	/*aparameter("T",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T11;	/*astr(alabel="message")*/
+    public final io.usethesource.vallang.type.Type $T14;	/*astr(alabel="message")*/
     public final io.usethesource.vallang.type.Type $T23;	/*aloc()*/
     public final io.usethesource.vallang.type.Type $T32;	/*aint(alabel="_")*/
-    public final io.usethesource.vallang.type.Type $T3;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T0;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T33;	/*afunc(avoid(),[aint(alabel="_")],[],alabel="_")*/
-    public final io.usethesource.vallang.type.Type $T15;	/*afunc(avoid(),[],[],alabel="step")*/
-    public final io.usethesource.vallang.type.Type $T18;	/*afunc(aparameter("T",avalue(),closed=true),[afunc(avoid(),[],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T9;	/*afunc(avoid(),[],[],alabel="step")*/
+    public final io.usethesource.vallang.type.Type $T21;	/*afunc(aparameter("T",avalue(),closed=true),[afunc(avoid(),[],[],alabel="step")],[])*/
     public final io.usethesource.vallang.type.Type $T24;	/*afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],returnsViaAllPath=false)*/
-    public final io.usethesource.vallang.type.Type $T13;	/*afunc(avoid(),[],[])*/
+    public final io.usethesource.vallang.type.Type $T7;	/*afunc(avoid(),[],[])*/
     public final io.usethesource.vallang.type.Type ADT_RuntimeException;	/*aadt("RuntimeException",[],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T12;	/*afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")*/
+    public final io.usethesource.vallang.type.Type $T15;	/*afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")*/
     public final io.usethesource.vallang.type.Type $T30;	/*afunc(avoid(),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[],returnsViaAllPath=false)*/
-    public final io.usethesource.vallang.type.Type $T0;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T3;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T27;	/*afunc(astr(),[aparameter("T",avalue(),closed=false,alabel="w")],[],returnsViaAllPath=true)*/
-    public final io.usethesource.vallang.type.Type $T21;	/*afunc(aparameter("T",avalue(),closed=false),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[])*/
-    public final io.usethesource.vallang.type.Type $T9;	/*afunc(avoid(),[aint(alabel="worked")],[],alabel="step")*/
-    public final io.usethesource.vallang.type.Type $T20;	/*afunc(aparameter("T",avalue(),closed=false),[afunc(avoid(),[aint(alabel="worked")],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T20;	/*afunc(aparameter("T",avalue(),closed=false),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T12;	/*afunc(avoid(),[aint(alabel="worked")],[],alabel="step")*/
+    public final io.usethesource.vallang.type.Type $T18;	/*afunc(aparameter("T",avalue(),closed=false),[afunc(avoid(),[aint(alabel="worked")],[],alabel="step")],[])*/
     public final io.usethesource.vallang.type.Type $T5;	/*afunc(avoid(),[aparameter("T",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T34;	/*afunc(avoid(),[aint(alabel="worked")],[],returnsViaAllPath=false)*/
     public final io.usethesource.vallang.type.Type $T16;	/*afunc(aparameter("U",avalue(),closed=false),[aparameter("T",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T35;	/*afunc(avoid(),[],[],returnsViaAllPath=false)*/
     public final io.usethesource.vallang.type.Type ADT_FileSystemChange;	/*aadt("FileSystemChange",[],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_IOCapability;	/*aadt("IOCapability",[],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T7;	/*afunc(avoid(),[afunc(avoid(),[aint(alabel="worked")],[],alabel="step")],[])*/
-    public final io.usethesource.vallang.type.Type $T10;	/*afunc(avoid(),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T10;	/*afunc(avoid(),[afunc(avoid(),[aint(alabel="worked")],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T13;	/*afunc(avoid(),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[])*/
     public final io.usethesource.vallang.type.Type $T25;	/*alist(aparameter("U",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T29;	/*afunc(alist(aparameter("U",avalue(),closed=true)),[afunc(avoid(),[astr(alabel="message"),aint(alabel="worked")],[],alabel="step")],[],returnsViaAllPath=true)*/
-    public final io.usethesource.vallang.type.Type $T14;	/*afunc(avoid(),[afunc(avoid(),[],[],alabel="step")],[])*/
-    public final io.usethesource.vallang.type.Type $T22;	/*afunc(aparameter("T",avalue(),closed=false),[],[])*/
+    public final io.usethesource.vallang.type.Type $T8;	/*afunc(avoid(),[afunc(avoid(),[],[],alabel="step")],[])*/
+    public final io.usethesource.vallang.type.Type $T19;	/*afunc(aparameter("T",avalue(),closed=false),[],[])*/
     public final io.usethesource.vallang.type.Type $T31;	/*afunc(avoid(),[afunc(avoid(),[aint(alabel="_")],[],alabel="_")],[])*/
 
     public $Monitor(RascalExecutionContext rex){
@@ -143,37 +143,37 @@ public class $Monitor
        $T1 = $TF.valueType();
        $T28 = $TF.parameterType("T", $T1);
        $T26 = $TF.parameterType("U", $T1);
-       $T8 = $TF.integerType();
+       $T11 = $TF.integerType();
        $T6 = $TF.voidType();
-       $T19 = $TF.parameterType("T", $T1);
+       $T22 = $TF.parameterType("T", $T1);
        $T17 = $TF.parameterType("U", $T1);
        $T2 = $TF.parameterType("T", $T1);
-       $T11 = $TF.stringType();
+       $T14 = $TF.stringType();
        $T23 = $TF.sourceLocationType();
        $T32 = $TF.integerType();
-       $T3 = $TF.setType($T2);
+       $T0 = $TF.setType($T2);
        $T33 = $TF.functionType($T6, $TF.tupleType($T32, "_"), $TF.tupleEmpty());
-       $T15 = $TF.functionType($T6, $TF.tupleEmpty(), $TF.tupleEmpty());
-       $T18 = $TF.functionType($T19, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
-       $T24 = $TF.functionType($T6, $TF.tupleType($T11, "message", $T8, "worked"), $TF.tupleEmpty());
-       $T13 = $TF.functionType($T6, $TF.tupleEmpty(), $TF.tupleEmpty());
-       $T12 = $TF.functionType($T6, $TF.tupleType($T11, "message", $T8, "worked"), $TF.tupleEmpty());
-       $T30 = $TF.functionType($T6, $TF.tupleType($T12, "step"), $TF.tupleEmpty());
-       $T0 = $TF.listType($T2);
+       $T9 = $TF.functionType($T6, $TF.tupleEmpty(), $TF.tupleEmpty());
+       $T21 = $TF.functionType($T22, $TF.tupleType($T9, "step"), $TF.tupleEmpty());
+       $T24 = $TF.functionType($T6, $TF.tupleType($T14, "message", $T11, "worked"), $TF.tupleEmpty());
+       $T7 = $TF.functionType($T6, $TF.tupleEmpty(), $TF.tupleEmpty());
+       $T15 = $TF.functionType($T6, $TF.tupleType($T14, "message", $T11, "worked"), $TF.tupleEmpty());
+       $T30 = $TF.functionType($T6, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
+       $T3 = $TF.listType($T2);
        $T27 = $TF.functionType($T4, $TF.tupleType($T28, "w"), $TF.tupleEmpty());
-       $T21 = $TF.functionType($T2, $TF.tupleType($T12, "step"), $TF.tupleEmpty());
-       $T9 = $TF.functionType($T6, $TF.tupleType($T8, "worked"), $TF.tupleEmpty());
-       $T20 = $TF.functionType($T2, $TF.tupleType($T9, "step"), $TF.tupleEmpty());
+       $T20 = $TF.functionType($T2, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
+       $T12 = $TF.functionType($T6, $TF.tupleType($T11, "worked"), $TF.tupleEmpty());
+       $T18 = $TF.functionType($T2, $TF.tupleType($T12, "step"), $TF.tupleEmpty());
        $T5 = $TF.functionType($T6, $TF.tupleType($T2), $TF.tupleEmpty());
-       $T34 = $TF.functionType($T6, $TF.tupleType($T8, "worked"), $TF.tupleEmpty());
+       $T34 = $TF.functionType($T6, $TF.tupleType($T11, "worked"), $TF.tupleEmpty());
        $T16 = $TF.functionType($T17, $TF.tupleType($T2), $TF.tupleEmpty());
        $T35 = $TF.functionType($T6, $TF.tupleEmpty(), $TF.tupleEmpty());
-       $T7 = $TF.functionType($T6, $TF.tupleType($T9, "step"), $TF.tupleEmpty());
        $T10 = $TF.functionType($T6, $TF.tupleType($T12, "step"), $TF.tupleEmpty());
+       $T13 = $TF.functionType($T6, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
        $T25 = $TF.listType($T26);
-       $T29 = $TF.functionType($T25, $TF.tupleType($T12, "step"), $TF.tupleEmpty());
-       $T14 = $TF.functionType($T6, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
-       $T22 = $TF.functionType($T2, $TF.tupleEmpty(), $TF.tupleEmpty());
+       $T29 = $TF.functionType($T25, $TF.tupleType($T15, "step"), $TF.tupleEmpty());
+       $T8 = $TF.functionType($T6, $TF.tupleType($T9, "step"), $TF.tupleEmpty());
+       $T19 = $TF.functionType($T2, $TF.tupleEmpty(), $TF.tupleEmpty());
        $T31 = $TF.functionType($T6, $TF.tupleType($T33, "_"), $TF.tupleEmpty());
     
        
@@ -204,11 +204,11 @@ public class $Monitor
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
+         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -236,11 +236,11 @@ public class $Monitor
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T5)){
-         try { loopVoidJob$9e76a1e1434724f1((ISet) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
+         try { loopVoidJob$e770bf51a3db14b6((IList) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
        
        }
        if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T5)){
-         try { loopVoidJob$e770bf51a3db14b6((IList) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
+         try { loopVoidJob$9e76a1e1434724f1((ISet) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
        
        }
        
@@ -275,19 +275,19 @@ public class $Monitor
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T7)){
-         try { voidJob$665a52bc5ce8cd59((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
-       
-       }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T10)){
-         try { voidJob$35e4cd91c8dca54a((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
-       
-       }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T13)){
          try { voidJob$3586c0fb13efb709((IString) $P0, (TypedFunctionInstance0<IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
        
        }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T14)){
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T8)){
          try { voidJob$566fc09caab4c67e((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
+       
+       }
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T10)){
+         try { voidJob$665a52bc5ce8cd59((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
+       
+       }
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T13)){
+         try { voidJob$35e4cd91c8dca54a((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals); return; } catch (FailReturnFromVoidException e){};
        
        }
        
@@ -331,11 +331,11 @@ public class $Monitor
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T16)){
-         $result = (IList)loopJob$0c1479f0dbb233a3((IList) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
+         $result = (IList)loopJob$5380b6ab6513cb66((ISet) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T3) && $isSubtypeOf($P1Type,$T16)){
-         $result = (IList)loopJob$5380b6ab6513cb66((ISet) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
+         $result = (IList)loopJob$0c1479f0dbb233a3((IList) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
          if($result != null) return $result;
        }
        
@@ -346,19 +346,19 @@ public class $Monitor
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T18)){
-         $result = (IValue)job$1a8a7dc548fc4ded((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T20)){
          $result = (IValue)job$7c26d6f339538772((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T21)){
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T19)){
+         $result = (IValue)job$52bede2b80e6a285((IString) $P0, (TypedFunctionInstance0<IValue>) $P1, $kwpActuals);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T20)){
          $result = (IValue)job$8d47f40ea41212c4((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T22)){
-         $result = (IValue)job$52bede2b80e6a285((IString) $P0, (TypedFunctionInstance0<IValue>) $P1, $kwpActuals);
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T21)){
+         $result = (IValue)job$1a8a7dc548fc4ded((IString) $P0, (TypedFunctionInstance1<IValue, IValue>) $P1, $kwpActuals);
          if($result != null) return $result;
        }
        
@@ -383,7 +383,7 @@ public class $Monitor
     public void jobWarning(IValue $P0, IValue $P1){ // Generated by Resolver
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T11) && $isSubtypeOf($P1Type,$T23)){
+       if($isSubtypeOf($P0Type,$T14) && $isSubtypeOf($P1Type,$T23)){
          try { jobWarning$6cc669a0b4b2531b((IString) $P0, (ISourceLocation) $P1); return; } catch (FailReturnFromVoidException e){};
        
        }
@@ -468,11 +468,11 @@ public class $Monitor
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_job$8d47f40ea41212c4;
     
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T21.match(block_1.getType(), $typeBindings)){
+        if($T20.match(block_1.getType(), $typeBindings)){
            try {
                 $me.jobStart(label_0.getValue(), Util.kwpMap("totalWork", ((IInteger) ($kwpActuals.containsKey("totalWork") ? $kwpActuals.get("totalWork") : $kwpDefaults.get("totalWork")))));
                 final IValue $result1 = ((IValue)(((TypedFunctionInstance1<IValue, IValue>)block_1).typedCall(new TypedFunctionInstance2<IValue,IValue,IValue>(($_0, $_1) -> { $CLOSURE_0((IString)$_0, (IInteger)$_1, label_0);return null; }, $T24))));
-                if($T19.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result1.getType(),$T19)){
+                if($T22.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result1.getType(),$T22)){
                    return ((IValue)($result1));
                 
                 } else {
@@ -598,7 +598,7 @@ public class $Monitor
         $kwpDefaults.put("label", $kwpDefault_label);TypedFunctionInstance1<IValue, IValue> $kwpDefault_stepLabel = new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_2((IValue)$_0); }, $T27);
         $kwpDefaults.put("stepLabel", $kwpDefault_stepLabel);
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(work_0.getValue().getType(), $typeBindings)){
+        if($T3.match(work_0.getValue().getType(), $typeBindings)){
            if($T16.match(consumer_1.getValue().getType(), $typeBindings)){
               final IList $result7 = ((IList)($me.job(((IString)(((IString) ($kwpActuals.containsKey("label") ? $kwpActuals.get("label") : $kwpDefaults.get("label"))))), new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_3((TypedFunctionInstance2<IValue, IValue, IValue>)$_0, consumer_1, work_0, new ValueRef<TypedFunctionInstance1<IValue, IValue>>("stepLabel", ((TypedFunctionInstance1<IValue, IValue>) ($kwpActuals.containsKey("stepLabel") ? $kwpActuals.get("stepLabel") : $kwpDefaults.get("stepLabel"))))); }, $T29), Util.kwpMap("totalWork", M_List.size(work_0.getValue())))));
               if($T25.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result7.getType(),$T25)){
@@ -665,7 +665,7 @@ public class $Monitor
         $kwpDefaults.put("label", $kwpDefault_label);TypedFunctionInstance1<IValue, IValue> $kwpDefault_stepLabel = new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_4((IValue)$_0); }, $T27);
         $kwpDefaults.put("stepLabel", $kwpDefault_stepLabel);
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T0.match(work_0.getValue().getType(), $typeBindings)){
+        if($T3.match(work_0.getValue().getType(), $typeBindings)){
            if($T5.match(consumer_1.getValue().getType(), $typeBindings)){
               $me.voidJob(((IString)(((IString) ($kwpActuals.containsKey("label") ? $kwpActuals.get("label") : $kwpDefaults.get("label"))))), new TypedFunctionInstance1<IValue,IValue>(($_0) -> { $CLOSURE_5((TypedFunctionInstance2<IValue, IValue, IValue>)$_0, consumer_1, work_0, new ValueRef<TypedFunctionInstance1<IValue, IValue>>("stepLabel", ((TypedFunctionInstance1<IValue, IValue>) ($kwpActuals.containsKey("stepLabel") ? $kwpActuals.get("stepLabel") : $kwpDefaults.get("stepLabel")))));return null; }, $T30), Util.kwpMap("totalWork", M_List.size(work_0.getValue())));
               return;
@@ -740,7 +740,7 @@ public class $Monitor
         $kwpDefaults.put("label", $kwpDefault_label);TypedFunctionInstance1<IValue, IValue> $kwpDefault_stepLabel = new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_6((IValue)$_0); }, $T27);
         $kwpDefaults.put("stepLabel", $kwpDefault_stepLabel);
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T3.match(work_0.getValue().getType(), $typeBindings)){
+        if($T0.match(work_0.getValue().getType(), $typeBindings)){
            if($T16.match(consumer_1.getValue().getType(), $typeBindings)){
               final IList $result15 = ((IList)($me.job(((IString)(((IString) ($kwpActuals.containsKey("label") ? $kwpActuals.get("label") : $kwpDefaults.get("label"))))), new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_7((TypedFunctionInstance2<IValue, IValue, IValue>)$_0, consumer_1, work_0, new ValueRef<TypedFunctionInstance1<IValue, IValue>>("stepLabel", ((TypedFunctionInstance1<IValue, IValue>) ($kwpActuals.containsKey("stepLabel") ? $kwpActuals.get("stepLabel") : $kwpDefaults.get("stepLabel"))))); }, $T29), Util.kwpMap("totalWork", M_Set.size(work_0.getValue())))));
               if($T25.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result15.getType(),$T25)){
@@ -807,7 +807,7 @@ public class $Monitor
         $kwpDefaults.put("label", $kwpDefault_label);TypedFunctionInstance1<IValue, IValue> $kwpDefault_stepLabel = new TypedFunctionInstance1<IValue,IValue>(($_0) -> { return $CLOSURE_8((IValue)$_0); }, $T27);
         $kwpDefaults.put("stepLabel", $kwpDefault_stepLabel);
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T3.match(work_0.getValue().getType(), $typeBindings)){
+        if($T0.match(work_0.getValue().getType(), $typeBindings)){
            if($T5.match(consumer_1.getValue().getType(), $typeBindings)){
               $me.voidJob(((IString)(((IString) ($kwpActuals.containsKey("label") ? $kwpActuals.get("label") : $kwpDefaults.get("label"))))), new TypedFunctionInstance1<IValue,IValue>(($_0) -> { $CLOSURE_9((TypedFunctionInstance2<IValue, IValue, IValue>)$_0, consumer_1, work_0, new ValueRef<TypedFunctionInstance1<IValue, IValue>>("stepLabel", ((TypedFunctionInstance1<IValue, IValue>) ($kwpActuals.containsKey("stepLabel") ? $kwpActuals.get("stepLabel") : $kwpDefaults.get("stepLabel")))));return null; }, $T30), Util.kwpMap("totalWork", M_Set.size(work_0.getValue())));
               return;
@@ -835,14 +835,14 @@ public class $Monitor
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_job$7c26d6f339538772;
     
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T20.match(block_1.getType(), $typeBindings)){
+        if($T18.match(block_1.getType(), $typeBindings)){
            if($isSubtypeOf(block_1.getType(),$T31.instantiate($typeBindings))){
               throw new Throw($RVF.constructor(M_Exception.RuntimeException_IllegalArgument_value_str, new IValue[]{((IValue)block_1), ((IString)$constants.get(5)/*"`block` argument can not be used by job because it returns `void` and `job` must return something."*/)}));
            }
            try {
                 $me.jobStart(label_0.getValue(), Util.kwpMap("totalWork", ((IInteger) ($kwpActuals.containsKey("totalWork") ? $kwpActuals.get("totalWork") : $kwpDefaults.get("totalWork")))));
                 final IValue $result20 = ((IValue)(((TypedFunctionInstance1<IValue, IValue>)block_1).typedCall(new TypedFunctionInstance1<IValue,IValue>(($_0) -> { $CLOSURE_10((IInteger)$_0, label_0);return null; }, $T34))));
-                if($T19.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result20.getType(),$T19)){
+                if($T22.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result20.getType(),$T22)){
                    return ((IValue)($result20));
                 
                 } else {
@@ -921,11 +921,11 @@ public class $Monitor
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_job$1a8a7dc548fc4ded;
     
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T18.match(block_1.getType(), $typeBindings)){
+        if($T21.match(block_1.getType(), $typeBindings)){
            try {
                 $me.jobStart(label_0.getValue(), Util.kwpMap("totalWork", ((IInteger) ($kwpActuals.containsKey("totalWork") ? $kwpActuals.get("totalWork") : $kwpDefaults.get("totalWork")))));
                 final IValue $result23 = ((IValue)(((TypedFunctionInstance1<IValue, IValue>)block_1).typedCall(new TypedFunctionInstance0<IValue>(() -> { $CLOSURE_12(label_0);return null; }, $T35))));
-                if($T19.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result23.getType(),$T19)){
+                if($T22.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result23.getType(),$T22)){
                    return ((IValue)($result23));
                 
                 } else {
@@ -995,11 +995,11 @@ public class $Monitor
         java.util.Map<java.lang.String,IValue> $kwpDefaults = $kwpDefaults_job$52bede2b80e6a285;
     
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T22.match(block_1.getType(), $typeBindings)){
+        if($T19.match(block_1.getType(), $typeBindings)){
            try {
                 $me.jobStart(((IString)label_0), Util.kwpMap("totalWork", ((IInteger) ($kwpActuals.containsKey("totalWork") ? $kwpActuals.get("totalWork") : $kwpDefaults.get("totalWork")))));
                 final IValue $result26 = ((IValue)(((TypedFunctionInstance0<IValue>)block_1).typedCall()));
-                if($T19.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result26.getType(),$T19)){
+                if($T22.instantiate($typeBindings) != $TF.voidType() && $isSubtypeOf($result26.getType(),$T22)){
                    return ((IValue)($result26));
                 
                 } else {

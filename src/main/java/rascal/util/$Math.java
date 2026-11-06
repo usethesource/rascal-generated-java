@@ -448,12 +448,12 @@ public class $Math
        IReal $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T3)){
-         $result = (IReal)pow$0e0ad7d572a31374((INumber) $P0, (IReal) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T2)){
          $result = (IReal)pow$db48e31f04610828((INumber) $P0, (IInteger) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T3)){
+         $result = (IReal)pow$0e0ad7d572a31374((INumber) $P0, (IReal) $P1);
          if($result != null) return $result;
        }
        

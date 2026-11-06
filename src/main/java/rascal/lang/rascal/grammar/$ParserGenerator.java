@@ -87,7 +87,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type $T21;	/*aparameter("T",avalue(),closed=false,alabel="b")*/
     public final io.usethesource.vallang.type.Type $T3;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T20;	/*aparameter("T",avalue(),closed=false,alabel="a")*/
-    public final io.usethesource.vallang.type.Type $T5;	/*astr()*/
+    public final io.usethesource.vallang.type.Type $T4;	/*astr()*/
     public final io.usethesource.vallang.type.Type ADT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Replacement;	/*aadt("Replacement",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type $T10;	/*alit(",")*/
@@ -227,7 +227,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T2;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_NonterminalLabel;	/*aadt("NonterminalLabel",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Mapping_1;	/*aadt("Mapping",[aparameter("T",aadt("Tree",[],dataSyntax()),closed=true)],contextFreeSyntax())*/
@@ -336,7 +336,7 @@ public class $ParserGenerator
     public final io.usethesource.vallang.type.Type NT_Parameters;	/*aadt("Parameters",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Maybe_void;	/*aadt("Maybe",[avoid()],dataSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_RascalKeywords;	/*aadt("RascalKeywords",[],keywordSyntax())*/
-    public final io.usethesource.vallang.type.Type $T2;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T5;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type ADT_MidProtocolChars;	/*aadt("MidProtocolChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_MidProtocolChars;	/*aadt("MidProtocolChars",[],lexicalSyntax())*/
@@ -789,7 +789,7 @@ public class $ParserGenerator
        $T21 = $TF.parameterType("T", $T1);
        $T3 = $TF.parameterType("T", $T1);
        $T20 = $TF.parameterType("T", $T1);
-       $T5 = $TF.stringType();
+       $T4 = $TF.stringType();
        $T10 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")));
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        $T22 = $TF.parameterType("T", ADT_Tree);
@@ -808,7 +808,7 @@ public class $ParserGenerator
        $T19 = $TF.boolType();
        $T18 = $TF.functionType($T19, $TF.tupleType($T20, "a", $T21, "b"), $TF.tupleEmpty());
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T25 });
-       $T4 = $TF.listType($T3);
+       $T2 = $TF.listType($T3);
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T22 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_TreeSearchResult_1 = $parameterizedAdt("TreeSearchResult", new Type[] { $T22 });
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
@@ -817,7 +817,7 @@ public class $ParserGenerator
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T24 });
        $T32 = $TF.listType($T24);
-       $T27 = $TF.functionType($T5, $TF.tupleType($T30, "worked"), $TF.tupleEmpty());
+       $T27 = $TF.functionType($T4, $TF.tupleType($T30, "worked"), $TF.tupleEmpty());
        $T0 = $TF.setType(ADT_Symbol);
        $T34 = $TF.listType(ADT_Symbol);
        $T31 = $TF.setType(ADT_Attr);
@@ -825,7 +825,7 @@ public class $ParserGenerator
        $T9 = $RTF.nonTerminalType($RVF.constructor(RascalValueFactory.Symbol_IterSeps, $RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression")), $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")), $RVF.constructor(RascalValueFactory.Symbol_Lit, $RVF.string(",")), $RVF.constructor(RascalValueFactory.Symbol_Layouts, $RVF.string("LAYOUTLIST")))));
        ADT_Maybe_Associativity = $parameterizedAdt("Maybe", new Type[] { ADT_Associativity });
        ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T24 });
-       $T2 = $TF.setType($T3);
+       $T5 = $TF.setType($T3);
        $T35 = $TF.nodeType();
        $T8 = $TF.setType(ADT_Condition);
        $T36 = $TF.nodeType();
@@ -962,15 +962,15 @@ public class $ParserGenerator
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T2)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T4)){
          $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T5)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IInteger)M_String.size$1d28105b03d03294((IString) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T5)){
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -1112,12 +1112,12 @@ public class $ParserGenerator
     public IString toBase64(IValue $P0, java.util.Map<java.lang.String,IValue> $kwpActuals){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T12)){
-         $result = (IString)M_IO.toBase64$6ed1894002370d80((ISourceLocation) $P0, $kwpActuals);
+       if($isSubtypeOf($P0Type,$T4)){
+         $result = (IString)M_String.toBase64$6fec5c5ff2fc5293((IString) $P0, $kwpActuals);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T5)){
-         $result = (IString)M_String.toBase64$6fec5c5ff2fc5293((IString) $P0, $kwpActuals);
+       if($isSubtypeOf($P0Type,$T12)){
+         $result = (IString)M_IO.toBase64$6ed1894002370d80((ISourceLocation) $P0, $kwpActuals);
          if($result != null) return $result;
        }
        
@@ -1169,7 +1169,7 @@ public class $ParserGenerator
     public IString escId(IValue $P0){ // Generated by Resolver
        IString $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T5)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IString)escId$0579c21bf1a62ae0((IString) $P0);
          if($result != null) return $result;
        }
@@ -1226,11 +1226,11 @@ public class $ParserGenerator
     public IValue index(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T2)){
          $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T2)){
+       if($isSubtypeOf($P0Type,$T5)){
          $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
          if($result != null) return $result;
        }
@@ -1297,7 +1297,7 @@ public class $ParserGenerator
          $result = (IString)esc$ff62cb0f1d0b4eca((IConstructor) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T5)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IString)esc$c38f01ee7e9a3d64((IString) $P0);
          if($result != null) return $result;
        }
@@ -1309,7 +1309,7 @@ public class $ParserGenerator
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
        Type $P2Type = $P2.getType();
-       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T5) && $isSubtypeOf($P2Type, M_Grammar.ADT_Grammar)){
+       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T4) && $isSubtypeOf($P2Type, M_Grammar.ADT_Grammar)){
          $result = (IString)newGenerate$d180df80b178b419((IString) $P0, (IString) $P1, (IConstructor) $P2);
          if($result != null) return $result;
        }
@@ -1393,11 +1393,11 @@ public class $ParserGenerator
     public IValue split(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T5)){
+       if($isSubtypeOf($P0Type,$T4)){
          $result = (IValue)split$ece1419fbe2db44f((IString) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T2)){
          $result = (IValue)M_List.split$9e25259188753c78((IList) $P0);
          if($result != null) return $result;
        }
@@ -1436,15 +1436,15 @@ public class $ParserGenerator
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T4)){
+       if($isSubtypeOf($P0Type,$T2)){
          $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T2)){
+       if($isSubtypeOf($P0Type,$T5)){
          $result = (IValue)M_Set.sort$e119981445d9028f((ISet) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T5)){
+       if($isSubtypeOf($P0Type,$T4)){
          return $RVF.constructor(M_ParseTree.Symbol_sort_str, new IValue[]{(IString) $P0});
        }
        
@@ -1454,11 +1454,11 @@ public class $ParserGenerator
        IList $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T4) && $isSubtypeOf($P1Type,$T18)){
+       if($isSubtypeOf($P0Type,$T2) && $isSubtypeOf($P1Type,$T18)){
          $result = (IList)M_List.sort$3510e1cc7fe6c8ba((IList) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T2) && $isSubtypeOf($P1Type,$T18)){
+       if($isSubtypeOf($P0Type,$T5) && $isSubtypeOf($P1Type,$T18)){
          $result = (IList)M_Set.sort$67af6e8bdc41a4d8((ISet) $P0, (TypedFunctionInstance2<IValue, IValue, IValue>) $P1);
          if($result != null) return $result;
        }
@@ -1531,7 +1531,7 @@ public class $ParserGenerator
            if($isComparable($arg0_1.getType(), M_ParseTree.ADT_Symbol)){
               if($has_type_and_arity($arg0_1, M_ParseTree.Symbol_sort_str, 1)){
                  IValue $arg0_2 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_1)),0));
-                 if($isComparable($arg0_2.getType(), $T5)){
+                 if($isComparable($arg0_2.getType(), $T4)){
                     IString name_0 = null;
                     final Template $template0 = (Template)new Template($RVF, "$start_");
                     $template0.beginIndent("       ");
@@ -1560,7 +1560,7 @@ public class $ParserGenerator
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_layouts_str, 1)){
            IValue $arg0_4 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_4.getType(), $T5)){
+           if($isComparable($arg0_4.getType(), $T4)){
               IString name_0 = null;
               final Template $template3 = (Template)new Template($RVF, "$l_");
               $template3.beginIndent("   ");
@@ -1583,7 +1583,7 @@ public class $ParserGenerator
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_sort_str, 1)){
            IValue $arg0_6 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_6.getType(), $T5)){
+           if($isComparable($arg0_6.getType(), $T4)){
               IString name_0 = null;
               final Template $template5 = (Template)new Template($RVF, "");
               $template5.addStr(((IString)($arg0_6)).getValue());
@@ -1604,7 +1604,7 @@ public class $ParserGenerator
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_lex_str, 1)){
            IValue $arg0_8 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_8.getType(), $T5)){
+           if($isComparable($arg0_8.getType(), $T4)){
               IString name_0 = null;
               final Template $template7 = (Template)new Template($RVF, "");
               $template7.addStr(((IString)($arg0_8)).getValue());
@@ -1625,7 +1625,7 @@ public class $ParserGenerator
     
         if($has_type_and_arity($0, M_ParseTree.Symbol_keywords_str, 1)){
            IValue $arg0_10 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_10.getType(), $T5)){
+           if($isComparable($arg0_10.getType(), $T4)){
               IString name_0 = null;
               final Template $template9 = (Template)new Template($RVF, "$k_");
               $template9.beginIndent("   ");
@@ -2497,7 +2497,7 @@ public class $ParserGenerator
            if($isComparable($arg0_107.getType(), M_ParseTree.ADT_Symbol)){
               if($has_type_and_arity($arg0_107, M_Type.Symbol_label_str_Symbol, 2)){
                  IValue $arg0_109 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_107)),0));
-                 if($isComparable($arg0_109.getType(), $T5)){
+                 if($isComparable($arg0_109.getType(), $T4)){
                     if(true){
                        IString l_2 = null;
                        IValue $arg1_108 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_107)),1));
@@ -2689,7 +2689,7 @@ public class $ParserGenerator
                                                                                                   IConstructor $elem98 = (IConstructor) $elem98_for;
                                                                                                   if($has_type_and_arity($elem98, M_ParseTree.Condition_except_str, 1)){
                                                                                                      IValue $arg0_100 = (IValue)($aadt_subscript_int(((IConstructor)($elem98)),0));
-                                                                                                     if($isComparable($arg0_100.getType(), $T5)){
+                                                                                                     if($isComparable($arg0_100.getType(), $T4)){
                                                                                                         if(($arg0_109 != null)){
                                                                                                            if($arg0_109.match($arg0_100)){
                                                                                                               final ISet $subject97 = ((ISet)(((ISet)($subject96)).delete(((IConstructor)($elem98)))));
@@ -2853,7 +2853,7 @@ public class $ParserGenerator
         
         if($has_type_and_arity($0, M_Type.Symbol_label_str_Symbol, 2)){
            IValue $arg0_111 = (IValue)($aadt_subscript_int(((IConstructor)$0),0));
-           if($isComparable($arg0_111.getType(), $T5)){
+           if($isComparable($arg0_111.getType(), $T4)){
               IValue $arg1_110 = (IValue)($aadt_subscript_int(((IConstructor)$0),1));
               if($isComparable($arg1_110.getType(), M_ParseTree.ADT_Symbol)){
                  IConstructor s_0 = null;
@@ -4366,7 +4366,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_232.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_232, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_233 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_232)),0));
-                                      if($isComparable($arg0_233.getType(), $T5)){
+                                      if($isComparable($arg0_233.getType(), $T4)){
                                          IString s_10 = ((IString)($arg0_233));
                                          final Template $template230 = (Template)new Template($RVF, "new StringFollowRequirement(new int[] {");
                                          $template230.beginIndent("                                       ");
@@ -4403,7 +4403,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_238.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_238, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_239 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_238)),0));
-                                      if($isComparable($arg0_239.getType(), $T5)){
+                                      if($isComparable($arg0_239.getType(), $T4)){
                                          IString s_11 = ((IString)($arg0_239));
                                          final Template $template236 = (Template)new Template($RVF, "new CaseInsensitiveStringFollowRequirement(new int[][]{");
                                          $template236.beginIndent("                                                       ");
@@ -4477,7 +4477,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_250.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_250, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_251 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_250)),0));
-                                      if($isComparable($arg0_251.getType(), $T5)){
+                                      if($isComparable($arg0_251.getType(), $T4)){
                                          IString s_13 = ((IString)($arg0_251));
                                          final Template $template248 = (Template)new Template($RVF, "new StringFollowRestriction(new int[] {");
                                          $template248.beginIndent("                                       ");
@@ -4514,7 +4514,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_256.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_256, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_257 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_256)),0));
-                                      if($isComparable($arg0_257.getType(), $T5)){
+                                      if($isComparable($arg0_257.getType(), $T4)){
                                          IString s_14 = ((IString)($arg0_257));
                                          final Template $template254 = (Template)new Template($RVF, "new CaseInsensitiveStringFollowRestriction(new int[][]{");
                                          $template254.beginIndent("                                                       ");
@@ -4588,7 +4588,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_268.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_268, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_269 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_268)),0));
-                                      if($isComparable($arg0_269.getType(), $T5)){
+                                      if($isComparable($arg0_269.getType(), $T4)){
                                          IString s_16 = ((IString)($arg0_269));
                                          final Template $template266 = (Template)new Template($RVF, "new StringMatchRestriction(new int[] {");
                                          $template266.beginIndent("                                      ");
@@ -4625,7 +4625,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_274.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_274, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_275 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_274)),0));
-                                      if($isComparable($arg0_275.getType(), $T5)){
+                                      if($isComparable($arg0_275.getType(), $T4)){
                                          IString s_17 = ((IString)($arg0_275));
                                          final Template $template272 = (Template)new Template($RVF, "new CaseInsensitiveStringMatchRestriction(new int[][]{");
                                          $template272.beginIndent("                                                      ");
@@ -4716,7 +4716,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_289.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_289, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_290 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_289)),0));
-                                      if($isComparable($arg0_290.getType(), $T5)){
+                                      if($isComparable($arg0_290.getType(), $T4)){
                                          IString s_19 = ((IString)($arg0_290));
                                          final Template $template287 = (Template)new Template($RVF, "new StringPrecedeRequirement(new int[] {");
                                          $template287.beginIndent("                                        ");
@@ -4753,7 +4753,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_295.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_295, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_296 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_295)),0));
-                                      if($isComparable($arg0_296.getType(), $T5)){
+                                      if($isComparable($arg0_296.getType(), $T4)){
                                          IString s_20 = ((IString)($arg0_296));
                                          final Template $template293 = (Template)new Template($RVF, "new CaseInsensitiveStringPrecedeRequirement(new int[][]{");
                                          $template293.beginIndent("                                                        ");
@@ -4827,7 +4827,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_307.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_307, M_ParseTree.Symbol_lit_str, 1)){
                                       IValue $arg0_308 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_307)),0));
-                                      if($isComparable($arg0_308.getType(), $T5)){
+                                      if($isComparable($arg0_308.getType(), $T4)){
                                          IString s_22 = ((IString)($arg0_308));
                                          final Template $template305 = (Template)new Template($RVF, "new StringPrecedeRestriction(new int[] {");
                                          $template305.beginIndent("                                        ");
@@ -4864,7 +4864,7 @@ public class $ParserGenerator
                                 if($isComparable($arg0_313.getType(), M_ParseTree.ADT_Symbol)){
                                    if($has_type_and_arity($arg0_313, M_ParseTree.Symbol_cilit_str, 1)){
                                       IValue $arg0_314 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_313)),0));
-                                      if($isComparable($arg0_314.getType(), $T5)){
+                                      if($isComparable($arg0_314.getType(), $T4)){
                                          IString s_23 = ((IString)($arg0_314));
                                          final Template $template311 = (Template)new Template($RVF, "new CaseInsensitiveStringPrecedeRestriction(new int[][]{");
                                          $template311.beginIndent("                                                        ");
@@ -5154,7 +5154,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal331, M_ParseTree.Symbol_cilit_str, 1)){
                                   IValue $arg0_370 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal331)),0));
-                                  if($isComparable($arg0_370.getType(), $T5)){
+                                  if($isComparable($arg0_370.getType(), $T4)){
                                      IString l_31 = ((IString)($arg0_370));
                                      /*muExists*/IF66: 
                                          do {
@@ -5168,7 +5168,7 @@ public class $ParserGenerator
                                                        if($isComparable($arg0_368.getType(), M_ParseTree.ADT_Symbol)){
                                                           if($has_type_and_arity($arg0_368, M_ParseTree.Symbol_cilit_str, 1)){
                                                              IValue $arg0_369 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_368)),0));
-                                                             if($isComparable($arg0_369.getType(), $T5)){
+                                                             if($isComparable($arg0_369.getType(), $T4)){
                                                                 if(($arg0_370 != null)){
                                                                    if($arg0_370.match($arg0_369)){
                                                                       IValue $arg1_367 = (IValue)($subscript_int(((IValue)($elem365)),1));
@@ -5662,7 +5662,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal331, M_ParseTree.Symbol_lit_str, 1)){
                                   IValue $arg0_361 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal331)),0));
-                                  if($isComparable($arg0_361.getType(), $T5)){
+                                  if($isComparable($arg0_361.getType(), $T4)){
                                      IString l_28 = ((IString)($arg0_361));
                                      /*muExists*/IF65: 
                                          do {
@@ -5676,7 +5676,7 @@ public class $ParserGenerator
                                                        if($isComparable($arg0_359.getType(), M_ParseTree.ADT_Symbol)){
                                                           if($has_type_and_arity($arg0_359, M_ParseTree.Symbol_lit_str, 1)){
                                                              IValue $arg0_360 = (IValue)($aadt_subscript_int(((IConstructor)($arg0_359)),0));
-                                                             if($isComparable($arg0_360.getType(), $T5)){
+                                                             if($isComparable($arg0_360.getType(), $T4)){
                                                                 if(($arg0_361 != null)){
                                                                    if($arg0_361.match($arg0_360)){
                                                                       IValue $arg1_358 = (IValue)($subscript_int(((IValue)($elem356)),1));
@@ -6189,7 +6189,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal401, M_ParseTree.Symbol_sort_str, 1)){
                                   IValue $arg0_403 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal401)),0));
-                                  if($isComparable($arg0_403.getType(), $T5)){
+                                  if($isComparable($arg0_403.getType(), $T4)){
                                      IString x_1 = null;
                                      final Template $template402 = (Template)new Template($RVF, "");
                                      $template402.addStr(((IString)($arg0_403)).getValue());
@@ -6246,7 +6246,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_Type.Symbol_label_str_Symbol, 2)){
                                   IValue $arg0_424 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_424.getType(), $T5)){
+                                  if($isComparable($arg0_424.getType(), $T4)){
                                      IValue $arg1_423 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
                                      if($isComparable($arg1_423.getType(), M_ParseTree.ADT_Symbol)){
                                         IConstructor u_5 = ((IConstructor)($arg1_423));
@@ -6365,7 +6365,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_parameterized_sort_str_list_Symbol, 2)){
                                   IValue $arg0_461 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_461.getType(), $T5)){
+                                  if($isComparable($arg0_461.getType(), $T4)){
                                      IString s_24 = ((IString)($arg0_461));
                                      IValue $arg1_460 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
                                      if($isComparable($arg1_460.getType(), $T6)){
@@ -6426,7 +6426,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_cilit_str, 1)){
                                   IValue $arg0_466 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_466.getType(), $T5)){
+                                  if($isComparable($arg0_466.getType(), $T4)){
                                      final Matcher $matcher467 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_466)).getValue());
                                      boolean $found468 = true;
                                      
@@ -6463,7 +6463,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_lex_str, 1)){
                                   IValue $arg0_456 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_456.getType(), $T5)){
+                                  if($isComparable($arg0_456.getType(), $T4)){
                                      IString s_22 = null;
                                      final Template $template455 = (Template)new Template($RVF, "");
                                      $template455.addStr(((IString)($arg0_456)).getValue());
@@ -6488,7 +6488,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_parameterized_lex_str_list_Symbol, 2)){
                                   IValue $arg0_464 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_464.getType(), $T5)){
+                                  if($isComparable($arg0_464.getType(), $T4)){
                                      IString s_26 = ((IString)($arg0_464));
                                      IValue $arg1_463 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),1));
                                      if($isComparable($arg1_463.getType(), $T6)){
@@ -6522,7 +6522,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_sort_str, 1)){
                                   IValue $arg0_454 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_454.getType(), $T5)){
+                                  if($isComparable($arg0_454.getType(), $T4)){
                                      IString s_21 = null;
                                      final Template $template453 = (Template)new Template($RVF, "");
                                      $template453.addStr(((IString)($arg0_454)).getValue());
@@ -6762,7 +6762,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_layouts_str, 1)){
                                   IValue $arg0_425 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_425.getType(), $T5)){
+                                  if($isComparable($arg0_425.getType(), $T4)){
                                      return ((IString)$constants.get(44)/*"$anylayout$"*/);
                                   
                                   }
@@ -6825,7 +6825,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_lit_str, 1)){
                                   IValue $arg0_470 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_470.getType(), $T5)){
+                                  if($isComparable($arg0_470.getType(), $T4)){
                                      final Matcher $matcher471 = (Matcher)$regExpCompile("(^[A-Za-z0-9\\-\\_]+$)", ((IString)($arg0_470)).getValue());
                                      boolean $found472 = true;
                                      
@@ -6862,7 +6862,7 @@ public class $ParserGenerator
                            do {
                                if($has_type_and_arity($switchVal407, M_ParseTree.Symbol_keywords_str, 1)){
                                   IValue $arg0_458 = (IValue)($aadt_subscript_int(((IConstructor)($switchVal407)),0));
-                                  if($isComparable($arg0_458.getType(), $T5)){
+                                  if($isComparable($arg0_458.getType(), $T4)){
                                      IString s_23 = null;
                                      final Template $template457 = (Template)new Template($RVF, "");
                                      $template457.addStr(((IString)($arg0_458)).getValue());
@@ -6913,7 +6913,7 @@ public class $ParserGenerator
                             } while(false);
                      
                      }
-                     if($isSubtypeOf($switchVal407.getType(),$T5)){
+                     if($isSubtypeOf($switchVal407.getType(),$T4)){
                         /*muExists*/CASE_0_20: 
                             do {
                                 IString s_31 = ((IString)($switchVal407));

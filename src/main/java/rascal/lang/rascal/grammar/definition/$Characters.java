@@ -873,12 +873,12 @@ public class $Characters
          $result = (IValue)difference$bc9304a6fdc31588((IConstructor) $P0, (IConstructor) $P1);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T0)){
-         $result = (IValue)difference$f3326d4cf562250d((IList) $P0, (IList) $P1);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type, M_ParseTree.ADT_CharRange) && $isSubtypeOf($P1Type, M_ParseTree.ADT_CharRange)){
          $result = (IValue)difference$301453c38bc8aa7a((IConstructor) $P0, (IConstructor) $P1);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T0)){
+         $result = (IValue)difference$f3326d4cf562250d((IList) $P0, (IList) $P1);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type, M_ParseTree.ADT_Symbol) && $isSubtypeOf($P1Type, M_ParseTree.ADT_Symbol)){

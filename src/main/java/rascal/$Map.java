@@ -53,20 +53,20 @@ public class $Map
     public final io.usethesource.vallang.type.Type $T14;	/*aparameter("K",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T2;	/*aparameter("K",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T24;	/*aint()*/
-    public final io.usethesource.vallang.type.Type $T6;	/*alist(aparameter("V",avalue(),closed=false))*/
-    public final io.usethesource.vallang.type.Type $T5;	/*amap(aparameter("K",avalue(),closed=false),alist(aparameter("V",avalue(),closed=false)))*/
+    public final io.usethesource.vallang.type.Type $T8;	/*alist(aparameter("V",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T7;	/*amap(aparameter("K",avalue(),closed=false),alist(aparameter("V",avalue(),closed=false)))*/
     public final io.usethesource.vallang.type.Type $T9;	/*afunc(aparameter("L",avalue(),closed=false),[aparameter("K",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T13;	/*amap(aparameter("K",avalue(),closed=true),aparameter("V",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T11;	/*afunc(aparameter("W",avalue(),closed=false),[aparameter("V",avalue(),closed=false)],[])*/
     public final io.usethesource.vallang.type.Type $T26;	/*arel(atypeList([aparameter("K",avalue(),closed=true),aparameter("V",avalue(),closed=true)]))*/
-    public final io.usethesource.vallang.type.Type $T8;	/*aset(aparameter("V",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T6;	/*aset(aparameter("V",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T4;	/*aset(aparameter("K",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T0;	/*amap(aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type $T25;	/*alrel(atypeList([aparameter("K",avalue(),closed=true),aparameter("V",avalue(),closed=true)]))*/
     public final io.usethesource.vallang.type.Type $T16;	/*aset(aparameter("K",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T23;	/*aset(aparameter("V",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T17;	/*amap(aparameter("V",avalue(),closed=true),aset(aparameter("K",avalue(),closed=true)))*/
-    public final io.usethesource.vallang.type.Type $T7;	/*amap(aparameter("K",avalue(),closed=false),aset(aparameter("V",avalue(),closed=false)))*/
+    public final io.usethesource.vallang.type.Type $T5;	/*amap(aparameter("K",avalue(),closed=false),aset(aparameter("V",avalue(),closed=false)))*/
     public final io.usethesource.vallang.type.Type $T18;	/*amap(aparameter("V",avalue(),closed=true),aparameter("K",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T20;	/*amap(aparameter("L",avalue(),closed=true),aparameter("W",avalue(),closed=true))*/
     public final io.usethesource.vallang.type.Type $T19;	/*abool()*/
@@ -100,20 +100,20 @@ public class $Map
        $T14 = $TF.parameterType("K", $T1);
        $T2 = $TF.parameterType("K", $T1);
        $T24 = $TF.integerType();
-       $T6 = $TF.listType($T3);
-       $T5 = $TF.mapType($T2,$T6);
+       $T8 = $TF.listType($T3);
+       $T7 = $TF.mapType($T2,$T8);
        $T9 = $TF.functionType($T10, $TF.tupleType($T2), $TF.tupleEmpty());
        $T13 = $TF.mapType($T14,$T15);
        $T11 = $TF.functionType($T12, $TF.tupleType($T3), $TF.tupleEmpty());
        $T26 = $TF.setType($TF.tupleType($T14, $T15));
-       $T8 = $TF.setType($T3);
+       $T6 = $TF.setType($T3);
        $T4 = $TF.setType($T2);
        $T0 = $TF.mapType($T2,$T3);
        $T25 = $TF.listType($TF.tupleType($T14, $T15));
        $T16 = $TF.setType($T14);
        $T23 = $TF.setType($T15);
        $T17 = $TF.mapType($T15,$T16);
-       $T7 = $TF.mapType($T2,$T8);
+       $T5 = $TF.mapType($T2,$T6);
        $T18 = $TF.mapType($T15,$T14);
        $T20 = $TF.mapType($T21,$T22);
        $T19 = $TF.boolType();
@@ -216,11 +216,11 @@ public class $Map
        ISet $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T5)){
-         $result = (ISet)toRel$cf42a0b73195e9d1((IMap) $P0);
+         $result = (ISet)toRel$0e56ae7cd307c139((IMap) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T7)){
-         $result = (ISet)toRel$0e56ae7cd307c139((IMap) $P0);
+         $result = (ISet)toRel$cf42a0b73195e9d1((IMap) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T0)){
@@ -288,7 +288,7 @@ public class $Map
        IMap $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T8)){
+       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T6)){
          $result = (IMap)rangeR$4485c4d00b77d033((IMap) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
@@ -299,7 +299,7 @@ public class $Map
        IMap $result = null;
        Type $P0Type = $P0.getType();
        Type $P1Type = $P1.getType();
-       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T8)){
+       if($isSubtypeOf($P0Type,$T0) && $isSubtypeOf($P1Type,$T6)){
          $result = (IMap)rangeX$9829196ab1f064c8((IMap) $P0, (ISet) $P1);
          if($result != null) return $result;
        }
@@ -612,7 +612,7 @@ public class $Map
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
         if($T0.match(M_0.getType(), $typeBindings)){
            if(true){
-              if($T8.match(S_1.getType(), $typeBindings)){
+              if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
                     if((((IBool)($me.isEmpty(((IMap)M_0))))).getValue()){
                        final IMap $result25 = ((IMap)M_0);
@@ -670,7 +670,7 @@ public class $Map
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
         if($T0.match(M_0.getType(), $typeBindings)){
            if(true){
-              if($T8.match(S_1.getType(), $typeBindings)){
+              if($T6.match(S_1.getType(), $typeBindings)){
                  if(true){
                     if((((IBool)($me.isEmpty(((IMap)M_0))))).getValue()){
                        final IMap $result30 = ((IMap)M_0);
@@ -762,7 +762,7 @@ public class $Map
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T7.match(M_0.getType(), $typeBindings)){
+        if($T5.match(M_0.getType(), $typeBindings)){
            if(true){
               final ISetWriter $setwriter33 = (ISetWriter)$RVF.setWriter();
               ;
@@ -809,7 +809,7 @@ public class $Map
         
         
         HashMap<io.usethesource.vallang.type.Type,io.usethesource.vallang.type.Type> $typeBindings = new HashMap<>();
-        if($T5.match(M_0.getType(), $typeBindings)){
+        if($T7.match(M_0.getType(), $typeBindings)){
            if(true){
               final ISetWriter $setwriter38 = (ISetWriter)$RVF.setWriter();
               ;

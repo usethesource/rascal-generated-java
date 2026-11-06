@@ -63,11 +63,11 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type $T1;	/*avalue()*/
     public final io.usethesource.vallang.type.Type $T18;	/*aparameter("A",avalue(),closed=true)*/
     public final io.usethesource.vallang.type.Type $T14;	/*avoid()*/
-    public final io.usethesource.vallang.type.Type $T2;	/*aparameter("T",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("T",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T9;	/*astr()*/
-    public final io.usethesource.vallang.type.Type $T6;	/*aparameter("V",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T3;	/*aparameter("V",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type $T12;	/*aparameter("U",avalue(),closed=false)*/
-    public final io.usethesource.vallang.type.Type $T5;	/*aparameter("K",avalue(),closed=false)*/
+    public final io.usethesource.vallang.type.Type $T2;	/*aparameter("K",avalue(),closed=false)*/
     public final io.usethesource.vallang.type.Type ADT_Strategy;	/*aadt("Strategy",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_Strategy;	/*aadt("Strategy",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_Attr;	/*aadt("Attr",[],dataSyntax())*/
@@ -138,7 +138,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type NT_KeywordArguments_Expression;	/*aadt("KeywordArguments",[aadt("Expression",[],contextFreeSyntax())],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TimePartNoTZ;	/*aadt("TimePartNoTZ",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_TimePartNoTZ;	/*aadt("TimePartNoTZ",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T4;	/*amap(aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T0;	/*amap(aparameter("K",avalue(),closed=false),aparameter("V",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_OptionalTerminator;	/*aadt("OptionalTerminator",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_OptionalTerminator;	/*aadt("OptionalTerminator",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_GrammarModule;	/*aadt("GrammarModule",[],dataSyntax())*/
@@ -197,7 +197,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type NT_RegExp;	/*aadt("RegExp",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PreStringChars;	/*aadt("PreStringChars",[],lexicalSyntax())*/
-    public final io.usethesource.vallang.type.Type $T3;	/*alist(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T6;	/*alist(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_StringLiteral;	/*aadt("StringLiteral",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type ADT_TreeSearchResult_void;	/*aadt("TreeSearchResult",[avoid()],dataSyntax())*/
@@ -337,7 +337,7 @@ public class $Priorities
     public final io.usethesource.vallang.type.Type ADT_Maybe_Symbol;	/*aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Symbol_just_Symbol;	/*acons(aadt("Maybe",[aadt("Symbol",[],dataSyntax())],dataSyntax()),[aadt("Symbol",[],dataSyntax(),alabel="val")],[],alabel="just")*/
     public final io.usethesource.vallang.type.Type ADT_Maybe_void;	/*aadt("Maybe",[avoid()],dataSyntax())*/
-    public final io.usethesource.vallang.type.Type $T0;	/*aset(aparameter("T",avalue(),closed=false))*/
+    public final io.usethesource.vallang.type.Type $T4;	/*aset(aparameter("T",avalue(),closed=false))*/
     public final io.usethesource.vallang.type.Type ADT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type NT_PathTail;	/*aadt("PathTail",[],contextFreeSyntax())*/
     public final io.usethesource.vallang.type.Type Maybe_Associativity_just_Associativity;	/*acons(aadt("Maybe",[aadt("Associativity",[],dataSyntax())],dataSyntax()),[aadt("Associativity",[],dataSyntax(),alabel="val")],[],alabel="just")*/
@@ -724,11 +724,11 @@ public class $Priorities
        $T1 = $TF.valueType();
        $T18 = $TF.parameterType("A", $T1);
        $T14 = $TF.voidType();
-       $T2 = $TF.parameterType("T", $T1);
+       $T5 = $TF.parameterType("T", $T1);
        $T9 = $TF.stringType();
-       $T6 = $TF.parameterType("V", $T1);
+       $T3 = $TF.parameterType("V", $T1);
        $T12 = $TF.parameterType("U", $T1);
-       $T5 = $TF.parameterType("K", $T1);
+       $T2 = $TF.parameterType("K", $T1);
        NT_Mapping_Expression = $parameterizedSort("Mapping", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
        $T16 = $TF.parameterType("T", ADT_Tree);
        NT_KeywordArguments_1 = $parameterizedSort("KeywordArguments", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
@@ -737,11 +737,11 @@ public class $Priorities
        ADT_TreeSearchResult_Tree = $parameterizedAdt("TreeSearchResult", new Type[] { ADT_Tree });
        NT_Mapping_Pattern = $parameterizedSort("Mapping", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
        NT_KeywordArguments_Expression = $parameterizedSort("KeywordArguments", new Type[] { ADT_Expression }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Expression"))));
-       $T4 = $TF.mapType($T5,$T6);
+       $T0 = $TF.mapType($T2,$T3);
        NT_Mapping_1 = $parameterizedSort("Mapping", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        ADT_Maybe_1 = $parameterizedAdt("Maybe", new Type[] { $T18 });
        ADT_Maybe_Attr = $parameterizedAdt("Maybe", new Type[] { ADT_Attr });
-       $T3 = $TF.listType($T2);
+       $T6 = $TF.listType($T5);
        ADT_TreeSearchResult_void = $parameterizedAdt("TreeSearchResult", new Type[] { $T14 });
        NT_KeywordArgument_1 = $parameterizedSort("KeywordArgument", new Type[] { $T16 }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Parameter, $RVF.string("T"), $RVF.constructor(RascalValueFactory.Symbol_Adt, $RVF.string("Tree"), $RVF.list()))));
        NT_KeywordArguments_Pattern = $parameterizedSort("KeywordArguments", new Type[] { ADT_Pattern }, $RVF.list($RVF.constructor(RascalValueFactory.Symbol_Sort, $RVF.string("Pattern"))));
@@ -755,9 +755,9 @@ public class $Priorities
        $T19 = $TF.listType(ADT_Production);
        ADT_Maybe_Symbol = $parameterizedAdt("Maybe", new Type[] { ADT_Symbol });
        ADT_Maybe_void = $parameterizedAdt("Maybe", new Type[] { $T14 });
-       $T0 = $TF.setType($T2);
+       $T4 = $TF.setType($T5);
        $T7 = $TF.setType(ADT_Condition);
-       $T10 = $RTF.reifiedType($T2);
+       $T10 = $RTF.reifiedType($T5);
        ADT_Mapping_Expression = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Expression });
        ADT_KeywordArguments_1 = $TF.abstractDataType($TS, "KeywordArguments", new Type[] { $T16 });
        ADT_Mapping_Pattern = $TF.abstractDataType($TS, "Mapping", new Type[] { ADT_Pattern });
@@ -801,15 +801,15 @@ public class $Priorities
        IInteger $result = null;
        Type $P0Type = $P0.getType();
        if($isSubtypeOf($P0Type,$T0)){
-         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
-         if($result != null) return $result;
-       }
-       if($isSubtypeOf($P0Type,$T3)){
-         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
+         $result = (IInteger)M_Map.size$37f80aadf49ad435((IMap) $P0);
          if($result != null) return $result;
        }
        if($isSubtypeOf($P0Type,$T4)){
-         $result = (IInteger)M_Map.size$37f80aadf49ad435((IMap) $P0);
+         $result = (IInteger)M_Set.size$38d40110541faa91((ISet) $P0);
+         if($result != null) return $result;
+       }
+       if($isSubtypeOf($P0Type,$T6)){
+         $result = (IInteger)M_List.size$811ff6e419f455d9((IList) $P0);
          if($result != null) return $result;
        }
        
@@ -1088,12 +1088,12 @@ public class $Priorities
     public IValue index(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T0)){
-         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
+       if($isSubtypeOf($P0Type,$T6)){
+         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
          if($result != null) return $result;
        }
-       if($isSubtypeOf($P0Type,$T3)){
-         $result = (IValue)M_List.index$f006059c1d37534f((IList) $P0);
+       if($isSubtypeOf($P0Type,$T4)){
+         $result = (IValue)M_Set.index$8a5f4e126881ec51((ISet) $P0);
          if($result != null) return $result;
        }
        
@@ -1357,7 +1357,7 @@ public class $Priorities
     public IValue sort(IValue $P0){ // Generated by Resolver
        IValue $result = null;
        Type $P0Type = $P0.getType();
-       if($isSubtypeOf($P0Type,$T3)){
+       if($isSubtypeOf($P0Type,$T6)){
          $result = (IValue)M_List.sort$fa0b19c35a18e804((IList) $P0);
          if($result != null) return $result;
        }

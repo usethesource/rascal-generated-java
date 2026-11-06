@@ -828,12 +828,12 @@ public class $Literals
          $result = (IString)unescapeLiteral$c9753de8c998bcc4((ITree) $P0);
          if($result != null) return $result;
        }
-       if($isNonTerminal($P0Type, ((IConstructor)$constants.get(2)/*lex("StringConstant")*/))){
-         $result = (IString)unescapeLiteral$95e33054d313309c((ITree) $P0);
-         if($result != null) return $result;
-       }
        if($isSubtypeOf($P0Type,$T3)){
          $result = (IString)unescapeLiteral$47ddfcdd2028a1a7((IString) $P0);
+         if($result != null) return $result;
+       }
+       if($isNonTerminal($P0Type, ((IConstructor)$constants.get(2)/*lex("StringConstant")*/))){
+         $result = (IString)unescapeLiteral$95e33054d313309c((ITree) $P0);
          if($result != null) return $result;
        }
        
